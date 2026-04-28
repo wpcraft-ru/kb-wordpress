@@ -9,7 +9,7 @@
 
 ## 1. Overview
 
-Создать персональную базу знаний по WordPress, построенную на паттерне **LLM Wiki** Андрея Карпаты. База знаний живёт в git-репозитории, автоматически генерирует статический сайт (Astro + Starlight), публикуется на GitHub Pages, использует Algolia для поиска, и пополняется/поддерживается через OpenClaw skill `llm-wiki`.
+Создать персональную базу знаний по WordPress, построенную на основе **LLM Wiki**. База знаний живёт в git-репозитории, автоматически генерирует статический сайт (Astro + Starlight), публикуется на GitHub Pages, использует Algolia для поиска, и пополняется/поддерживается через OpenClaw skill `llm-wiki`.
 
 ---
 
@@ -450,7 +450,7 @@ Operations:
 ```markdown
 # llm-wiki
 
-LLM Wiki — personal knowledge base manager based on Karpathy's LLM Wiki pattern.
+LLM Wiki — personal knowledge base manager for a persistent, compounding wiki between sources and chat.
 
 ## Parameters
 
@@ -584,7 +584,6 @@ User: "llm-wiki lint"
 
 ## 12. References
 
-- [Karpathy's LLM Wiki Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [Starlight Docs](https://starlight.astro.build)
 - [Starlight DocSearch Plugin](https://starlight.astro.build/guides/site-search/)
 - [Algolia DocSearch](https://docsearch.algolia.com)

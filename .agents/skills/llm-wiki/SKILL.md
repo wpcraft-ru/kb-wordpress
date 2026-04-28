@@ -10,7 +10,7 @@ Top-level orchestrator for the WP Knowledge LLM Wiki workflow.
 ## Source Basis
 
 This setup follows:
-- Karpathy LLM Wiki pattern: persistent, compounding wiki between sources and chat
+- Internal LLM Wiki pattern: persistent, compounding wiki between sources and chat
 - wiki-skills flow: `init -> ingest -> query -> lint -> update`
 
 ## Repository Scope

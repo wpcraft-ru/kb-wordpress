@@ -1,6 +1,6 @@
 # AGENTS.md — WP Knowledge Base
 
-LLM Wiki schema for the WordPress knowledge base. Based on Andrej Karpathy's LLM Wiki pattern.
+LLM Wiki schema for the WordPress knowledge base.
 
 ## Wiki Structure
 

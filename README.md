@@ -1,6 +1,6 @@
 # WP Knowledge
 
-Персональная база знаний по WordPress на основе паттерна [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) Андрея Карпаты.
+База знаний по WordPress на основе официальных источников с модерацией от опытных специалистов.
 
 ## Стек
 - **Repo:** https://github.com/wpcraft-ru/wp-kb
