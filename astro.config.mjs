@@ -18,9 +18,8 @@ export default defineConfig({
     starlight({
       title: "WP KB",
       description: "База знаний по WordPress",
-      defaultLocale: "ru",
       locales: {
-        ru: { label: "Русский" },
+        root: { label: "Русский", lang: "ru" },
       },
 
       social: [
