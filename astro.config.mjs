@@ -32,6 +32,11 @@ export default defineConfig({
 
       sidebar: [
         {
+          label: "Основы WordPress",
+          collapsed: false,
+          autogenerate: { directory: "basics" },
+        },
+        {
           label: "Контент",
           collapsed: false,
           autogenerate: { directory: "content" },
