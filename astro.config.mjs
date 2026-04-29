@@ -20,6 +20,18 @@ export default defineConfig({
     starlight({
       title: "База знаний WordPress",
       description: "Практическая база знаний по WordPress: установка, админка, темы, плагины, безопасность, производительность и готовые сниппеты на русском.",
+      components: {
+        Sidebar: "starlight-theme-obsidian/overrides/Sidebar.astro",
+        PageFrame: "starlight-theme-obsidian/overrides/PageFrame.astro",
+        Pagination: "starlight-theme-obsidian/overrides/Pagination.astro",
+        ThemeSelect: "starlight-theme-obsidian/overrides/ThemeSelect.astro",
+      },
+      customCss: [
+        "starlight-theme-obsidian/styles/layers.css",
+        "starlight-theme-obsidian/styles/theme.css",
+        "starlight-theme-obsidian/styles/centered-reading.css",
+        "starlight-theme-obsidian/styles/common.css",
+      ],
       locales: {
         root: { label: "Русский", lang: "ru" },
       },
