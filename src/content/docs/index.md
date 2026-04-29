@@ -42,4 +42,22 @@ description: "База знаний по WordPress на русском: уста
 
 - [functions.php: базовые сниппеты](./snippets/functions-php-essentials/) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
 - [WP_Query: рецепты запросов](./snippets/wp-query-recipes/) — Готовые шаблоны выборок: категории, мета-поля, CPT, дата, пагинация.
-- [Хуки WordPress: шпаргалка](./snippets/hooks-cheatsheet/) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.## Запросы (Query Results)
+- [Хуки WordPress: шпаргалка](./snippets/hooks-cheatsheet/) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.
+
+## Юридические требования
+
+- [Обязательные юридические страницы](./legal/required-pages.md) — Минимальный набор документов: Политика конфиденциальности и реквизиты компании.
+- [Рекомендуемые юридические страницы](./legal/optional-pages.md) — Пользовательское соглашение, Публичная оферта, Политика cookies.
+- [Требования по типам сайтов](./legal/by-website-type.md) — Матрица: какие документы нужны для магазина, SaaS, курсов, блога и других типов.
+- [Технические аспекты реализации](./legal/implementation-checklist.md) — Как разместить юридические документы: размещение в подвале, чекбоксы согласия, cookie-баннер.
+- [Последствия несоблюдения](./legal/consequences-and-risks.md) — Штрафы от Роскомнадзора, блокировка платежей, судебные разбирательства, репутационные риски.
+
+### Шаблоны юридических документов
+
+- [Каталог шаблонов](./legal/templates/index.md) — Готовые шаблоны для адаптации под ваш сайт.
+- [Шаблон: Политика конфиденциальности](./legal/templates/privacy-policy-template.md) — Основной документ про обработку персональных данных (152-ФЗ).
+- [Шаблон: Пользовательское соглашение](./legal/templates/terms-of-service-template.md) — Правила использования сайта и ограничение ответственности.
+- [Шаблон: Публичная оферта](./legal/templates/public-offer-template.md) — Договор для продажи товаров и услуг (доставка, возврат, оплата).
+- [Шаблон: Политика cookies](./legal/templates/cookie-policy-template.md) — Описание cookies и управление согласием на отслеживание.
+
+## Запросы (Query Results)
