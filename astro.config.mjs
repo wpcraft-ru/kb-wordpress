@@ -87,6 +87,11 @@ export default defineConfig({
           collapsed: true,
           autogenerate: { directory: "snippets" },
         },
+        {
+          label: "Legal",
+          collapsed: true,
+          autogenerate: { directory: "legal" },
+        },
       ],
 
       // Pagefind (local search) — built into Starlight by default
