@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "legal-response": {
+      "source": "anthropics/knowledge-work-plugins",
+      "sourceType": "github",
+      "skillPath": "legal/skills/legal-response/SKILL.md",
+      "computedHash": "76c9c592acf53d8d9ec6d870acb4a886f8cf2f30f9181f9ad64ae81c967d87aa"
+    }
+  }
+}
