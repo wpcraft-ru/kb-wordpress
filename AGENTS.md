@@ -43,15 +43,6 @@ Starlight automatically reads `title` and `description` for:
 
 **Important:** Do NOT start pages with an `# H1` heading that duplicates the frontmatter `title`. Starlight already renders the `title` as the page's H1. Start content directly with `##` level headings.
 
-### Cross-References
-
-Use standard Markdown relative links for cross-references — NOT Wikilinks:
-
-```markdown
-[Filters](../core/filters.md)
-```
-
-Starlight resolves these to proper URLs at build time.
 
 ### Code Blocks
 
