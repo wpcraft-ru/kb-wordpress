@@ -20,7 +20,7 @@ Answer from the wiki, not from model memory.
 3. Explicitly note disagreements/contradictions and coverage gaps.
 4. Ask whether to file the answer as a new page in `src/content/docs/queries/`.
 5. If user agrees:
-- Create query page with frontmatter (`title`, `description`).
+- Create query page with frontmatter (`title`, `description`). Do NOT add an `# H1` heading — Starlight renders the `title` as H1. Start content from `##`.
 - Add entry to `src/content/docs/index.md`.
 - Append `src/content/docs/log.md`:
   - `## [YYYY-MM-DD] query | <question summary>`

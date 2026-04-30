@@ -19,6 +19,7 @@ Priority order:
 1. Errors:
 - Broken relative links.
 - Missing required frontmatter fields (`title`, `description`).
+- Duplicate `# H1` heading that repeats frontmatter `title` (Starlight already renders the title as H1).
 
 2. Warnings:
 - Orphan pages (no inbound links).

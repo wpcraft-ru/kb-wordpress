@@ -36,6 +36,7 @@ Expected category folders:
 4. Ensure wiki writing conventions are explicit and enforced from `AGENTS.md`:
 - Content language: ru-RU.
 - All wiki pages except `index.md` and `log.md` include frontmatter with `title` and `description`.
+- Do NOT duplicate frontmatter `title` with an `# H1` heading — Starlight renders the title as H1. Start content from `##`.
 - Relative markdown links only.
 5. Report what was created or repaired.
 

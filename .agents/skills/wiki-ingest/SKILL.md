@@ -43,6 +43,7 @@ If none fit, propose a new category before creating it.
 - Wiki content in ru-RU.
 - No copy-paste dumps from source; synthesize.
 - Every new page has frontmatter (`title`, `description`).
+- Do NOT start pages with an `# H1` heading; Starlight renders frontmatter `title` as H1. Start content from `##`.
 - Backlink pass is mandatory.
 
 ## Done Criteria

@@ -39,6 +39,7 @@ For each page:
 - No unsourced factual edits.
 - No silent broad rewrites.
 - Keep edits minimal and explicit.
+- Do NOT add an `# H1` heading that duplicates frontmatter `title` — Starlight renders the title as H1.
 
 ## Done Criteria
 

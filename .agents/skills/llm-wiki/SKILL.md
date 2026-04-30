@@ -53,6 +53,7 @@ These rules apply to all wiki-* skills:
 5. Content conventions:
 - Wiki content language is ru-RU.
 - Every wiki page except `index.md` and `log.md` includes frontmatter with `title` and `description`.
+- Do NOT duplicate frontmatter `title` with an `# H1` heading — Starlight renders the title as H1. Start content from `##`.
 
 ## Specialized Skills
 

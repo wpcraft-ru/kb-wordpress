@@ -41,6 +41,8 @@ Starlight automatically reads `title` and `description` for:
 - Site search indexing
 - Pagefind / Algolia
 
+**Important:** Do NOT start pages with an `# H1` heading that duplicates the frontmatter `title`. Starlight already renders the `title` as the page's H1. Start content directly with `##` level headings.
+
 ### Cross-References
 
 Use standard Markdown relative links for cross-references — NOT Wikilinks:
