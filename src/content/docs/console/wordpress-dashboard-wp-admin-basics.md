@@ -47,7 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Связанные страницы
 
-- [Getting Started with WordPress: структурный конспект](../basics/getting-started-with-wordpress-guide/)
 - [Глоссарий терминов WordPress](../basics/wordpress-glossary)
 - [Admin Bar (панель инструментов WordPress)](../console/admin-bar)
 - [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics/)

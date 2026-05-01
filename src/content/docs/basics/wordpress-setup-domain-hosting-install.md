@@ -56,7 +56,6 @@ Promise.all(
 
 ## Связанные страницы
 
-- [Getting Started with WordPress: структурный конспект](./getting-started-with-wordpress-guide/)
 - [Домен и хостинг: в чём разница](./domain-vs-hosting)
 - [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting)
 - [Блог или сайт: что выбрать](./blog-vs-website)

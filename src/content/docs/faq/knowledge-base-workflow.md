@@ -63,7 +63,6 @@ wp.hooks.addFilter(
 
 - [Index](../index/)
 - [Log](../log/)
-- [Getting Started with WordPress: структурный конспект](./getting-started-with-wordpress-guide/)
 - [Настройка WordPress: домен, хостинг, установка](./wordpress-setup-domain-hosting-install/)
 - [Панель управления WordPress (`wp-admin`): базовая навигация](./wordpress-dashboard-wp-admin-basics/)
 - [Страницы, записи, категории и теги: базовая модель контента](./pages-posts-and-taxonomies-basics/)

@@ -60,7 +60,6 @@ console.log(isStrongPassword('Wp!SecurePass2026'));
 
 ## Связанные страницы
 
-- [Getting Started with WordPress: структурный конспект](../basics/getting-started-with-wordpress-guide/)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
 - [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
 - [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting)

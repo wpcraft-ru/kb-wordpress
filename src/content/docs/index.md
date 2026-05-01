@@ -7,7 +7,6 @@ description: "База знаний по WordPress на русском: уста
 
 ## Основы WordPress
 
-- [Getting Started with WordPress: структурный конспект](./basics/getting-started-with-wordpress-guide.md) — Базовый маршрут новичка: запуск сайта, dashboard, контент, темы, плагины и безопасность.
 - [Глоссарий терминов WordPress](./basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [Настройка WordPress: домен, хостинг, установка](./basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
 - [Домен и хостинг: в чём разница](./basics/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
