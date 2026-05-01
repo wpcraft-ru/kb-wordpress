@@ -57,6 +57,12 @@ If a request spans multiple operations, run them in this order:
 ## Shared Invariants
 
 These rules apply to all wiki-* skills:
+
+0. **Fetch rule — ALWAYS use `summarize`:**
+- For any URL content extraction, use `summarize "URL" --extract --format md`.
+- Never use `web_fetch`, `browser`, or other tools for primary extraction.
+- `web_fetch` is only a fallback if `summarize` fails with an error.
+
 1. Read-first:
 - Read `src/content/docs/index.md` before query/update work.
 
