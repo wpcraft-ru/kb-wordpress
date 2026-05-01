@@ -54,10 +54,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Связанные страницы
 
-- [WordPress 101: базовая карта терминов и действий](./wordpress-101-guide/)
 - [Настройка WordPress: домен, хостинг, установка](./wordpress-setup-domain-hosting-install/)
+- [Глоссарий терминов WordPress](./wordpress-glossary)
+- [WordPress.com vs WordPress.org: сравнение](../faq/wordpress-com-vs-org)
+- [Домен и хостинг: в чём разница](./domain-vs-hosting)
+- [Блог или сайт: что выбрать](./blog-vs-website)
 - [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics/)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
 - [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
 - [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics/)
-- [Как вести базу знаний WordPress](./knowledge-base-workflow/)
+- [Как вести базу знаний WordPress](../faq/knowledge-base-workflow/)

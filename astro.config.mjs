@@ -93,7 +93,17 @@ export default defineConfig({
           autogenerate: { directory: "snippets" },
         },
         {
-          label: "Legal",
+          label: "Руководства",
+          collapsed: true,
+          autogenerate: { directory: "how-to" },
+        },
+        {
+          label: "FAQ",
+          collapsed: true,
+          autogenerate: { directory: "faq" },
+        },
+        {
+          label: "Юридические составляющие",
           collapsed: true,
           autogenerate: { directory: "legal" },
         },

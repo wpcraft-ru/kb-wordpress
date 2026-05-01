@@ -48,7 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
 ## Связанные страницы
 
 - [Getting Started with WordPress: структурный конспект](../basics/getting-started-with-wordpress-guide/)
-- [WordPress 101: базовая карта терминов и действий](../basics/wordpress-101-guide/)
+- [Глоссарий терминов WordPress](../basics/wordpress-glossary)
+- [Admin Bar (панель инструментов WordPress)](../console/admin-bar)
 - [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics/)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
 - [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
+- [Управление несколькими сайтами WordPress](../how-to/multiple-sites-management)

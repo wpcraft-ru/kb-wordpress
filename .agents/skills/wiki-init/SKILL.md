@@ -17,6 +17,9 @@ Expected core files:
 - `src/content/docs/log.md`
 - `AGENTS.md`
 
+Expected raw structure:
+- `raw/YYYY/MMDD/` — date-organized immutable sources
+
 Expected category folders:
 - `core/`, `plugins/`, `themes/`, `security/`, `performance/`, `snippets/`, `queries/`
 

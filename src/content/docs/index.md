@@ -7,14 +7,29 @@ description: "База знаний по WordPress на русском: уста
 
 ## Основы WordPress
 
-- [Как вести базу знаний WordPress](./basics/knowledge-base-workflow/) — Практический шаблон страницы: структура, связи и рабочие примеры.
 - [Getting Started with WordPress: структурный конспект](./basics/getting-started-with-wordpress-guide/) — Базовый маршрут новичка: запуск сайта, dashboard, контент, темы, плагины и безопасность.
-- [WordPress 101: базовая карта терминов и действий](./basics/wordpress-101-guide/) — Концентрированная карта сущностей WordPress и стартовых шагов.
+- [Глоссарий терминов WordPress](./basics/wordpress-glossary/) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [Настройка WordPress: домен, хостинг, установка](./basics/wordpress-setup-domain-hosting-install/) — Пошаговый сценарий первичного запуска WordPress-сайта.
+- [Домен и хостинг: в чём разница](./basics/domain-vs-hosting/) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
+- [Блог или сайт: что выбрать](./basics/blog-vs-website/) — Разница между блогом и сайтом, как добавить блог к сайту.
+- [AI-инструменты для создания сайтов на WordPress](./basics/ai-tools-wordpress/) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.
+
+## Руководства
+
+- [Хостинг для WordPress: как выбрать](./how-to/wordpress-hosting/) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.
+- [Управление несколькими сайтами WordPress](./how-to/multiple-sites-management/) — Multisite, MainWP, переключение между сайтами, перенос доменов.
+- [Работа с разработчиком WordPress](./how-to/working-with-developer/) — Как безопасно добавить разработчика, управлять правами и удалить доступ после работы.
+- [Мобильные приложения для WordPress](./how-to/mobile-apps/) — Jetpack-приложение и альтернативы для управления сайтом с телефона.
+
+## FAQ
+
+- [Как вести базу знаний WordPress](./faq/knowledge-base-workflow/) — Практический шаблон страницы: структура, связи и рабочие примеры.
+- [WordPress.com vs WordPress.org: сравнение](./faq/wordpress-com-vs-org/) — Подробная таблица различий: хостинг, безопасность, плагины, стоимость, поддержка.
 
 ## Консоль / Админка
 
 - [Панель управления WordPress (`wp-admin`): базовая навигация](./console/wordpress-dashboard-wp-admin-basics/) — Практическая навигация по админке и безопасная работа команды.
+- [Admin Bar (панель инструментов WordPress)](./console/admin-bar/) — Элементы тулбара, настройка видимости и практические рецепты.
 
 ## Контент
 
@@ -23,10 +38,13 @@ description: "База знаний по WordPress на русском: уста
 ## Плагины
 
 - [Плагины WordPress: основы выбора и установки](./plugins/plugins-basics/) — Как безопасно выбирать, устанавливать и управлять плагинами.
+- [WooCommerce: основы настройки интернет-магазина](./plugins/woocommerce-basics/) — Базовое руководство: темы, товары, оплата, доставка, налоги.
+- [Плагины членства (membership) для WordPress](./plugins/membership-plugins/) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
 
 ## Темы
 
 - [Темы, child theme и Customizer: основы](./themes/themes-child-themes-customizer/) — Выбор тем, как создать child theme и работать с Customizer без потери изменений.
+- [Практики веб-дизайна для WordPress](./themes/design-best-practices/) — Планирование структуры, навигация, изображения, доступность, производительность.
 
 ## Безопасность
 
@@ -63,3 +81,5 @@ description: "База знаний по WordPress на русском: уста
 - [Шаблон: Договор оказания услуг (общий)](./legal/templates/contract-services.md) — Универсальный договор с оформлением услуг через ТЗ. Внутри: сам договор + 3 шаблона ТЗ (на задачу, на диагностику, на разработку).
 
 ## Запросы (Query Results)
+
+TBD `.agents/skills/wiki-query/SKILL.md`

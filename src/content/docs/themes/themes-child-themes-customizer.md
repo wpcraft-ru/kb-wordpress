@@ -79,3 +79,4 @@ if (window.wp && window.wp.customize) {
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
 - [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics/)
 - [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install/)
+- [Практики веб-дизайна для WordPress](./design-best-practices)
