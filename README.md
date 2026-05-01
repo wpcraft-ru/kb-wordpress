@@ -23,6 +23,14 @@
   - [Типы хостинга](src/content/docs/components/hosting/hosting-types.md) — Shared, VPS, облачный и managed WordPress-хостинг: плюсы, минусы, для каких проектов.
   - [Критерии выбора хостинга](src/content/docs/components/hosting/hosting-criteria.md) — TTFB, uptime, технологии сервера, безопасность, поддержка, цены — чек-лист.
   - [Хостинг-провайдеры: сравнение](src/content/docs/components/hosting/hosting-providers.md) — Международные и российские провайдеры с ценами, тестами скорости и аптайма.
+  - [Сервисы для WordPress](src/content/docs/components/services/index.md) — Каталог из 41 сервиса: CDN, SEO, аналитика, email-маркетинг, автоматизация, dev-инструменты, CRO.
+    - [CDN и производительность](src/content/docs/components/services/cdn-performance.md) — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud.
+    - [SEO и ключевые слова](src/content/docs/components/services/seo-tools.md) — Ahrefs, Semrush, SE Ranking, Rush Analytics, Keys.so, Serpstat.
+    - [Аналитика и поведение](src/content/docs/components/services/analytics.md) — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch.
+    - [Email-маркетинг](src/content/docs/components/services/email-marketing.md) — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot.
+    - [Автоматизация и интеграции](src/content/docs/components/services/automation.md) — Albato, ApiMonster, Make, Zapier, n8n.
+    - [Dev-инструменты](src/content/docs/components/services/dev-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
+    - [Маркетинг, CRO и лидогенерация](src/content/docs/components/services/marketing-cro.md) — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert.
 
 ### AI и WordPress
 

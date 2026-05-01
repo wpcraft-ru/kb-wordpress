@@ -3,6 +3,25 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-01] ingest | Сервисы для WordPress (raw/2025/1105)
+
+Изучены 7 raw-файлов из `raw/2025/1105/` с обзором 41 сервиса в 7 категориях.
+
+**Созданы страницы:**
+- `components/services/cdn-performance.md` — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud
+- `components/services/seo-tools.md` — Ahrefs, Semrush, SE Ranking, Rush Analytics, Keys.so, Serpstat
+- `components/services/analytics.md` — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch
+- `components/services/email-marketing.md` — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot
+- `components/services/automation.md` — Albato, ApiMonster, Make, Zapier, n8n
+- `components/services/dev-tools.md` — GitHub, GitLab, Bitbucket, Gitea, VK Cloud
+- `components/services/marketing-cro.md` — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert
+
+**Обновлены:**
+- `components/services/index.md` — полный каталог с навигацией по 7 категориям
+- `components/index.md` — обновлена секция «Сервисы»
+- `index.md` — добавлены все 7 подразделов сервисов
+- `performance/optimization.md` — кросс-ссылка на `cdn-performance.md`
+
 ## [2026-05-01] ingest | Домены и хостинг из raw/2025/1104
 
 Ingested 20 источников (en + ru) из `raw/2025/1104/` в разделы `components/domain` и `components/hosting`.

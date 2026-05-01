@@ -70,6 +70,16 @@ export default defineConfig({
           label: "GitHub",
           href: "https://github.com/wpcraft-ru/kb-wordpress",
         },
+        {
+          icon: "telegram",
+          label: "Telegram",
+          href: "https://t.me/wpcraft",
+        },
+        {
+          icon: 'external',
+          label: 'Сайт WPCraft',
+          href: 'https://wpcraft.ru/contacts',
+        },
       ],
 
       sidebar: [

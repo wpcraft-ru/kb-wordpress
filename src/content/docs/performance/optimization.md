@@ -99,6 +99,8 @@ add_filter('jpeg_quality', function() {
 - **Отдельный домен для статики** — `static.example.com`
 - **S3-совместимое объектное хранилище** для медиафайлов
 
+Подробный обзор и сравнение CDN-сервисов — [CDN и производительность — сервисы](../components/services/cdn-performance.md).
+
 Плагины вроде [WP Offload Media](https://wordpress.org/plugins/amazon-s3-and-cloudfront/) автоматизируют перенос медиа-библиотеки.
 
 ### Сжатие
