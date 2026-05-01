@@ -215,6 +215,7 @@ All wiki skills must enforce:
 - **Sources**: When ingesting, preserve links to original sources
 - **index.md format**: `- [Page Title](relative/path.md) — One-line summary`
 - **log.md format**: `## [YYYY-MM-DD] operation | Title` followed by brief notes
+- **README.md sync**: При ЛЮБОМ изменении `src/content/docs/index.md` (добавление/удаление/переименование страниц) — синхронизируй оглавление в `README.md` в секцию `## Оглавление`. Ссылки в README должны быть с префиксом `src/content/docs/` (от корня репо), чтобы работали в VS Code и GitHub. Ссылки в index.md — относительные (`./category/page.md`) для Starlight.
 
 ## When New Categories Emerge
 
