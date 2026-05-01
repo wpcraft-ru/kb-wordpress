@@ -70,9 +70,9 @@ cPanel предоставляет FTP-аккаунты для доступа к 
 
 ## Связанные страницы
 
-- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting/)
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install/)
-- [WordPress.com vs WordPress.org: сравнение](../faq/wordpress-com-vs-org/)
+- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
+- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
+- [WordPress.com vs WordPress.org: сравнение](./wordpress-com-vs-org.md)
 
 ## Материалы и источники
 

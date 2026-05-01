@@ -43,8 +43,8 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 
 ## Связанные страницы
 
-- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
-- [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics/)
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install/)
-- [Плагины членства (membership) для WordPress](./membership-plugins)
-- [WooCommerce: основы настройки интернет-магазина](./woocommerce-basics)
+- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer.md)
+- [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics.md)
+- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
+- [Плагины членства (membership) для WordPress](./membership-plugins.md)
+- [WooCommerce: основы настройки интернет-магазина](./woocommerce-basics.md)

@@ -76,10 +76,10 @@ description: "Как работать с шаблонами (templates) в WordP
 
 ## Связанные страницы
 
-- [Site Editor: визуальное редактирование](./site-editor/)
-- [Типы тем WordPress](./theme-types/)
-- [Выбор и настройка темы](./choose-and-setup-theme/)
-- [Блочный редактор: добавление контента блоками](../content/wordpress-editor-blocks/)
+- [Site Editor: визуальное редактирование](./site-editor.md)
+- [Типы тем WordPress](./theme-types.md)
+- [Выбор и настройка темы](./choose-and-setup-theme.md)
+- [Блочный редактор: добавление контента блоками](../content/wordpress-editor-blocks.md)
 
 ## Материалы и источники
 

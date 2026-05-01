@@ -193,6 +193,6 @@ wp_reset_postdata();
 
 ## Связанные страницы
 
-- [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics/)
-- [functions.php: базовые сниппеты](./functions-php-essentials/)
-- [Хуки WordPress: шпаргалка](./hooks-cheatsheet/)
+- [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics.md)
+- [functions.php: базовые сниппеты](./functions-php-essentials.md)
+- [Хуки WordPress: шпаргалка](./hooks-cheatsheet.md)

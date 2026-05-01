@@ -66,12 +66,12 @@ add_filter('body_class', function ($classes) {
 
 ## Связанные страницы
 
-- [Типы тем WordPress](./theme-types/)
-- [Выбор и настройка темы](./choose-and-setup-theme/)
-- [Меню в WordPress](../content/menus/)
-- [Кастомный CSS в WordPress](./custom-css/)
-- [Доступность (a11y) в WordPress](../design/accessibility/)
-- [Дизайн в WordPress: полное руководство](../design/)
+- [Типы тем WordPress](./theme-types.md)
+- [Выбор и настройка темы](./choose-and-setup-theme.md)
+- [Меню в WordPress](../content/menus.md)
+- [Кастомный CSS в WordPress](./custom-css.md)
+- [Доступность (a11y) в WordPress](../design/accessibility.md)
+- [Дизайн в WordPress: полное руководство](../design/index.md)
 
 ## Материалы и источники
 

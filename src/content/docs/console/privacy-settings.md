@@ -73,9 +73,9 @@ add_action('wp_head', function() {
 
 ## Связанные страницы
 
-- [Настройки обсуждения (комментарии) в WordPress](./discussion-settings/)
-- [Панель управления WordPress (`wp-admin`): базовая навигация](./wordpress-dashboard-wp-admin-basics/)
-- [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics/)
+- [Настройки обсуждения (комментарии) в WordPress](./discussion-settings.md)
+- [Панель управления WordPress (`wp-admin`): базовая навигация](./wordpress-dashboard-wp-admin-basics.md)
+- [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics.md)
 
 ## Материалы и источники
 

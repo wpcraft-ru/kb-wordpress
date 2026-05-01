@@ -84,11 +84,11 @@ wp theme search "portfolio"
 
 ## Связанные страницы
 
-- [Типы тем WordPress](./theme-types/)
-- [Темы, child theme и Customizer: основы](./themes-child-themes-customizer/)
-- [Site Editor: визуальное редактирование](./site-editor/)
-- [Customizer: полное руководство](./customizer/)
-- [Практики веб-дизайна для WordPress](./design-best-practices/)
+- [Типы тем WordPress](./theme-types.md)
+- [Темы, child theme и Customizer: основы](./themes-child-themes-customizer.md)
+- [Site Editor: визуальное редактирование](./site-editor.md)
+- [Customizer: полное руководство](./customizer.md)
+- [Практики веб-дизайна для WordPress](./design-best-practices.md)
 
 ## Материалы и источники
 

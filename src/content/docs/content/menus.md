@@ -90,9 +90,9 @@ description: "Как создать меню в WordPress, добавить сс
 
 ## Связанные страницы
 
-- [Customizer: полное руководство](../themes/customizer/)
-- [Site Editor: визуальное редактирование](../themes/site-editor/)
-- [Блочный редактор: добавление контента блоками](./wordpress-editor-blocks/)
+- [Customizer: полное руководство](../themes/customizer.md)
+- [Site Editor: визуальное редактирование](../themes/site-editor.md)
+- [Блочный редактор: добавление контента блоками](./wordpress-editor-blocks.md)
 
 ## Материалы и источники
 

@@ -64,6 +64,6 @@ Group block (контейнер)
 
 ## Связанные страницы
 
-- [Иерархия блочной темы](./block-theme-hierarchy)
-- [Композиция макетов](./layout-composition)
-- [Site Editor для прототипирования](./site-editor-prototyping)
+- [Иерархия блочной темы](./block-theme-hierarchy.md)
+- [Композиция макетов](./layout-composition.md)
+- [Site Editor для прототипирования](./site-editor-prototyping.md)

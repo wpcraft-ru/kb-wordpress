@@ -36,6 +36,6 @@ WordPress — это open-source платформа, которая работа
 
 ## Связанные страницы
 
-- [Style Book: гид по дизайну](./style-book)
-- [Block-first мышление](./block-first-mindset)
-- [Медиа-блоки](./media-blocks)
+- [Style Book: гид по дизайну](./style-book.md)
+- [Block-first мышление](./block-first-mindset.md)
+- [Медиа-блоки](./media-blocks.md)

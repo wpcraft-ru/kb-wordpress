@@ -151,6 +151,6 @@ add_filter( 'body_class', function ( array $classes ): array {
 
 ## Связанные страницы
 
-- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
-- [Хуки WordPress: шпаргалка](./hooks-cheatsheet/)
-- [WP_Query: рецепты запросов](./wp-query-recipes/)
+- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer.md)
+- [Хуки WordPress: шпаргалка](./hooks-cheatsheet.md)
+- [WP_Query: рецепты запросов](./wp-query-recipes.md)
