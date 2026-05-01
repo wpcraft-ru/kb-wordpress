@@ -13,7 +13,6 @@
 
 - [Глоссарий терминов WordPress](src/content/docs/basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [Настройка WordPress: домен, хостинг, установка](src/content/docs/basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
-- [Домен и хостинг: в чём разница](src/content/docs/basics/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
 - [Блог или сайт: что выбрать](src/content/docs/basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
 
 ### Компоненты WordPress
@@ -69,6 +68,7 @@
 
 ### FAQ
 
+- [Домен и хостинг: в чём разница](src/content/docs/faq/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
 - [Как вести базу знаний WordPress](src/content/docs/faq/knowledge-base-workflow.md) — Практический шаблон страницы: структура, связи и рабочие примеры.
 - [WordPress.com vs WordPress.org: сравнение](src/content/docs/faq/wordpress-com-vs-org.md) — Подробная таблица различий: хостинг, безопасность, плагины, стоимость, поддержка.
 - [cPanel и WordPress](src/content/docs/faq/cpanel-wordpress.md) — Объяснение: на WordPress.com нет cPanel, на self-hosted cPanel — стандартный инструмент управления хостингом.

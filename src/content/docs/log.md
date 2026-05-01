@@ -3,6 +3,14 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-01] update | Перенос domain-vs-hosting в FAQ
+
+Страница «Домен и хостинг: в чём разница» перенесена из `basics/` в `faq/` — лучше соответствует формату FAQ.
+
+**Изменения:**
+- Файл перемещён: `basics/domain-vs-hosting.md` → `faq/domain-vs-hosting.md`
+- Обновлены ссылки в 6 файлах: `index.md`, `README.md`, `domain-registrars.md`, `hosting-types.md`, `change-site-url.md`, `wordpress-setup-domain-hosting-install.md`
+
 ## [2026-05-01] ingest | Сервисы для WordPress (raw/2025/1105)
 
 Изучены 7 raw-файлов из `raw/2025/1105/` с обзором 41 сервиса в 7 категориях.

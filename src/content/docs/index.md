@@ -9,7 +9,6 @@ description: "База знаний по WordPress на русском: уста
 
 - [Глоссарий терминов WordPress](./basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [Настройка WordPress: домен, хостинг, установка](./basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
-- [Домен и хостинг: в чём разница](./basics/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
 - [Блог или сайт: что выбрать](./basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
 
 ## Компоненты WordPress
@@ -65,6 +64,7 @@ description: "База знаний по WordPress на русском: уста
 
 ## FAQ
 
+- [Домен и хостинг: в чём разница](./faq/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
 - [Как вести базу знаний WordPress](./faq/knowledge-base-workflow.md) — Практический шаблон страницы: структура, связи и рабочие примеры.
 - [WordPress.com vs WordPress.org: сравнение](./faq/wordpress-com-vs-org.md) — Подробная таблица различий: хостинг, безопасность, плагины, стоимость, поддержка.
 - [cPanel и WordPress](./faq/cpanel-wordpress.md) — Объяснение: на WordPress.com нет cPanel, на self-hosted cPanel — стандартный инструмент управления хостингом.
