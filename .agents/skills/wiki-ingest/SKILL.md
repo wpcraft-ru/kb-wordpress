@@ -59,7 +59,7 @@ If none fit, propose a new category before creating it.
 - No copy-paste dumps from source; synthesize.
 - Every new page has frontmatter (`title`, `description`).
 - Do NOT start pages with an `# H1` heading; Starlight renders frontmatter `title` as H1. Start content from `##`.
-- **«Материалы и источники» обязательны:** каждая страница заканчивается ссылкой на оригинальный URL.
+- **«Материалы и источники» обязательны:** каждая страница заканчивается ссылкой на оригинальный URL. Внешние ссылки автоматически получают `target="_blank"` при сборке — в исходниках пиши обычный markdown: `[текст](https://...)`.
 - **Ссылки всегда с `.md`:** все относительные ссылки на wiki-страницы пиши с расширением `.md` (напр. `[text](./page.md)`). Для index-файлов: `./category/index.md`. НИКОГДА не пиши без `.md` или с `/` в конце. Плагин `remarkStripMdLinks` сам уберёт расширения при сборке.
 - Backlink pass is mandatory.
 
