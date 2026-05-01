@@ -38,6 +38,10 @@ description: "Простое объяснение разницы между до
 
 Подробнее — в статье [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md).
 
+## Как зарегистрировать домен
+
+Домен регистрируется у ICANN-аккредитованного регистратора. Подробный обзор и сравнение регистраторов — в разделе [Регистраторы доменов: сравнение](../components/domain/domain-registrars.md).
+
 ## Как они работают вместе
 
 ```
@@ -76,3 +80,10 @@ if (str_contains($current_domain, 'staging')) {
 ## Материалы и источники
 
 - [Domain name vs. website hosting — оригинальная статья](https://wordpress.com/support/domain-vs-website/)
+
+## Связанные страницы
+
+- [Регистраторы доменов: сравнение](../components/domain/domain-registrars.md) — международные и российские регистраторы, цены, WHOIS Privacy
+- [Типы хостинга](../components/hosting/hosting-types.md) — Shared, VPS, облачный и managed WordPress-хостинг
+- [Критерии выбора хостинга](../components/hosting/hosting-criteria.md) — метрики и чек-лист оценки
+- [Хостинг-провайдеры: сравнение](../components/hosting/hosting-providers.md) — провайдеры с ценами и тестами

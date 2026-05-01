@@ -12,6 +12,14 @@ description: "База знаний по WordPress на русском: уста
 - [Домен и хостинг: в чём разница](./basics/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
 - [Блог или сайт: что выбрать](./basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
 
+## Компоненты WordPress
+
+- [Компоненты WordPress](./components/index.md) — Домен, хостинг и сервисы — ключевые компоненты инфраструктуры сайта на WordPress.
+  - [Регистраторы доменов: сравнение](./components/domain/domain-registrars.md) — Международные и российские регистраторы, цены на .com и .ru, WHOIS Privacy, DNS.
+  - [Типы хостинга](./components/hosting/hosting-types.md) — Shared, VPS, облачный и managed WordPress-хостинг: плюсы, минусы, для каких проектов.
+  - [Критерии выбора хостинга](./components/hosting/hosting-criteria.md) — TTFB, uptime, технологии сервера, безопасность, поддержка, цены — чек-лист.
+  - [Хостинг-провайдеры: сравнение](./components/hosting/hosting-providers.md) — Международные и российские провайдеры с ценами, тестами скорости и аптайма.
+
 ## AI и WordPress
 
 - [AI и WordPress: обзор](./ai/index.md) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.

@@ -3,6 +3,33 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-01] ingest | Домены и хостинг из raw/2025/1104
+
+Ingested 20 источников (en + ru) из `raw/2025/1104/` в разделы `components/domain` и `components/hosting`.
+
+**Созданы страницы:**
+- `components/domain/domain-registrars.md` — сравнение 10 международных + 3 российских регистраторов
+- `components/hosting/hosting-types.md` — 4 типа хостинга с плюсами/минусами/шпаргалкой
+- `components/hosting/hosting-criteria.md` — TTFB, uptime, технологии, безопасность, чек-лист
+- `components/hosting/hosting-providers.md` — 10 международных + 10 российских провайдеров с ценами
+
+**Обновлены страницы:**
+- `components/index.md`, `components/domain/index.md`, `components/hosting/index.md` — каталоги подразделов
+- `index.md` — раздел «Компоненты WordPress» с полным списком
+- `how-to/wordpress-hosting.md` — кросс-ссылки на новые страницы
+- `basics/domain-vs-hosting.md` — кросс-ссылки на новые страницы
+
+---
+
+## [2026-05-01] create: раздел Компоненты (components)
+
+Создан новый раздел `components/` с подразделами:
+- `components/domain/` — Домен
+- `components/hosting/` — Хостинг
+- `components/services/` — Сервисы
+
+Добавлены заглушки index.md во все подразделы. Раздел добавлен в каталог index.md.
+
 # Operations Log
 
 ## [2026-05-01] ingest | WooCommerce (raw/2025/1103)

@@ -25,6 +25,27 @@ export default defineConfig({
     starlight({
       title: "База знаний WordPress",
       description: "Практическая база знаний по WordPress: установка, админка, темы, плагины, безопасность, производительность и готовые сниппеты на русском.",
+      head: [
+        // Yandex.Metrika counter
+        {
+          tag: "script",
+          attrs: { type: "text/javascript" },
+          content: `
+            (function(m,e,t,r,i,k,a){
+                m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();
+                for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+                k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+            })(window, document,'script','https://mc.yandex.ru/metrika/tag.js', 'ym');
+
+            ym(27160562, 'init', {webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+          `,
+        },
+        {
+          tag: "noscript",
+          content: '<div><img src="https://mc.yandex.ru/watch/27160562" style="position:absolute; left:-9999px;" alt="" /></div>',
+        },
+      ],
       components: {
         Sidebar: "starlight-theme-obsidian/overrides/Sidebar.astro",
         PageFrame: "starlight-theme-obsidian/overrides/PageFrame.astro",
@@ -91,6 +112,11 @@ export default defineConfig({
           label: "WooCommerce",
           collapsed: true,
           autogenerate: { directory: "woocommerce" },
+        },
+        {
+          label: "Компоненты",
+          collapsed: true,
+          autogenerate: { directory: "components" },
         },
         {
           label: "Производительность",
