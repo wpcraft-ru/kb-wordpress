@@ -57,6 +57,7 @@ If none fit, propose a new category before creating it.
 - No copy-paste dumps from source; synthesize.
 - Every new page has frontmatter (`title`, `description`).
 - Do NOT start pages with an `# H1` heading; Starlight renders frontmatter `title` as H1. Start content from `##`.
+- **«Материалы и источники» обязательны:** каждая страница заканчивается ссылкой на оригинальный URL.
 - Backlink pass is mandatory.
 
 ## Done Criteria

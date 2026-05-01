@@ -44,6 +44,18 @@ Starlight automatically reads `title` and `description` for:
 
 **Important:** Do NOT start pages with an `# H1` heading that duplicates the frontmatter `title`. Starlight already renders the `title` as the page's H1. Start content directly with `##` level headings.
 
+### Источники (Source Attribution)
+
+Каждая wiki-страница должна заканчиваться секцией **«Материалы и источники»**:
+
+```md
+## Материалы и источники
+
+- [Оригинальная статья](https://wordpress.com/support/...)
+```
+
+- Ссылка на оригинальный URL (из frontmatter `source` raw-файла)
+- Если страница собрана из нескольких источников — перечислить все
 
 ### Code Blocks
 
@@ -111,6 +123,7 @@ When asked to ingest a source:
    - If it's about a specific plugin → `plugins/`
    - If it's a code recipe → `snippets/`
    - If a new category is needed → propose it to the user
+   - **Every page must include «Материалы и источники»** at the bottom: link to original URL(s)
 6. **Update `src/content/docs/index.md`** — add entry with relative link + one-line summary
 7. **Append to `src/content/docs/log.md`**: `## [YYYY-MM-DD] ingest | Title`
 8. **Add cross-references** in related existing pages (links back to the new page)

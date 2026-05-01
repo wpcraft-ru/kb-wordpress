@@ -74,6 +74,7 @@ These rules apply to all wiki-* skills:
 - **Focus is WordPress open-source** (WordPress.org / self-hosted). Sources from WordPress.com must be adapted: .com-specific features → open-source equivalents, .com-only features marked explicitly.
 - Every wiki page except `index.md` and `log.md` includes frontmatter with `title` and `description`.
 - Do NOT duplicate frontmatter `title` with an `# H1` heading — Starlight renders the title as H1. Start content from `##`.
+- **«Материалы и источники»:** every page ends with links to original URL(s).
 
 ## Specialized Skills
 
