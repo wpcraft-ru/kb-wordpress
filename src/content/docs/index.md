@@ -7,98 +7,109 @@ description: "База знаний по WordPress на русском: уста
 
 ## Основы WordPress
 
-- [Getting Started with WordPress: структурный конспект](./basics/getting-started-with-wordpress-guide/) — Базовый маршрут новичка: запуск сайта, dashboard, контент, темы, плагины и безопасность.
-- [Глоссарий терминов WordPress](./basics/wordpress-glossary/) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
-- [Настройка WordPress: домен, хостинг, установка](./basics/wordpress-setup-domain-hosting-install/) — Пошаговый сценарий первичного запуска WordPress-сайта.
-- [Домен и хостинг: в чём разница](./basics/domain-vs-hosting/) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
-- [Блог или сайт: что выбрать](./basics/blog-vs-website/) — Разница между блогом и сайтом, как добавить блог к сайту.
+- [Глоссарий терминов WordPress](./basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
+- [Настройка WordPress: домен, хостинг, установка](./basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
+- [Домен и хостинг: в чём разница](./basics/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
+- [Блог или сайт: что выбрать](./basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
 
 ## AI и WordPress
 
-- [AI и WordPress: обзор](./ai/) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.
-- [AI-архитектура WordPress](./ai/wp-ai-architecture) — Abilities API, MCP Adapter, WP AI Client, Agent Skills — инфраструктура для AI-агентов.
-- [AI-инструменты для создания сайтов](./ai/ai-tools-wordpress) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.
-- [ИИ-инструменты для веб-разработки](./ai/ai-dev-tools) — Cursor, Copilot, v0, Claude Code и другие AI-инструменты (2026).
-- [ИИ-команда агентов для WordPress](./ai/ai-agent-team) — Многоагентные AI-системы: Researcher, Writer, SEO, Editor, Support.
-- [Тренды AI в WordPress](./ai/ai-trends) — 7 ключевых трендов и прогнозы на будущее.
-- [Интеграция AI в WordPress](./ai/ai-integration) — Практическое руководство: плагины, API-ключи, риски.
-- [Каталог AI-плагинов и инструментов](./ai/ai-plugins-and-tools) — Полный обзор AI-плагинов по категориям.
-- [Реальные примеры AI на WordPress](./ai/ai-real-world) — 20 сайтов, использующих AI в production.
+- [AI и WordPress: обзор](./ai/index.md) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.
+- [AI-архитектура WordPress](./ai/wp-ai-architecture.md) — Abilities API, MCP Adapter, WP AI Client, Agent Skills — инфраструктура для AI-агентов.
+- [AI-инструменты для создания сайтов](./ai/ai-tools-wordpress.md) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.
+- [ИИ-инструменты для веб-разработки](./ai/ai-dev-tools.md) — Cursor, Copilot, v0, Claude Code и другие AI-инструменты (2026).
+- [ИИ-команда агентов для WordPress](./ai/ai-agent-team.md) — Многоагентные AI-системы: Researcher, Writer, SEO, Editor, Support.
+- [Тренды AI в WordPress](./ai/ai-trends.md) — 7 ключевых трендов и прогнозы на будущее.
+- [Интеграция AI в WordPress](./ai/ai-integration.md) — Практическое руководство: плагины, API-ключи, риски.
+- [Каталог AI-плагинов и инструментов](./ai/ai-plugins-and-tools.md) — Полный обзор AI-плагинов по категориям.
+- [Реальные примеры AI на WordPress](./ai/ai-real-world.md) — 20 сайтов, использующих AI в production.
 
 ## Дизайн
 
-- [Дизайн в WordPress](./design/) — Полное руководство: Style Book, блочное мышление, композиция макетов, доступность, медиа-блоки.
-- [WordPress для дизайнеров](./design/wordpress-for-designers) — Обзор возможностей: Block Editor, Style Book, паттерны, Site Editor, плагины.
-- [Style Book: гид по дизайну](./design/style-book) — Цифровой style guide: как устроен, как использовать для визуального проектирования.
-- [Иерархия блочной темы](./design/block-theme-hierarchy) — Архитектура: блоки → паттерны → template parts → шаблоны → тема.
-- [Block-first мышление](./design/block-first-mindset) — Философия модульного дизайна: проектирование переиспользуемых компонентов.
-- [Site Editor для прототипирования](./design/site-editor-prototyping) — Почему проектировать прямо в редакторе сайта — эффективно.
-- [Доступность (a11y)](./design/accessibility) — WCAG 2.2 AA: цветовой контраст, типографика, навигация, alt text, плагины тестирования.
-- [Настройки темы](./design/theme-settings) — Цвета, шрифты, типографика и макет в Global Styles.
-- [Композиция макетов](./design/layout-composition) — Group, Row/Stack, Columns: построение структуры страницы.
-- [Отступы и размеры](./design/dimensions-spacing) — Padding, margin и block spacing: управление пространством.
-- [Медиа-блоки](./design/media-blocks) — Галерея, Media & Text, Cover: работа с изображениями и видео.
-- [Карусели и слайдеры](./design/carousel-slider) — MetaSlider, Smart Slider 3, Carousel Slider Block с учётом доступности.
+- [Дизайн в WordPress](./design/index.md) — Полное руководство: Style Book, блочное мышление, композиция макетов, доступность, медиа-блоки.
+- [WordPress для дизайнеров](./design/wordpress-for-designers.md) — Обзор возможностей: Block Editor, Style Book, паттерны, Site Editor, плагины.
+- [Style Book: гид по дизайну](./design/style-book.md) — Цифровой style guide: как устроен, как использовать для визуального проектирования.
+- [Иерархия блочной темы](./design/block-theme-hierarchy.md) — Архитектура: блоки → паттерны → template parts → шаблоны → тема.
+- [Block-first мышление](./design/block-first-mindset.md) — Философия модульного дизайна: проектирование переиспользуемых компонентов.
+- [Site Editor для прототипирования](./design/site-editor-prototyping.md) — Почему проектировать прямо в редакторе сайта — эффективно.
+- [Доступность (a11y)](./design/accessibility.md) — WCAG 2.2 AA: цветовой контраст, типографика, навигация, alt text, плагины тестирования.
+- [Настройки темы](./design/theme-settings.md) — Цвета, шрифты, типографика и макет в Global Styles.
+- [Композиция макетов](./design/layout-composition.md) — Group, Row/Stack, Columns: построение структуры страницы.
+- [Отступы и размеры](./design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
+- [Медиа-блоки](./design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
+- [Карусели и слайдеры](./design/carousel-slider.md) — MetaSlider, Smart Slider 3, Carousel Slider Block с учётом доступности.
 
 ## Руководства
 
-- [Хостинг для WordPress: как выбрать](./how-to/wordpress-hosting/) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.
-- [Управление несколькими сайтами WordPress](./how-to/multiple-sites-management/) — Multisite, MainWP, переключение между сайтами, перенос доменов.
-- [Работа с разработчиком WordPress](./how-to/working-with-developer/) — Как безопасно добавить разработчика, управлять правами и удалить доступ после работы.
-- [Как изменить адрес сайта WordPress](./how-to/change-site-url/) — Смена URL сайта: через админку, WP-CLI, wp-config.php или базу данных.
-- [Мобильные приложения для WordPress](./how-to/mobile-apps/) — Jetpack-приложение и альтернативы для управления сайтом с телефона.
+- [Хостинг для WordPress: как выбрать](./how-to/wordpress-hosting.md) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.
+- [Управление несколькими сайтами WordPress](./how-to/multiple-sites-management.md) — Multisite, MainWP, переключение между сайтами, перенос доменов.
+- [Работа с разработчиком WordPress](./how-to/working-with-developer.md) — Как безопасно добавить разработчика, управлять правами и удалить доступ после работы.
+- [Как изменить адрес сайта WordPress](./how-to/change-site-url.md) — Смена URL сайта: через админку, WP-CLI, wp-config.php или базу данных.
+- [Мобильные приложения для WordPress](./how-to/mobile-apps.md) — Jetpack-приложение и альтернативы для управления сайтом с телефона.
 
 ## FAQ
 
-- [Как вести базу знаний WordPress](./faq/knowledge-base-workflow/) — Практический шаблон страницы: структура, связи и рабочие примеры.
-- [WordPress.com vs WordPress.org: сравнение](./faq/wordpress-com-vs-org/) — Подробная таблица различий: хостинг, безопасность, плагины, стоимость, поддержка.
-- [cPanel и WordPress](./faq/cpanel-wordpress/) — Объяснение: на WordPress.com нет cPanel, на self-hosted cPanel — стандартный инструмент управления хостингом.
+- [Как вести базу знаний WordPress](./faq/knowledge-base-workflow.md) — Практический шаблон страницы: структура, связи и рабочие примеры.
+- [WordPress.com vs WordPress.org: сравнение](./faq/wordpress-com-vs-org.md) — Подробная таблица различий: хостинг, безопасность, плагины, стоимость, поддержка.
+- [cPanel и WordPress](./faq/cpanel-wordpress.md) — Объяснение: на WordPress.com нет cPanel, на self-hosted cPanel — стандартный инструмент управления хостингом.
 
 ## Консоль / Админка
 
-- [Панель управления WordPress (`wp-admin`): базовая навигация](./console/wordpress-dashboard-wp-admin-basics/) — Практическая навигация по админке и безопасная работа команды.
-- [Admin Bar (панель инструментов WordPress)](./console/admin-bar/) — Элементы тулбара, настройка видимости и практические рецепты.
-- [Настройки обсуждения (комментарии)](./console/discussion-settings/) — Модерация, уведомления, аватары, антиспам-плагины для комментариев.
-- [Видимость сайта: управление приватностью](./console/privacy-settings/) — Как скрыть сайт от поисковиков или сделать приватным через плагины.
+- [Панель управления WordPress (`wp-admin`): базовая навигация](./console/wordpress-dashboard-wp-admin-basics.md) — Практическая навигация по админке и безопасная работа команды.
+- [Admin Bar (панель инструментов WordPress)](./console/admin-bar.md) — Элементы тулбара, настройка видимости и практические рецепты.
+- [Настройки обсуждения (комментарии)](./console/discussion-settings.md) — Модерация, уведомления, аватары, антиспам-плагины для комментариев.
+- [Видимость сайта: управление приватностью](./console/privacy-settings.md) — Как скрыть сайт от поисковиков или сделать приватным через плагины.
 
 ## Контент
 
-- [Страницы, записи, категории и теги: базовая модель контента](./content/pages-posts-and-taxonomies-basics/) — Как структурировать контент без дублирования и хаоса.
-- [Блочный редактор WordPress: добавление контента блоками](./content/wordpress-editor-blocks/) — Gutenberg: блоки, Site Title, Post Content, CSS-классы, сочетания клавиш.
-- [Меню в WordPress: создание, ссылки, выпадающие подменю](./content/menus/) — Как создать меню, добавить ссылки на страницы, сделать выпадающие подменю.
+- [Страницы, записи, категории и теги: базовая модель контента](./content/pages-posts-and-taxonomies-basics.md) — Как структурировать контент без дублирования и хаоса.
+- [Блочный редактор WordPress: добавление контента блоками](./content/wordpress-editor-blocks.md) — Gutenberg: блоки, Site Title, Post Content, CSS-классы, сочетания клавиш.
+- [Меню в WordPress: создание, ссылки, выпадающие подменю](./content/menus.md) — Как создать меню, добавить ссылки на страницы, сделать выпадающие подменю.
 
 ## Плагины
 
-- [Плагины WordPress: основы выбора и установки](./plugins/plugins-basics/) — Как безопасно выбирать, устанавливать и управлять плагинами.
-- [WooCommerce: основы настройки интернет-магазина](./plugins/woocommerce-basics/) — Базовое руководство: темы, товары, оплата, доставка, налоги.
-- [Плагины членства (membership) для WordPress](./plugins/membership-plugins/) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
+- [Плагины WordPress: основы выбора и установки](./plugins/plugins-basics.md) — Как безопасно выбирать, устанавливать и управлять плагинами.
+- [WooCommerce: основы настройки интернет-магазина](./plugins/woocommerce-basics.md) — Быстрый старт: темы, товары, оплата, доставка, налоги.
+- [Плагины членства (membership) для WordPress](./plugins/membership-plugins.md) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
+
+## WooCommerce
+
+- [WooCommerce: полное руководство](./woocommerce/index.md) — От установки до запуска магазина: товары, оплата, доставка, налоги, заказы и расширения.
+- [Установка и первые шаги](./woocommerce/getting-started.md) — 5 шагов: установка плагина, настройки, выбор темы.
+- [Товары WooCommerce](./woocommerce/products.md) — 6 встроенных типов товаров и расширения: подписки, бронирования, наборы.
+- [Приём платежей](./woocommerce/payments.md) — WooPayments, платёжные шлюзы, Apple Pay, Google Pay, fraud-защита.
+- [Налоги](./woocommerce/taxes.md) — Настройка налоговых ставок, автоматические налоги, НДС для ЕС.
+- [Доставка](./woocommerce/shipping.md) — Зоны, методы (flat rate, бесплатная, самовывоз), классы доставки.
+- [Страницы магазина](./woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
+- [Управление заказами](./woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
+- [Запуск и расширение](./woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
 
 ## Темы
 
-- [Темы, child theme и Customizer: основы](./themes/themes-child-themes-customizer/) — Выбор тем, как создать child theme и работать с Customizer без потери изменений.
-- [Типы тем WordPress: block, classic, hybrid, universal](./themes/theme-types/) — Сравнение типов тем: какой редактор, кастомизация и для каких задач.
-- [Выбор и настройка темы](./themes/choose-and-setup-theme/) — Как найти, установить, активировать и настроить тему после активации.
-- [Site Editor: визуальное редактирование](./themes/site-editor/) — Редактирование шапки, подвала, шаблонов и стилей без кода.
-- [Шаблоны WordPress: создание, редактирование, удаление](./themes/templates/) — Управление шаблонами: просмотр, сброс, удаление пользовательских шаблонов.
-- [Customizer: полное руководство](./themes/customizer/) — Все секции: идентификация сайта, цвета, контент-опции, меню, виджеты.
-- [Кастомный CSS в WordPress](./themes/custom-css/) — Три способа добавить CSS: Customizer, child theme, Site Editor + классы блоков.
-- [Практики веб-дизайна для WordPress](./themes/design-best-practices/) — Планирование структуры, навигация, изображения, доступность, производительность.
+- [Темы, child theme и Customizer: основы](./themes/themes-child-themes-customizer.md) — Выбор тем, как создать child theme и работать с Customizer без потери изменений.
+- [Типы тем WordPress: block, classic, hybrid, universal](./themes/theme-types.md) — Сравнение типов тем: какой редактор, кастомизация и для каких задач.
+- [Выбор и настройка темы](./themes/choose-and-setup-theme.md) — Как найти, установить, активировать и настроить тему после активации.
+- [Site Editor: визуальное редактирование](./themes/site-editor.md) — Редактирование шапки, подвала, шаблонов и стилей без кода.
+- [Шаблоны WordPress: создание, редактирование, удаление](./themes/templates.md) — Управление шаблонами: просмотр, сброс, удаление пользовательских шаблонов.
+- [Customizer: полное руководство](./themes/customizer.md) — Все секции: идентификация сайта, цвета, контент-опции, меню, виджеты.
+- [Кастомный CSS в WordPress](./themes/custom-css.md) — Три способа добавить CSS: Customizer, child theme, Site Editor + классы блоков.
+- [Практики веб-дизайна для WordPress](./themes/design-best-practices.md) — Планирование структуры, навигация, изображения, доступность, производительность.
 
 ## Безопасность
 
-- [Базовая безопасность WordPress для нового сайта](./security/wordpress-security-basics/) — Минимальный security baseline для проекта на старте.
+- [Базовая безопасность WordPress для нового сайта](./security/wordpress-security-basics.md) — Минимальный security baseline для проекта на старте.
 
 ## Производительность
 
-- [Оптимизация WordPress](./performance/optimization) — Комплексная оптимизация: хостинг, плагины, изображения, CDN, сжатие, база данных и масштабирование.
-- [Кэширование WordPress](./performance/cache) — Виды кэширования: плагины, браузерный кэш, объектный кэш, серверный кэш — как выбрать и настроить.
-- [PHP-оптимизация для WordPress](./performance/php-optimization) — Настройка PHP: версии, php.ini, лимиты памяти, таймауты, размеры загрузок и замена WP-Cron.
+- [Оптимизация WordPress](./performance/optimization.md) — Комплексная оптимизация: хостинг, плагины, изображения, CDN, сжатие, база данных и масштабирование.
+- [Кэширование WordPress](./performance/cache.md) — Виды кэширования: плагины, браузерный кэш, объектный кэш, серверный кэш — как выбрать и настроить.
+- [PHP-оптимизация для WordPress](./performance/php-optimization.md) — Настройка PHP: версии, php.ini, лимиты памяти, таймауты, размеры загрузок и замена WP-Cron.
 
 ## Сниппеты
 
-- [functions.php: базовые сниппеты](./snippets/functions-php-essentials/) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
-- [WP_Query: рецепты запросов](./snippets/wp-query-recipes/) — Готовые шаблоны выборок: категории, мета-поля, CPT, дата, пагинация.
-- [Хуки WordPress: шпаргалка](./snippets/hooks-cheatsheet/) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.
+- [functions.php: базовые сниппеты](./snippets/functions-php-essentials.md) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
+- [WP_Query: рецепты запросов](./snippets/wp-query-recipes.md) — Готовые шаблоны выборок: категории, мета-поля, CPT, дата, пагинация.
+- [Хуки WordPress: шпаргалка](./snippets/hooks-cheatsheet.md) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.
 
 ## Юридические требования
 

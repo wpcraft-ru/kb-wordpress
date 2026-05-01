@@ -70,6 +70,6 @@ Style Book — это ваш визуальный гид. Используйте
 
 ## Связанные страницы
 
-- [Настройки темы: цвета, шрифты, типографика](./theme-settings)
-- [Site Editor для прототипирования](./site-editor-prototyping)
-- [Site Editor: визуальное редактирование](../themes/site-editor/)
+- [Настройки темы: цвета, шрифты, типографика](./theme-settings.md)
+- [Site Editor для прототипирования](./site-editor-prototyping.md)
+- [Site Editor: визуальное редактирование](../themes/site-editor.md)

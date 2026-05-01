@@ -5,7 +5,7 @@ description: "Виды кэширования в WordPress: плагины, бр
 
 Кэширование — самый быстрый способ ускорить WordPress. Для немедленного эффекта установите [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/), [WP Super Cache](https://wordpress.org/plugins/wp-super-cache/) или [Cache Enabler](https://wordpress.org/plugins/cache-enabler/).
 
-Подробнее об общих принципах оптимизации — [Оптимизация WordPress](./optimization).
+Подробнее об общих принципах оптимизации — [Оптимизация WordPress](./optimization.md).
 
 ## Плагины кэширования
 
@@ -112,8 +112,8 @@ wp_cache_delete('my_key', 'my_group');
 - [Core Caching Concepts in WordPress](https://www.tollmanz.com/core-caching-concepts-in-wordpress/)
 - [Best Practices for Speeding Up Your Web Site](https://developer.yahoo.com/performance/rules.html) — Yahoo! Developer Network
 - [Use Server Cache Control to Improve Performance](https://www.websiteoptimization.com/speed/tweak/cache/)
-- [Оптимизация WordPress](./optimization) — общий обзор факторов производительности
-- [PHP-оптимизация](./php-optimization) — настройка PHP для WordPress
+- [Оптимизация WordPress](./optimization.md) — общий обзор факторов производительности
+- [PHP-оптимизация](./php-optimization.md) — настройка PHP для WordPress
 
 ---
 

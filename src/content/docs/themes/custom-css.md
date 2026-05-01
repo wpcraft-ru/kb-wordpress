@@ -95,10 +95,10 @@ h1, h2, h3 {
 
 ## Связанные страницы
 
-- [Темы, child theme и Customizer: основы](./themes-child-themes-customizer/)
-- [Customizer: полное руководство](./customizer/)
-- [Site Editor: визуальное редактирование](./site-editor/)
-- [Блочный редактор: добавление контента блоками](../content/wordpress-editor-blocks/)
+- [Темы, child theme и Customizer: основы](./themes-child-themes-customizer.md)
+- [Customizer: полное руководство](./customizer.md)
+- [Site Editor: визуальное редактирование](./site-editor.md)
+- [Блочный редактор: добавление контента блоками](../content/wordpress-editor-blocks.md)
 
 ## Материалы и источники
 

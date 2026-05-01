@@ -107,10 +107,10 @@ description: "Как работать с блочным редактором (Gu
 
 ## Связанные страницы
 
-- [Страницы, записи, категории и теги: базовая модель контента](./pages-posts-and-taxonomies-basics/)
-- [Site Editor: визуальное редактирование](../themes/site-editor/)
-- [Кастомный CSS в WordPress](../themes/custom-css/)
-- [Меню в WordPress](./menus/)
+- [Страницы, записи, категории и теги: базовая модель контента](./pages-posts-and-taxonomies-basics.md)
+- [Site Editor: визуальное редактирование](../themes/site-editor.md)
+- [Кастомный CSS в WordPress](../themes/custom-css.md)
+- [Меню в WordPress](./menus.md)
 
 ## Материалы и источники
 

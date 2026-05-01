@@ -79,6 +79,6 @@ WordPress поддерживает загрузку веб-шрифтов из G
 
 ## Связанные страницы
 
-- [Style Book: гид по дизайну](./style-book)
-- [Отступы и размеры](./dimensions-spacing)
-- [Кастомный CSS в WordPress](../themes/custom-css/)
+- [Style Book: гид по дизайну](./style-book.md)
+- [Отступы и размеры](./dimensions-spacing.md)
+- [Кастомный CSS в WordPress](../themes/custom-css.md)

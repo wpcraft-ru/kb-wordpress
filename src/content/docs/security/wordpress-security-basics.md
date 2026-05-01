@@ -48,10 +48,19 @@ console.log(isStrongPassword('Wp!SecurePass2026'));
 - Дает минимальную проверку сложности до отправки формы.
 - Не заменяет серверную валидацию, а дополняет UX.
 
+## Безопасность WooCommerce
+
+Для интернет-магазина на WooCommerce к базовому baseline добавляются:
+- HTTPS обязателен (SSL-сертификат) — для безопасного приёма платежей
+- Регулярное обновление WooCommerce и платёжных шлюзов
+- Мониторинг подозрительных заказов
+- Настройка fraud-защиты платёжного шлюза
+
+Подробнее: [WooCommerce: приём платежей](../woocommerce/payments.md).
+
 ## Связанные страницы
 
-- [Getting Started with WordPress: структурный конспект](../basics/getting-started-with-wordpress-guide/)
-- [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
-- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
-- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting)
-- [Работа с разработчиком WordPress](../how-to/working-with-developer)
+- [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics.md)
+- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer.md)
+- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
+- [Работа с разработчиком WordPress](../how-to/working-with-developer.md)

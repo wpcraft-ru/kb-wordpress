@@ -209,6 +209,6 @@ remove_filter( 'the_content', 'wpautop' );
 
 ## Связанные страницы
 
-- [functions.php: базовые сниппеты](./functions-php-essentials/)
-- [WP_Query: рецепты запросов](./wp-query-recipes/)
-- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
+- [functions.php: базовые сниппеты](./functions-php-essentials.md)
+- [WP_Query: рецепты запросов](./wp-query-recipes.md)
+- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer.md)

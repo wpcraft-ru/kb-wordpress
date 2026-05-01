@@ -61,12 +61,11 @@ wp.hooks.addFilter(
 
 ## Связанные страницы
 
-- [Index](../index/)
-- [Log](../log/)
-- [Getting Started with WordPress: структурный конспект](./getting-started-with-wordpress-guide/)
-- [Настройка WordPress: домен, хостинг, установка](./wordpress-setup-domain-hosting-install/)
-- [Панель управления WordPress (`wp-admin`): базовая навигация](./wordpress-dashboard-wp-admin-basics/)
-- [Страницы, записи, категории и теги: базовая модель контента](./pages-posts-and-taxonomies-basics/)
-- [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
-- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)
-- [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics/)
+- [Index](../index.md)
+- [Log](../log.md)
+- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
+- [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics.md)
+- [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics.md)
+- [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics.md)
+- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer.md)
+- [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics.md)

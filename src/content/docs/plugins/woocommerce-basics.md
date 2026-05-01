@@ -94,3 +94,7 @@ add_action('woocommerce_checkout_process', function () {
 ## Материалы и источники
 
 - [Get started with the Commerce plan — оригинальная статья](https://wordpress.com/support/navigating-the-ecommerce-plan/)
+
+## См. также
+
+- [WooCommerce: полное руководство](../woocommerce/index.md) — детальный раздел по настройке магазина

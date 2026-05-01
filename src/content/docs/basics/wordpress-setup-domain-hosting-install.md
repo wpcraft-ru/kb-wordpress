@@ -56,9 +56,8 @@ Promise.all(
 
 ## Связанные страницы
 
-- [Getting Started with WordPress: структурный конспект](./getting-started-with-wordpress-guide/)
-- [Домен и хостинг: в чём разница](./domain-vs-hosting)
-- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting)
-- [Блог или сайт: что выбрать](./blog-vs-website)
-- [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics/)
-- [Практики веб-дизайна для WordPress](../themes/design-best-practices)
+- [Домен и хостинг: в чём разница](./domain-vs-hosting.md)
+- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
+- [Блог или сайт: что выбрать](./blog-vs-website.md)
+- [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics.md)
+- [Практики веб-дизайна для WordPress](../themes/design-best-practices.md)

@@ -60,6 +60,6 @@ description: "Создание каруселей и слайдеров в WordP
 
 ## Связанные страницы
 
-- [Медиа-блоки](./media-blocks)
-- [Доступность (a11y)](./accessibility)
-- [Плагины WordPress: основы](../plugins/plugins-basics/)
+- [Медиа-блоки](./media-blocks.md)
+- [Доступность (a11y)](./accessibility.md)
+- [Плагины WordPress: основы](../plugins/plugins-basics.md)

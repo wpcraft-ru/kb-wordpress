@@ -47,10 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Связанные страницы
 
-- [Getting Started with WordPress: структурный конспект](../basics/getting-started-with-wordpress-guide/)
-- [Глоссарий терминов WordPress](../basics/wordpress-glossary)
-- [Admin Bar (панель инструментов WordPress)](../console/admin-bar)
-- [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics/)
-- [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics/)
-- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer/)- [Настройки обсуждения (комментарии)](../console/discussion-settings/)
-- [Видимость сайта: приватность](../console/privacy-settings/)- [Управление несколькими сайтами WordPress](../how-to/multiple-sites-management)
+- [Глоссарий терминов WordPress](../basics/wordpress-glossary.md)
+- [Admin Bar (панель инструментов WordPress)](./admin-bar.md)
+- [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics.md)
+- [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics.md)
+- [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer.md)
+- [Настройки обсуждения (комментарии)](./discussion-settings.md)
+- [Видимость сайта: приватность](./privacy-settings.md)
+- [Управление несколькими сайтами WordPress](../how-to/multiple-sites-management.md)

@@ -3,7 +3,7 @@ title: "Оптимизация WordPress"
 description: "Комплексная оптимизация производительности WordPress: хостинг, плагины, изображения, CDN, сжатие, база данных и масштабирование."
 ---
 
-Оптимизировать WordPress нужно на любом уровне — от блога на shared-хостинге до высоконагруженного проекта. Если нужен быстрый результат — начните с [кэширования](./cache).
+Оптимизировать WordPress нужно на любом уровне — от блога на shared-хостинге до высоконагруженного проекта. Если нужен быстрый результат — начните с [кэширования](./cache.md).
 
 Далее — системный подход к оптимизации по всем направлениям.
 
@@ -29,6 +29,8 @@ description: "Комплексная оптимизация производит
 | **VPS / Dedicated** | Полный контроль: серверный кэш, PHP, MySQL, Nginx/Apache |
 
 На VPS/Dedicated к общим методам добавляются: серверный кэш, тонкая настройка ПО и Content Offloading.
+
+Для WooCommerce-магазинов требования к хостингу выше: PHP 8.0+, memory limit ≥ 256MB, SSD/NVMe обязательно. Подробнее — в разделе [WooCommerce: запуск и расширение](../woocommerce/launch-extend.md).
 
 ### Аппаратные характеристики
 
@@ -187,7 +189,7 @@ wp db query "SELECT option_name, LENGTH(option_value) as size
 | Компонент | Методы |
 |-----------|--------|
 | **Веб-сервер** | Apache MPM Event, Nginx worker_processes, keepalive, кэш-заголовки |
-| **PHP** | OPcache, APC/u, свежая версия (см. [PHP-оптимизация](./php-optimization)) |
+| **PHP** | OPcache, APC/u, свежая версия (см. [PHP-оптимизация](./php-optimization.md)) |
 | **MySQL/MariaDB** | InnoDB, query cache, тюнинг буферов, slow query log |
 | **DNS** | Вынос DNS на внешний сервис снижает нагрузку |
 | **Почта** | Не запускайте почтовый сервер на сервере WordPress — используйте внешний SMTP |
@@ -204,8 +206,8 @@ wp db query "SELECT option_name, LENGTH(option_value) as size
 
 - [WordCamp Performance Presentations](https://wordpress.tv/category/wordcamptv/) — доклады с WordCamp
 - [Yahoo! Best Practices for Speeding Up Your Web Site](https://developer.yahoo.com/performance/rules.html)
-- [Кэширование WordPress](./cache) — глубже о видах кэширования
-- [PHP-оптимизация](./php-optimization) — настройка PHP для WordPress
+- [Кэширование WordPress](./cache.md) — глубже о видах кэширования
+- [PHP-оптимизация](./php-optimization.md) — настройка PHP для WordPress
 
 ---
 

@@ -40,6 +40,7 @@ For each page:
 - No silent broad rewrites.
 - Keep edits minimal and explicit.
 - Do NOT add an `# H1` heading that duplicates frontmatter `title` — Starlight renders the title as H1.
+- **Ссылки всегда с `.md`:** все относительные ссылки пиши с расширением `.md` (напр. `[text](./page.md)`, `./category/index.md`). НИКОГДА без `.md` или с `/` в конце. Плагин `remarkStripMdLinks` сам уберёт расширения при сборке.
 
 ## Done Criteria
 

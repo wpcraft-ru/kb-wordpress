@@ -207,6 +207,7 @@ All wiki skills must enforce:
 
 ## General Rules
 
+- **Ссылки в исходниках — всегда с `.md`:** все относительные ссылки на wiki-страницы (`[text](./path/page.md)`) пишутся с расширением `.md`. Для index-файлов каталогов — `./category/index.md`. Это нужно для работы ссылок в VS Code и GitHub. Плагин `remarkStripMdLinks` при сборке Astro сам уберёт `.md` и `/index.md`, скорректирует глубину путей и добавит `target="_blank"` на все внешние ссылки. НИКОГДА не пиши ссылки без `.md`, НИКОГДА не пиши ссылки с `/` в конце вместо `.md`.
 - **Focus:** База знаний про **WordPress open-source (WordPress.org / self-hosted)**. Материалы с WordPress.com адаптировать: заменять .com-специфичные фичи на opensource-аналоги, помечать .com-only функции.
 - **Language**: All wiki content in Russian (ru-RU)
 - **Tone**: Technical, точный, без воды

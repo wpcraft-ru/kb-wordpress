@@ -5,7 +5,7 @@ description: "Обзор AI-инструментов для создания и 
 
 ## AI и WordPress
 
-Искусственный интеллект всё активнее используется в экосистеме WordPress — от генерации контента до создания целых сайтов. Возможности различаются между WordPress.com и self-hosted. Подробнее об архитектуре AI в WordPress читайте в [AI-архитектуре WordPress](./wp-ai-architecture).
+Искусственный интеллект всё активнее используется в экосистеме WordPress — от генерации контента до создания целых сайтов. Возможности различаются между WordPress.com и self-hosted. Подробнее об архитектуре AI в WordPress читайте в [AI-архитектуре WordPress](./wp-ai-architecture.md).
 
 ## ⚠️ AI Website Builder (только WordPress.com)
 

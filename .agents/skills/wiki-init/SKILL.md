@@ -40,6 +40,7 @@ Expected category folders:
 - Content language: ru-RU.
 - All wiki pages except `index.md` and `log.md` include frontmatter with `title` and `description`.
 - Do NOT duplicate frontmatter `title` with an `# H1` heading — Starlight renders the title as H1. Start content from `##`.
+- **Ссылки всегда с `.md`:** все относительные ссылки на wiki-страницы пишутся с расширением `.md` (напр. `[text](./page.md)`, `./category/index.md`). НИКОГДА без `.md` или с `/` в конце. Плагин `remarkStripMdLinks` сам уберёт расширения при сборке.
 - Relative markdown links only.
 5. Report what was created or repaired.
 
