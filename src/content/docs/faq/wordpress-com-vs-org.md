@@ -54,7 +54,7 @@ WordPress — это бесплатное open-source ПО (CMS). И WordPress.c
 - **Onboarding Sessions** — персональные видеозвонки со специалистом
 - **Happiness Engineers** — выделенная техподдержка 24/7
 
-Для self-hosted альтернативы: найм фрилансера/агентства, форумы WordPress.org, платные AI-плагины (AI Engine, Bertha AI).
+Для self-hosted альтернативы: найм фрилансера/агентства, форумы WordPress.org, платные AI-плагины (AI Engine, Bertha AI). Подробнее — в разделе [AI-инструменты для создания сайтов](../ai/ai-tools-wordpress).
 
 ## Материалы и источники
 

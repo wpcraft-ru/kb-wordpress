@@ -12,7 +12,18 @@ description: "База знаний по WordPress на русском: уста
 - [Настройка WordPress: домен, хостинг, установка](./basics/wordpress-setup-domain-hosting-install/) — Пошаговый сценарий первичного запуска WordPress-сайта.
 - [Домен и хостинг: в чём разница](./basics/domain-vs-hosting/) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
 - [Блог или сайт: что выбрать](./basics/blog-vs-website/) — Разница между блогом и сайтом, как добавить блог к сайту.
-- [AI-инструменты для создания сайтов на WordPress](./basics/ai-tools-wordpress/) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.
+
+## AI и WordPress
+
+- [AI и WordPress: обзор](./ai/) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.
+- [AI-архитектура WordPress](./ai/wp-ai-architecture) — Abilities API, MCP Adapter, WP AI Client, Agent Skills — инфраструктура для AI-агентов.
+- [AI-инструменты для создания сайтов](./ai/ai-tools-wordpress) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.
+- [ИИ-инструменты для веб-разработки](./ai/ai-dev-tools) — Cursor, Copilot, v0, Claude Code и другие AI-инструменты (2026).
+- [ИИ-команда агентов для WordPress](./ai/ai-agent-team) — Многоагентные AI-системы: Researcher, Writer, SEO, Editor, Support.
+- [Тренды AI в WordPress](./ai/ai-trends) — 7 ключевых трендов и прогнозы на будущее.
+- [Интеграция AI в WordPress](./ai/ai-integration) — Практическое руководство: плагины, API-ключи, риски.
+- [Каталог AI-плагинов и инструментов](./ai/ai-plugins-and-tools) — Полный обзор AI-плагинов по категориям.
+- [Реальные примеры AI на WordPress](./ai/ai-real-world) — 20 сайтов, использующих AI в production.
 
 ## Руководства
 
