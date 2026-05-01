@@ -57,11 +57,22 @@ add_filter('the_content', function($content) {
 
 ## Operations
 
+### Source Extraction
+
+When fetching a URL for ingest, use tools in priority order:
+
+1. **Primary:** `summarize "URL" --extract --format md` — best image/media preservation
+2. **Fallback:** `web_fetch` with `extractMode: "markdown"`
+3. **Last resort:** `skills/jina-ai/extract.mjs <URL>` — for Cloudflare-protected sites
+
+Save extracted content to `raw/YYYY/MMDD/` before ingesting.
+
 ### Ingest
 
 When asked to ingest a source:
 
-1. **Read the source** from `raw/` or provided URL
+0. **Fetch the source** — use extraction tools above if URL, save to `raw/YYYY/MMDD/`
+1. **Read the source** from `raw/YYYY/MMDD/` or provided URL
 2. **Read `src/content/docs/index.md`** to understand current wiki structure
 3. **Discuss key takeaways** with the user before writing
 4. **Create/update pages** in the appropriate `src/content/docs/` subdirectory:
