@@ -88,6 +88,11 @@ export default defineConfig({
           autogenerate: { directory: "design" },
         },
         {
+          label: "WooCommerce",
+          collapsed: true,
+          autogenerate: { directory: "woocommerce" },
+        },
+        {
           label: "Производительность",
           collapsed: true,
           autogenerate: { directory: "performance" },
