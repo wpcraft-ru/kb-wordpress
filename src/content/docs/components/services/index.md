@@ -9,6 +9,10 @@ description: "Каталог из 41 стороннего сервиса для 
 
 - [CDN и производительность — сервисы](./cdn-performance.md) — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud: сравнение, цены, WP-интеграция.
 
+### 🗄 Объектные хранилища (S3)
+
+- [S3-провайдеры для WordPress](./s3-providers.md) — Обзор S3-совместимых хранилищ: Yandex Object Storage, Selectel, VK Cloud, AWS S3, Cloudflare R2, MinIO — цены, классы, 152-ФЗ.
+
 ### 🔍 SEO и ключевые слова
 
 - [SEO и ключевые слова — сервисы](./seo-tools.md) — Ahrefs, Semrush, SE Ranking, Rush Analytics, Keys.so, Serpstat: выбор платформы под задачи.

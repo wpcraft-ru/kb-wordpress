@@ -3,12 +3,40 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-03] ingest | S3-хранилища для WordPress
+
+Массовый ingest по теме S3 для WordPress. 10 источников из интернета и wpcraft.ru.
+
+**Raw-файлы (10):**
+- `raw/2026/0503/wpcraft-s3-uploads-human-made.md`
+- `raw/2026/0503/aws-best-practices-static-content-offload.md`
+- `raw/2026/0503/aws-s3-bucket-creation.md`
+- `raw/2026/0503/alexrusin-offload-wp-media-s3.md`
+- `raw/2026/0503/infiniteuploads-store-images-s3.md`
+- `raw/2026/0503/next3offload-upload-media-s3.md`
+- `raw/2026/0503/deliciousbrains-wp-offload-media-s3-quickstart.md`
+- `raw/2026/0503/wp-org-plugin-wp-offload-media-lite.md`
+- `raw/2026/0503/wpcraft-highload-bigdata.md`
+- `raw/2026/0503/wpcraft-cloud-hosting-wordpress-woocommerce.md`
+
+**Создано (6 страниц):**
+- `plugins/s3-storage.md` — Обзорная: зачем S3, архитектура, провайдеры
+- `plugins/s3-uploads.md` — S3 Uploads (Human Made): open-source, WP-CLI, конфиг, signed URL
+- `plugins/wp-offload-media.md` — WP Offload Media: UI, Lite/Pro, CloudFront, bulk offload
+- `faq/s3-plugins-comparison.md` — Сравнение всех плагинов (S3 Uploads на первом месте)
+- `how-to/s3-setup-wordpress.md` — Пошаговое руководство: провайдер, бакет, IAM, плагин, CDN
+- `components/services/s3-providers.md` — Обзор S3-провайдеров (российские в топе: Yandex, Selectel, VK)
+
+**Обновлено:**
+- `index.md` — 6 новых записей в разделах Плагины, FAQ, Руководства, Компоненты
+- `components/services/index.md` — раздел «Объектные хранилища (S3)»
+
 ## [2026-05-03] update | snippets → cheatsheet + production-checklist
 
 - Директория `snippets/` переименована в `cheatsheet/` (3 файла: functions-php-essentials, hooks-cheatsheet, wp-query-recipes)
 - Обновлены ссылки в `AGENTS.md`, `index.md`, `README.md`, `queries/how-to-create-page-template.md`
 - Создана страница `cheatsheet/production-checklist.md` — чек-лист запуска WordPress в продакшен (адаптирован из Vercel Production Checklist, raw/2026/0503/)
-- Секция «Сниппеты» в `index.md` и `README.md` переименована в «Шпаргалки и чек-листы»
+- Секция «Сниппеты» в `index.md` и `README.md` переименована в «Шпаргалки и чек-листы`
 
 ## [2026-05-01] update | Перенос domain-vs-hosting в FAQ
 
