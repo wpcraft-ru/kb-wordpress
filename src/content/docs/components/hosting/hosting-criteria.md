@@ -155,14 +155,12 @@ TTFB зависит от:
 
 ## Материалы и источники
 
+- [Рейтинг хостингов для WordPress](https://wpcraft.ru/hosting-wordpress-woocommerce)
 - [How to Choose the Best WordPress Hosting — GreenGeeks](https://www.greengeeks.com/tutorials/how-to-choose-the-best-wordpress-hosting/)
 - [How to Choose the Best WordPress Hosting — WPBeginner](https://www.wpbeginner.com/wordpress-hosting/)
 - [Best WordPress Hosting 2026 — RSHosting](https://www.rshosting.com/blog/best-wordpress-hosting-2026-ultimate-guide-to-fast-secure-reliable-wordpress-hosting/)
 - [Best WordPress Hosting — Themeisle](https://themeisle.com/blog/best-wordpress-hosting/)
 - [Best WordPress Hosting — CNET](https://www.cnet.com/tech/services-and-software/best-wordpress-hosting/)
-- [Рейтинг хостингов для WordPress — VC.ru](https://vc.ru/dev/2420793-reiting-hostingov-dlya-wordpress-chto-vybrat-v-2025-2026-godu-top-na-dekabr-2025)
-- [Хостинг для WordPress 2026 — HostingHub](https://hostinghub.ru/top/cms/wordpress)
-- [10 лучших хостингов — Hostings.info](https://ru.hostings.info/hostings/rating/wordpress-hosting)
 
 ## Связанные страницы
 
