@@ -82,7 +82,7 @@ export default defineConfig({
         {
           icon: "telegram",
           label: "Telegram",
-          href: "https://t.me/wpcraft",
+          href: "https://t.me/wp_bbot",
         },
         {
           icon: 'external',
