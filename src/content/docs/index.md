@@ -20,7 +20,7 @@ description: "База знаний по WordPress на русском: уста
   - [Хостинг-провайдеры: сравнение](./components/hosting/hosting-providers.md) — Международные и российские провайдеры с ценами, тестами скорости и аптайма.
   - [Сервисы для WordPress](./components/services/index.md) — Каталог из 41 сервиса: CDN, SEO, аналитика, email-маркетинг, автоматизация, dev-инструменты, CRO.
     - [CDN и производительность](./components/services/cdn-performance.md) — Cloudflare, Bunny.net, NitroPack, Yandex Cloud CDN, Selectel, VK Cloud.
-    - [S3-провайдеры для WordPress](./components/services/s3-providers.md) — Объектные хранилища: Yandex, Selectel, VK Cloud, AWS S3, Cloudflare R2, MinIO — цены, классы, сравнение.
+    - [S3-провайдеры для WordPress](./components/services/s3-providers.md) — Объектные хранилища: зачем, архитектура, концепции, Yandex, Selectel, VK Cloud, AWS S3, Cloudflare R2, MinIO — цены, классы, сравнение.
     - [SEO и ключевые слова](./components/services/seo-tools.md) — Ahrefs, Semrush, SE Ranking, Rush Analytics, Keys.so, Serpstat.
     - [Аналитика и поведение](./components/services/analytics.md) — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch.
     - [Email-маркетинг](./components/services/email-marketing.md) — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot.
@@ -67,7 +67,6 @@ description: "База знаний по WordPress на русском: уста
 ## FAQ
 
 - [Домен и хостинг: в чём разница](./faq/domain-vs-hosting.md) — Простое объяснение: домен (адрес) vs хостинг (место хранения файлов).
-- [Сравнение плагинов S3 для WordPress](./faq/s3-plugins-comparison.md) — Полное сравнение S3 Uploads, WP Offload Media, Media Cloud, Next3 Offload, Infinite Uploads: таблицы, сценарии.
 - [Как вести базу знаний WordPress](./faq/knowledge-base-workflow.md) — Практический шаблон страницы: структура, связи и рабочие примеры.
 - [WordPress.com vs WordPress.org: сравнение](./faq/wordpress-com-vs-org.md) — Подробная таблица различий: хостинг, безопасность, плагины, стоимость, поддержка.
 - [cPanel и WordPress](./faq/cpanel-wordpress.md) — Объяснение: на WordPress.com нет cPanel, на self-hosted cPanel — стандартный инструмент управления хостингом.
@@ -90,9 +89,7 @@ description: "База знаний по WordPress на русском: уста
 - [Плагины WordPress: основы выбора и установки](./plugins/plugins-basics.md) — Как безопасно выбирать, устанавливать и управлять плагинами.
 - [WooCommerce: основы настройки интернет-магазина](./plugins/woocommerce-basics.md) — Быстрый старт: темы, товары, оплата, доставка, налоги.
 - [Плагины членства (membership) для WordPress](./plugins/membership-plugins.md) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
-- [S3-хранилища для WordPress: зачем и как](./plugins/s3-storage.md) — Обзорная: почему выносить медиа в объектное хранилище, архитектура, провайдеры.
-- [S3 Uploads (Human Made) — плагин для S3](./plugins/s3-uploads.md) — Open-source плагин без UI: WP-CLI, wp-config, signed URL, любой S3-эндпоинт.
-- [WP Offload Media — плагин для S3 и CDN](./plugins/wp-offload-media.md) — Самый популярный плагин с UI: Lite бесплатно, Pro с CDN, CloudFront, bulk offload.
+- [Плагины для S3-хранилищ WordPress](./plugins/s3-plugins.md) — Полное сравнение и гайды: S3 Uploads (Human Made), WP Offload Media (установка, CDN, CloudFront), Media Cloud, Next3 Offload, Infinite Uploads.
 
 ## WooCommerce
 
