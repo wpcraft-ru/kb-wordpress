@@ -26,6 +26,15 @@ export default defineConfig({
       title: "База знаний WordPress",
       description: "Практическая база знаний по WordPress: установка, админка, темы, плагины, безопасность, производительность и готовые сниппеты на русском.",
       head: [
+        // Favicon
+        {
+          tag: "link",
+          attrs: {
+            rel: "icon",
+            type: "image/png",
+            href: "/favicon.png",
+          },
+        },
         // Yandex.Metrika counter
         {
           tag: "script",
