@@ -58,6 +58,7 @@ export default defineConfig({
       components: {
         Sidebar: "starlight-theme-obsidian/overrides/Sidebar.astro",
         PageFrame: "starlight-theme-obsidian/overrides/PageFrame.astro",
+        PageSidebar: "./src/components/PageSidebar.astro",
         Pagination: "starlight-theme-obsidian/overrides/Pagination.astro",
         ThemeSelect: "starlight-theme-obsidian/overrides/ThemeSelect.astro",
       },
