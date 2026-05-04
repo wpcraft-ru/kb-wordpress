@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightAutoSidebar from "starlight-auto-sidebar";
 import { remarkStripMdLinks } from "./src/remark-strip-md-links.mjs";
 
 // Algolia DocSearch will be added after approval
@@ -169,6 +170,8 @@ export default defineConfig({
           autogenerate: { directory: "security" },
         },
       ],
+
+      plugins: [starlightAutoSidebar()],
 
       // Pagefind (local search) — built into Starlight by default
       // Will be replaced by Algolia DocSearch after approval:

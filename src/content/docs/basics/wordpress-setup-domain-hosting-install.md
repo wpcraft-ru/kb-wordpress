@@ -61,3 +61,5 @@ Promise.all(
 - [Блог или сайт: что выбрать](./blog-vs-website.md)
 - [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics.md)
 - [Практики веб-дизайна для WordPress](../themes/design-best-practices.md)
+- [Создание сайта на WordPress: Beget](./create-website/wordpress-on-beget.md) — VPS через Marketplace
+- [Создание сайта на WordPress: Timeweb](./create-website/wordpress-on-timeweb.md) — Ручная и автоустановка

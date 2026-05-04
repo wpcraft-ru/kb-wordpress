@@ -62,8 +62,8 @@ description: "Как выбрать хостинг для self-hosted WordPress:
 
 ## Рекомендуемые хостинг-провайдеры (РФ/СНГ)
 
-- **TimeWeb** — популярный shared/VPS, автоустановка WordPress
-- **Beget** — недорогой shared, хорошая техподдержка
+- **TimeWeb** — популярный shared/VPS, автоустановка WordPress ([инструкция по установке](../basics/create-website/wordpress-on-timeweb.md))
+- **Beget** — недорогой shared, хорошая техподдержка ([инструкция по установке](../basics/create-website/wordpress-on-beget.md))
 - **VDSina** — VPS с поминутной тарификацией
 - **FirstVDS** — надёжный VPS для средних проектов
 
