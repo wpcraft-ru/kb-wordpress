@@ -3,6 +3,21 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-04] ingest | DESIGN.md + Tailwind CSS + daisyUI для WordPress-дизайна
+
+Обработаны источники из `raw/2026/0504/` по темам DESIGN.md, Google Stitch, `theme.json`, Tailwind CSS v4 и daisyUI.
+
+**Создано/обновлено в разделе design:**
+- `design/design-md.md` — DESIGN.md как контракт дизайна для AI-агентов, маппинг в `theme.json`, Tailwind и daisyUI
+- `design/tailwind-daisyui-wordpress.md` — практическая интеграция Tailwind+daisyUI в блочной теме WordPress
+- `design/index.md` — добавлены новые страницы раздела
+- `design/theme-settings.md` — добавлены кросс-ссылки на новые материалы
+- `themes/custom-css.md` — добавлены обратные ссылки на новые страницы раздела design
+
+**Синхронизация каталогов:**
+- `index.md` — добавлены записи в разделе «Дизайн»
+- `README.md` — синхронизирован раздел «Оглавление»
+
 ## [2026-05-03] ingest | SEO-плагины WordPress — сравнение и выбор
 
 Создана страница `plugins/seo-plugins.md` на основе материалов `raw/2025/1106/` (10 файлов).

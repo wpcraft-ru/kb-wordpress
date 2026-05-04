@@ -81,4 +81,6 @@ WordPress поддерживает загрузку веб-шрифтов из G
 
 - [Style Book: гид по дизайну](./style-book.md)
 - [Отступы и размеры](./dimensions-spacing.md)
+- [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md)
+- [DESIGN.md для WordPress](./design-md.md)
 - [Кастомный CSS в WordPress](../themes/custom-css.md)

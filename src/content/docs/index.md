@@ -50,6 +50,8 @@ description: "База знаний по WordPress на русском: уста
 - [Site Editor для прототипирования](./design/site-editor-prototyping.md) — Почему проектировать прямо в редакторе сайта — эффективно.
 - [Доступность (a11y)](./design/accessibility.md) — WCAG 2.2 AA: цветовой контраст, типографика, навигация, alt text, плагины тестирования.
 - [Настройки темы](./design/theme-settings.md) — Цвета, шрифты, типографика и макет в Global Styles.
+- [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./design/tailwind-daisyui-wordpress.md) — Практическая интеграция Tailwind+daisyUI в block theme с синхронизацией через theme.json.
+- [DESIGN.md для WordPress](./design/design-md.md) — DESIGN.md как контракт дизайна для AI и связка с theme.json, Tailwind и daisyUI.
 - [Композиция макетов](./design/layout-composition.md) — Group, Row/Stack, Columns: построение структуры страницы.
 - [Отступы и размеры](./design/dimensions-spacing.md) — Padding, margin и block spacing: управление пространством.
 - [Медиа-блоки](./design/media-blocks.md) — Галерея, Media & Text, Cover: работа с изображениями и видео.
