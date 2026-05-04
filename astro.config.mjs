@@ -97,18 +97,7 @@ export default defineConfig({
         {
           label: "Основы",
           collapsed: false,
-          items: [
-            { label: "Getting Started", link: "basics/getting-started-with-wordpress-guide" },
-            { label: "Глоссарий", link: "basics/wordpress-glossary" },
-            { label: "Настройка WordPress", link: "basics/wordpress-setup-domain-hosting-install" },
-            { label: "Домен и хостинг", link: "basics/domain-vs-hosting" },
-            { label: "Блог или сайт", link: "basics/blog-vs-website" },
-            {
-              label: "Создание сайта",
-              collapsed: true,
-              autogenerate: { directory: "basics/create-website" },
-            },
-          ],
+          autogenerate: { directory: "basics" },
         },
         {
           label: "Контент",
