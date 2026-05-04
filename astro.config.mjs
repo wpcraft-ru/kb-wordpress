@@ -96,7 +96,24 @@ export default defineConfig({
         {
           label: "Основы",
           collapsed: false,
-          autogenerate: { directory: "basics" },
+          items: [
+            { label: "Getting Started", link: "basics/getting-started-with-wordpress-guide" },
+            { label: "Глоссарий", link: "basics/wordpress-glossary" },
+            { label: "Настройка WordPress", link: "basics/wordpress-setup-domain-hosting-install" },
+            { label: "Домен и хостинг", link: "basics/domain-vs-hosting" },
+            { label: "Блог или сайт", link: "basics/blog-vs-website" },
+            {
+              label: "Создание сайта на хостингах",
+              collapsed: true,
+              items: [
+                { label: "Обзор", link: "basics/create-website/" },
+                { label: "Beget", link: "basics/create-website/wordpress-on-beget" },
+                { label: "Timeweb", link: "basics/create-website/wordpress-on-timeweb" },
+                { label: "REG.RU", link: "basics/create-website/wordpress-on-regru" },
+                { label: "Yandex Cloud", link: "basics/create-website/wordpress-on-yandex-cloud" },
+              ],
+            },
+          ],
         },
         {
           label: "Контент",
