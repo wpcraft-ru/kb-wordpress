@@ -130,7 +130,7 @@ concise, confident, implementation-focused
 
 
 
-## Маппинг DESIGN.md -> theme.json -> Tailwind -> daisyUI
+## Маппинг DESIGN.md -> theme.json -> daisyUI (Tailwind CSS)
 
 Одна и та же семантика должна быть сохранена во всех слоях:
 
