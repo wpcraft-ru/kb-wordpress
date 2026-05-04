@@ -98,6 +98,8 @@ h1, h2, h3 {
 - [Темы, child theme и Customizer: основы](./themes-child-themes-customizer.md)
 - [Customizer: полное руководство](./customizer.md)
 - [Site Editor: визуальное редактирование](./site-editor.md)
+- [Tailwind CSS v4 + daisyUI в блочной теме WordPress](../design/tailwind-daisyui-wordpress.md)
+- [DESIGN.md для WordPress](../design/design-md.md)
 - [Блочный редактор: добавление контента блоками](../content/wordpress-editor-blocks.md)
 
 ## Материалы и источники
