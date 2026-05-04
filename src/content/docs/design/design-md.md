@@ -1,5 +1,5 @@
 ---
-title: "DESIGN.md для WordPress: контракт дизайна для AI, theme.json и Tailwind"
+title: "DESIGN.md"
 description: "Как использовать DESIGN.md как upstream-спецификацию и синхронизировать ее с theme.json, Tailwind CSS v4 и daisyUI в WordPress-темах."
 ---
 
