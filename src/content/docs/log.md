@@ -1,4 +1,7 @@
 ---
+title: "Log"
+description: "Хронология всех операций с базой знаний WordPress"
+---
 
 ## [2026-05-04] ingest | DESIGN.md + Tailwind CSS + daisyUI для WordPress-дизайна
 
@@ -14,9 +17,6 @@
 **Синхронизация каталогов:**
 - `index.md` — добавлены записи в разделе «Дизайн»
 - `README.md` — синхронизирован раздел «Оглавление»
-title: "Log"
-description: "Хронология всех операций с базой знаний WordPress"
----
 
 ## [2026-05-03] ingest | SEO-плагины WordPress — сравнение и выбор
 

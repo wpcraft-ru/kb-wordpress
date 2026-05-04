@@ -3,10 +3,6 @@ title: "Дизайн в WordPress"
 description: "Полное руководство по дизайну сайтов на WordPress: Style Book, блочное мышление, композиция макетов, доступность, работа с медиа-блоками."
 ---
 
-## О разделе
-
-Раздел собран на основе официального курса [Beginner WordPress Designer](https://learn.wordpress.org/course/beginner-wordpress-designer/) от learn.wordpress.org и охватывает все аспекты визуального проектирования сайтов в блочном редакторе WordPress: от философии блочного мышления до практических техник компоновки макетов и обеспечения доступности.
-
 ## Страницы раздела
 
 ### Основы дизайна в WordPress
@@ -18,11 +14,11 @@ description: "Полное руководство по дизайну сайто
 
 ### Практики веб-дизайна
 
+- [DESIGN.md для WordPress](./design-md.md) — Контракт дизайна для AI-агентов и синхронизация с theme.json, Tailwind и daisyUI.
+- [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md) — Интеграция utility-first и компонентного слоя с block theme и theme.json.
 - [Site Editor для прототипирования](./site-editor-prototyping.md) — Почему стоит проектировать прямо в редакторе сайта.
 - [Доступность (a11y)](./accessibility.md) — Руководство по созданию инклюзивных сайтов и инструменты тестирования.
 - [Настройки темы](./theme-settings.md) — Цвета, шрифты, типографика и макет в Global Styles.
-- [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md) — Интеграция utility-first и компонентного слоя с block theme и theme.json.
-- [DESIGN.md для WordPress](./design-md.md) — Контракт дизайна для AI-агентов и синхронизация с theme.json, Tailwind и daisyUI.
 
 ### Композиция и макеты
 
