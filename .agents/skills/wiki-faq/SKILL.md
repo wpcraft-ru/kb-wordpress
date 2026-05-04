@@ -1,55 +1,18 @@
 ---
 name: wiki-faq
-description: Создание и поддержка FAQ-страниц в вики: быстрые ответы на основе существующих wiki-страниц, без gap analysis.
+description: Создание и поддержка FAQ-страниц в вики: быстрые ответы на основе данных из каталога raw/ и существующих wiki-страниц, без gap analysis.
 ---
 
 # Wiki FAQ
 
-Создаёт короткие FAQ-страницы — прямые ответы на вопросы со ссылками на вики.
+Создаёт короткие FAQ-страницы — прямые ответы на вопросы со ссылками на вики. Агент работает с данными из `raw/` и `src/content/docs/`.
 
 ## Pre-condition
 
 1. Read `src/content/docs/index.md`
 2. Read relevant wiki pages
 3. Read related `faq/` pages to avoid duplication
-
-## Research: Validate (Perplexity через OpenRouter)
-
-Для каждого FAQ — проверить факты через Perplexity Sonar (краулит веб, возвращает ответ с источниками):
-
-```bash
-curl -s https://openrouter.ai/api/v1/chat/completions \
-  -H "Authorization: Bearer $OPENROUTER_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "model": "perplexity/sonar",
-    "messages": [
-      {"role": "system", "content": "Валидатор фактов. Отвечай кратко со ссылками. Язык: русский."},
-      {"role": "user", "content": "Актуальная цена домена .ru на reg.ru?"}
-    ]
-  }' | jq -r '.choices[0].message.content'
-```
-
-**Модели через OpenRouter:**
-| Model ID | Что делает |
-|---|---|
-| `perplexity/sonar` | Быстрый поиск, ссылки в тексте |
-| `perplexity/sonar-pro` | Глубокий поиск с дополнительными источниками |
-| `perplexity/sonar-reasoning` | Поиск + reasoning для сложных сравнений |
-
-### Что проверять
-
-1. **Цены и тарифы** — хостинги/регистраторы часто меняют стоимость
-2. **Версии ПО** — актуальный PHP, WordPress, MySQL
-3. **Конкретные шаги** — не изменился ли интерфейс/процесс
-4. **Альтернативы** — есть ли новые плагины/сервисы, не упомянутые в вики
-
-### Результат
-
-- `content` → добавить как уточнение в FAQ-ответ
-- Ссылки из ответа → добавить в «Материалы и источники»
-
-> **Требуется:** `PERPLEXITY_API_KEY` в переменных окружения. Модели: `sonar` (быстрый) или `sonar-pro` (глубокий поиск). OpenCrawl встроен — Perplexity сам краулит веб при `search`-режиме.
+4. If a `raw/` source file is provided — read it fully and synthesize
 
 ## Process
 
