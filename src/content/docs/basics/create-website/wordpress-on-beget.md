@@ -1,6 +1,9 @@
 ---
 title: "Создание сайта на WordPress: Beget"
 description: "Пошаговая инструкция по созданию сайта на хостинге Beget: установка WordPress на VPS через Marketplace, подключение CDN через W3 Total Cache."
+sidebar:
+  label: "Beget"
+  order: 2
 ---
 
 ## Beget для WordPress

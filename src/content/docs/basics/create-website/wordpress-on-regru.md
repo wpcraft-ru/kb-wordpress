@@ -1,6 +1,9 @@
 ---
 title: "Создание сайта на WordPress: REG.RU"
 description: "Пошаговая инструкция по созданию сайта на хостинге REG.RU: автоматическая установка, ручная установка в ispmanager, cPanel и Plesk."
+sidebar:
+  label: "REG.RU"
+  order: 4
 ---
 
 ## REG.RU для WordPress

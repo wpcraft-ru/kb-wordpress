@@ -1,5 +1,8 @@
 ---
 title: "Создание сайта на WordPress: пошаговые инструкции по хостингам"
+sidebar:
+  label: "Обзор"
+  order: 1
 description: "Инструкции по созданию сайта на WordPress для популярных российских хостингов: Beget, Timeweb, REG.RU и Yandex Cloud."
 ---
 

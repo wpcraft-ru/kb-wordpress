@@ -1,6 +1,9 @@
 ---
 title: "Создание сайта на WordPress: Yandex Cloud"
 description: "Пошаговые инструкции по созданию сайта на Yandex Cloud: через консоль, Terraform, Cloud Apps, с кластером MySQL и перенос с другого хостинга."
+sidebar:
+  label: "Yandex Cloud"
+  order: 5
 ---
 
 ## Yandex Cloud для WordPress

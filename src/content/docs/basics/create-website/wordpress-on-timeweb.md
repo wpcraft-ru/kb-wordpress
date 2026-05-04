@@ -1,6 +1,9 @@
 ---
 title: "Создание сайта на WordPress: Timeweb"
 description: "Пошаговая инструкция по созданию сайта на хостинге Timeweb и Timeweb Cloud: ручная установка WordPress, автоустановка и облачный VPS."
+sidebar:
+  label: "Timeweb"
+  order: 3
 ---
 
 ## Timeweb для WordPress

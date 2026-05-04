@@ -1,5 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightAutoSidebar from "starlight-auto-sidebar";
 import { remarkStripMdLinks } from "./src/remark-strip-md-links.mjs";
 
 // Algolia DocSearch will be added after approval
@@ -103,15 +104,9 @@ export default defineConfig({
             { label: "Домен и хостинг", link: "basics/domain-vs-hosting" },
             { label: "Блог или сайт", link: "basics/blog-vs-website" },
             {
-              label: "Создание сайта на хостингах",
+              label: "Создание сайта",
               collapsed: true,
-              items: [
-                { label: "Обзор", link: "basics/create-website/" },
-                { label: "Beget", link: "basics/create-website/wordpress-on-beget" },
-                { label: "Timeweb", link: "basics/create-website/wordpress-on-timeweb" },
-                { label: "REG.RU", link: "basics/create-website/wordpress-on-regru" },
-                { label: "Yandex Cloud", link: "basics/create-website/wordpress-on-yandex-cloud" },
-              ],
+              autogenerate: { directory: "basics/create-website" },
             },
           ],
         },
@@ -186,6 +181,8 @@ export default defineConfig({
           autogenerate: { directory: "security" },
         },
       ],
+
+      plugins: [starlightAutoSidebar()],
 
       // Pagefind (local search) — built into Starlight by default
       // Will be replaced by Algolia DocSearch after approval:
