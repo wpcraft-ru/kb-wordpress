@@ -3,6 +3,43 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-05] ingest | Ice Cream Cone + Стратегия тестирования + Unit-тесты PHPUnit + Pest/WP-CLI
+
+Обработаны четыре источника из `raw/2026/2505/`:
+- `the-ice-cream-cone-testing-approach.md` (testRigor) — добавлен в testing-strategy.md
+
+**Дополнено:**
+- `qa/auto-testing/testing-strategy.md` — добавлен раздел «Антипаттерн: Ice Cream Cone»
+
+Обработаны три источника из `raw/2026/2505/` (ранее):
+- `automated-unit-tests-wordpress-plugin.md` (developer.wordpress.org)
+- `autotesting-pest-wp-cli.md` (wpcraft.ru)
+- `strategiya-testirovaniya-integraczionnye.md` (wpcraft.ru + kentcdodds.com)
+
+**Создано:**
+- `qa/auto-testing/testing-strategy.md` — Стратегия: трофей тестирования, почему 100% покрытие — плохо, баланс
+- `qa/auto-testing/unit-tests-phpunit.md` — Unit/интеграционные тесты с PHPUnit: Composer, WP_UnitTestCase, фабрика, GitHub Actions
+- `qa/auto-testing/pest-wp-cli.md` — Стек Pest PHP + WP-CLI + wp-env: фикстуры, транзакции, Makefile
+
+**Обновлено:**
+- `qa/auto-testing/index.md` — Добавлен трофей тестирования, обновлены примеры и ссылки на новые страницы
+- `qa/index.md` — Добавлены все новые страницы
+- `index.md` — Расширен раздел «QA и тестирование»
+- `README.md` — Синхронизирован
+
+## [2026-05-05] ingest | E2E-тесты WordPress с Playwright
+
+Обработан источник `raw/2026/2505/wordpress-e2e-tests-playwright.md` (с developer.wordpress.org).
+
+**Создан новый раздел `qa/`:**
+- `qa/index.md` — Каталог раздела QA: автоматизированное и ручное тестирование, доступность, производительность
+- `qa/auto-testing/index.md` — Виды автоматических тестов: unit, интеграционные, E2E — когда что применять
+- `qa/auto-testing/e2e-tests-playwright.md` — Полное руководство по E2E-тестам: wp-env, Playwright, тестирование блоков, паттернов и фронтенда
+
+**Синхронизация каталогов:**
+- `index.md` — Добавлен раздел «QA и тестирование»
+- `README.md` — Добавлен раздел в оглавление
+
 ## [2026-05-04] ingest | DESIGN.md + Tailwind CSS + daisyUI для WordPress-дизайна
 
 Обработаны источники из `raw/2026/0504/` по темам DESIGN.md, Google Stitch, `theme.json`, Tailwind CSS v4 и daisyUI.

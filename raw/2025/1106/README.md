@@ -1,7 +1,7 @@
 # SEO-плагины WordPress — Материалы
 
 > 📅 Собрано: 2026-05-03
-> 📁 `/Users/aa/Projects/wp-knowledge/raw/2025/1106/`
+> 📁 `raw/2025/1106/`
 > 🏷️ Теги: WordPress, SEO, плагины, сравнение, 2025
 
 ---

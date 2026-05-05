@@ -132,6 +132,15 @@
 - [Кэширование WordPress](src/content/docs/performance/cache.md) — Виды кэширования: плагины, браузерный кэш, объектный кэш, серверный кэш — как выбрать и настроить.
 - [PHP-оптимизация для WordPress](src/content/docs/performance/php-optimization.md) — Настройка PHP: версии, php.ini, лимиты памяти, таймауты, размеры загрузок и замена WP-Cron.
 
+### QA и тестирование
+
+- [QA и тестирование WordPress](src/content/docs/qa/index.md) — Полный раздел по обеспечению качества: автоматизированное тестирование, ручная проверка, доступность, производительность.
+  - [Автоматическое тестирование](src/content/docs/qa/auto-testing/index.md) — Unit, интеграционные и E2E-тесты: когда какой вид применять, инструменты и best practices.
+    - [Стратегия тестирования WordPress](src/content/docs/qa/auto-testing/testing-strategy.md) — Трофей тестирования, почему 100% покрытие — плохо, баланс unit/интеграционных/E2E.
+    - [Unit-тесты с PHPUnit](src/content/docs/qa/auto-testing/unit-tests-phpunit.md) — Полное руководство: Composer, `WP_UnitTestCase`, фабрика, тестирование CPT, GitHub Actions.
+    - [Интеграционные тесты: Pest + WP-CLI](src/content/docs/qa/auto-testing/pest-wp-cli.md) — Стек Pest PHP + WP-CLI + `wp-env`: фикстуры, транзакции, Makefile.
+    - [E2E-тесты с Playwright](src/content/docs/qa/auto-testing/e2e-tests-playwright.md) — Полное руководство: `wp-env`, Playwright, написание и запуск E2E-тестов.
+
 ### Шпаргалки и чек-листы
 
 - [functions.php: базовые сниппеты](src/content/docs/cheatsheet/functions-php-essentials.md) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
