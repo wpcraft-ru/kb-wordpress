@@ -25,7 +25,7 @@ description: "База знаний по WordPress на русском: уста
     - [Аналитика и поведение](./components/services/analytics.md) — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch.
     - [Email-маркетинг](./components/services/email-marketing.md) — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot.
     - [Автоматизация и интеграции](./components/services/automation.md) — Albato, ApiMonster, Make, Zapier, n8n.
-    - [Dev-инструменты](./components/services/dev-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
+    - [Dev-инструменты](./components/services/dev-vcs-tools.md) — SourceCraft, GitVerse, GitFlic, GitHub, GitLab, Bitbucket, Gitea, Forgejo, GitRiver — сравнение российских, open-source и мировых платформ.
     - [Маркетинг, CRO и лидогенерация](./components/services/marketing-cro.md) — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert.
 
 ## AI и WordPress

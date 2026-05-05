@@ -30,7 +30,7 @@
     - [Аналитика и поведение](src/content/docs/components/services/analytics.md) — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch.
     - [Email-маркетинг](src/content/docs/components/services/email-marketing.md) — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot.
     - [Автоматизация и интеграции](src/content/docs/components/services/automation.md) — Albato, ApiMonster, Make, Zapier, n8n.
-    - [Dev-инструменты](src/content/docs/components/services/dev-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
+    - [Dev-инструменты](src/content/docs/components/services/dev-vcs-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
     - [Маркетинг, CRO и лидогенерация](src/content/docs/components/services/marketing-cro.md) — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert.
 
 ### AI и WordPress

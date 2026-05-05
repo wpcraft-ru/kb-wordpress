@@ -23,5 +23,5 @@ description: "Домен, хостинг и сервисы — ключевые 
   - [Аналитика и поведение](./services/analytics.md) — Яндекс.Метрика, GA4, Clarity, Hotjar, Roistat, Calltouch.
   - [Email-маркетинг](./services/email-marketing.md) — UniSender, SendPulse, Carrot Quest, Mailchimp, Brevo, HubSpot.
   - [Автоматизация и интеграции](./services/automation.md) — Albato, ApiMonster, Make, Zapier, n8n.
-  - [Dev-инструменты](./services/dev-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
+  - [Dev-инструменты](./services/dev-vcs-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
   - [Маркетинг, CRO и лидогенерация](./services/marketing-cro.md) — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert.

@@ -31,7 +31,7 @@ description: "Каталог из 41 стороннего сервиса для 
 
 ### 🛠 Dev-инструменты
 
-- [Dev-инструменты и управление кодом — сервисы](./dev-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud: Git-хостинг и CI/CD для WordPress-разработки.
+- [Dev-инструменты и управление кодом — сервисы](./dev-vcs-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud: Git-хостинг и CI/CD для WordPress-разработки.
 
 ### 📣 Маркетинг, CRO и лидогенерация
 
