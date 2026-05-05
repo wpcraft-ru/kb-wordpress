@@ -291,7 +291,7 @@ composer test-install
 
 ## Дальнейшие шаги
 
-- [Стратегия тестирования WordPress](./testing-strategy.md) — Когда и что тестировать
+- [Стратегия тестирования WordPress](../index.md) — Когда и что тестировать
 - [Интеграционные тесты: Pest + WP-CLI](./pest-wp-cli.md) — Альтернативный стек с лаконичным синтаксисом
 - [E2E-тесты с Playwright](./e2e-tests-playwright.md) — Тестирование UI
 

@@ -165,6 +165,11 @@ export default defineConfig({
           autogenerate: { directory: "legal" },
         },
         {
+          label: "QA",
+          collapsed: true,
+          autogenerate: { directory: "qa" },
+        },
+        {
           label: "Безопасность",
           collapsed: true,
           autogenerate: { directory: "security" },

@@ -3,6 +3,10 @@ title: "Log"
 description: "Хронология всех операций с базой знаний WordPress"
 ---
 
+## [2026-05-05] merge | testing-strategy.md → qa/index.md
+
+`qa/testing-strategy.md` влит в `qa/index.md` — теперь это одна страница-каталог со стратегией и ссылками на подстатьи. Все перекрёстные ссылки исправлены.
+
 ## [2026-05-05] ingest | Ice Cream Cone + Стратегия тестирования + Unit-тесты PHPUnit + Pest/WP-CLI
 
 Обработаны четыре источника из `raw/2026/2505/`:

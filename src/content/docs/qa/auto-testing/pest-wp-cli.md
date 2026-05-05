@@ -355,7 +355,7 @@ tests/
 ## Дальнейшие шаги
 
 - [Unit-тесты с PHPUnit](./unit-tests-phpunit.md) — Классический подход с Composer и PHPUnit
-- [Стратегия тестирования WordPress](./testing-strategy.md) — Когда что тестировать
+- [Стратегия тестирования WordPress](../index.md) — Когда что тестировать
 - [E2E-тесты с Playwright](./e2e-tests-playwright.md) — Тестирование UI и браузерных сценариев
 
 ## Материалы и источники

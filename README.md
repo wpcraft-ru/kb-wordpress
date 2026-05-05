@@ -136,7 +136,7 @@
 
 - [QA и тестирование WordPress](src/content/docs/qa/index.md) — Полный раздел по обеспечению качества: автоматизированное тестирование, ручная проверка, доступность, производительность.
   - [Автоматическое тестирование](src/content/docs/qa/auto-testing/index.md) — Unit, интеграционные и E2E-тесты: когда какой вид применять, инструменты и best practices.
-    - [Стратегия тестирования WordPress](src/content/docs/qa/auto-testing/testing-strategy.md) — Трофей тестирования, почему 100% покрытие — плохо, баланс unit/интеграционных/E2E.
+    - [QA и тестирование WordPress](src/content/docs/qa/index.md) — Стратегия тестирования: три подхода (Ice Cream Cone, Трофей, Пирамида), ручное тестирование, исследовательские сессии.
     - [Unit-тесты с PHPUnit](src/content/docs/qa/auto-testing/unit-tests-phpunit.md) — Полное руководство: Composer, `WP_UnitTestCase`, фабрика, тестирование CPT, GitHub Actions.
     - [Интеграционные тесты: Pest + WP-CLI](src/content/docs/qa/auto-testing/pest-wp-cli.md) — Стек Pest PHP + WP-CLI + `wp-env`: фикстуры, транзакции, Makefile.
     - [E2E-тесты с Playwright](src/content/docs/qa/auto-testing/e2e-tests-playwright.md) — Полное руководство: `wp-env`, Playwright, написание и запуск E2E-тестов.
