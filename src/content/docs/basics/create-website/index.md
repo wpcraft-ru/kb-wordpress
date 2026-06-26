@@ -14,6 +14,10 @@ sidebar:
 - **REG.RU** — Автоустановка и ручная в ispmanager, cPanel, Plesk
 - **Yandex Cloud** — Консоль, Terraform, Cloud Apps, кластер MySQL
 
+## ## Headless CMS (Jamstack)
+
+- [Headless WordPress с Next.js](./headless-wordpress-nextjs.md) — создание сайта на архитектуре Headless CMS: WordPress как бэкенд, Next.js как фронтенд, деплой на Vercel, WPGraphQL, стратегии рендеринга (SSG/SSR/ISR).
+
 ## Перед установкой
 
 Убедитесь, что у вас есть домен и выбран хостинг-провайдер. Подробнее:

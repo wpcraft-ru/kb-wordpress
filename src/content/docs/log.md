@@ -641,6 +641,14 @@ Ingested 20 источников (en + ru) из `raw/2025/1104/` в раздел
 - Updated: performance/cache.md (добавлена секция про WooCommerce)
 - Updated: index.md
 
+## [2026-06-26] ingest | Headless WordPress с Next.js
+- Sources:
+  - https://wpcraft.ru/blog/headless-cms-wordpress-next-js-vercel
+  - https://wpcraft.ru/blog/wordpress-nextjs
+  - https://www.advancedcustomfields.com/blog/nextjs-wordpress/
+- Created: basics/create-website/headless-wordpress-nextjs.md (объединённая страница по 3 источникам)
+- Updated: basics/create-website/index.md (добавлена секция Headless CMS)
+
 ## [2026-05-09] ingest | Performance Best Practices & Optimization for WooCommerce
 - Sources:
   - https://developer.woocommerce.com/docs/best-practices/performance/performance-best-practices/
