@@ -1,7 +1,5 @@
----
-title: "Log"
-description: "Хронология всех операций с базой знаний WordPress"
----
+# LOG
+
 
 ## [2026-05-11] ingest | Паттерны (Block Patterns) — Theme Handbook
 
@@ -655,4 +653,23 @@ Ingested 20 источников (en + ru) из `raw/2025/1104/` в раздел
   - https://developer.woocommerce.com/docs/best-practices/performance/performance-optimization/
 - Created: woocommerce/performance-optimization.md (объединённая страница по обоим источникам)
 - Updated: index.md (добавлена страница в раздел WooCommerce)
+
+## [2026-07-03] ingest | Топ-10 сервисов для защиты сайтов и CDN
+- Sources:
+  - Исходный материал пользователя с таблицей сервисов
+  - Cloudflare: https://www.cloudflare.com (+ https://www.cloudflare.com/plans)
+  - Yandex Smart Web Security: https://yandex.cloud/ru/services/smartwebsecurity
+  - DDoS-Guard: https://ddos-guard.ru (+ https://ddos-guard.ru/blog)
+  - StormWall: https://stormwall.pro
+  - NGENIX: https://ngenix.net
+  - Selectel: https://selectel.ru
+  - Cloud4Y: https://cloud4y.ru
+  - Qrator Labs: https://qrator.net
+  - PT Application Firewall: https://ptsecurity.com/ru-ru/products/pt-application-firewall
+  - Nemesida WAF: https://nemesida-waf.com
+  - Дополнительно: research через Perplexity (sonar-reasoning-pro) по каждому сервису
+- Created: security/web-protection-services.md (сравнение топ-10 сервисов с плюсами, минусами, тарифами)
+- Updated: components/services/cdn-performance.md (добавлено предупреждение про Cloudflare в РФ + кросс-ссылка)
+- Updated: index.md (добавлена страница в раздел Безопасность)
+- Updated: log.md (текущая запись)
 

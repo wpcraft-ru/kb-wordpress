@@ -21,25 +21,75 @@ Compile a new source into the persistent wiki. **База знаний сфок�
 0. **⚠️ Всегда `summarize` для URL:** `summarize "URL" --extract --format md`. Не используй `web_fetch` или `browser`.
 1. Read `src/content/docs/index.md` first.
 2. Read related existing pages before writing.
-3. Confirm source location:
-   - **Local:** `raw/YYYY/MMDD/filename.{md,pdf}` — date-organized, immutable
-   - **URL:** fetch with `summarize "URL" --extract --format md` (primary), fallback to `web_fetch` or `skills/jina-ai/extract.mjs`
-4. If source is a URL, extract and save it to `raw/YYYY/MMDD/` (using current date), then ingest from that local copy.
 
-## Process
+## Step 1 — Inbox Sweep
+
+Перед началом обработки проверить папку `inbox/` на наличие новых материалов:
+
+1. `ls inbox/` — если в папке есть файлы (кроме `.gitignore` и `.DS_Store`), обработать каждый:
+   - Для каждого файла определить текущую дату в формате `YYYY/MMDD` (например, `2026/0703`).
+   - Создать папку `raw/YYYY/MMDD/` если её ещё нет.
+   - Переместить файл из `inbox/` в `raw/YYYY/MMDD/` (командой `mv`).
+   - Запомнить список перемещённых файлов — они станут источниками для Step 2.
+2. Если в `inbox/` пусто — источник берётся из аргумента вызова (URL или путь к уже существующему raw-файлу).
+3. **Для URL-источников:** `summarize "URL" --extract --format md`, сохранить результат в `raw/YYYY/MMDD/filename.md` (использовать текущую дату), затем ингестить из этой локальной копии. Fallback: `web_fetch` или `skills/jina-ai/extract.mjs` — только если `summarize` упал.
+
+## Step 2 — Ingest Process
 
 1. Read the source fully.
 2. **Adapt .com → open-source** — если источник с WordPress.com, адаптируй контент (см. секцию выше). Используй web_search для уточнения opensource-эквивалентов.
 3. Present key takeaways to user before writing:
-- 3-5 main points.
-- What to emphasize/de-emphasize.
-- Potential contradictions with existing pages.
-3. Create or update relevant pages in the correct category folder.
-4. Add or update cross-references in both directions.
-5. Update `src/content/docs/index.md` entries.
-6. Append `src/content/docs/log.md`:
-   - `## [YYYY-MM-DD] ingest | <source title>`
-7. Report all touched files.
+   - 3-5 main points.
+   - What to emphasize/de-emphasize.
+   - Potential contradictions with existing pages.
+4. Create or update relevant pages in the correct category folder.
+5. Add or update cross-references in both directions.
+6. Update `src/content/docs/index.md` entries.
+
+## Step 3 — Log Entry
+
+Append в `LOG.md` (в корне репозитория `kb/`) запись в формате:
+
+```md
+## [YYYY-MM-DD] ingest | <source title>
+
+**Источники:** `raw/YYYY/MMDD/`
+- `raw/YYYY/MMDD/file1.md` → `category/page1.md`
+- `raw/YYYY/MMDD/file2.md` → `category/page2.md`
+
+**Создано:**
+- `category/page1.md` — краткое описание
+
+**Обновлено:**
+- `index.md` — что добавлено
+- `category/index.md` — что добавлено
+
+**Кросс-ссылки:** ...
+```
+
+Обязательно указать:
+- Путь до raw-папки с источниками (`raw/YYYY/MMDD/`)
+- Какие файлы попали в базу знаний и куда (маппинг raw → wiki-page)
+- Список созданных и обновлённых wiki-страниц
+
+## Step 4 — Report & Commit
+
+После завершения ингеста:
+
+1. **Показать список всех изменённых файлов** — отдельным блоком, сгруппированно:
+   - Перемещённые из `inbox/` в `raw/`
+   - Созданные wiki-страницы в `src/content/docs/`
+   - Обновлённые wiki-страницы
+   - Обновлённые `index.md`, `LOG.md`
+2. **Предложить текст коммита** в формате:
+   ```
+   ingest: <краткое описание источников>
+
+   Sources: raw/YYYY/MMDD/
+   New pages: N
+   Updated pages: N
+   ```
+3. **Спросить разрешения на коммит и пуш** в базу знаний. Не выполнять `git add`/`commit`/`push` без явного подтверждения пользователя.
 
 ## Placement Heuristic
 
@@ -65,7 +115,10 @@ If none fit, propose a new category before creating it.
 
 ## Done Criteria
 
+- Inbox swept (files moved to `raw/YYYY/MMDD/`).
 - Pages created/updated.
 - Cross-links reconciled.
 - `index.md` updated.
-- `log.md` appended.
+- `LOG.md` appended with raw→wiki mapping.
+- Changed files list shown to user.
+- Commit message proposed, user asked for permission to commit & push.

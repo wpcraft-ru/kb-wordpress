@@ -139,6 +139,7 @@ description: "База знаний по WordPress на русском: уста
 ## Безопасность
 
 - [Базовая безопасность WordPress для нового сайта](./security/wordpress-security-basics.md) — Минимальный security baseline для проекта на старте.
+  - [Сервисы защиты сайтов и CDN: сравнение топ-10](./security/web-protection-services.md) — Сравнение десяти сервисов CDN и DDoS-защиты: Cloudflare, Yandex SWS, DDoS-Guard, NGENIX, Qrator и другие. Плюсы, минусы, тарифы, рекомендации для WordPress.
 
 ## Производительность
 

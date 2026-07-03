@@ -21,8 +21,8 @@ wp-knowledge/
 │   ├── queries/               # Filed answers from user queries
 │   ├── how-to/                # Руководства (how-to guides)
 │   ├── faq/                   # FAQ и сравнения
-│   ├── index.md               # Catalog of all pages (update on every ingest)
-│   └── log.md                 # Chronological operations log (append on every operation)
+│   └── index.md               # Catalog of all pages (update on every ingest)
+├── LOG.md                     # Chronological operations log (append on every operation)
 ├── AGENTS.md                  # This file — wiki schema
 ├── astro.config.mjs           # Starlight + Algolia config
 └── package.json

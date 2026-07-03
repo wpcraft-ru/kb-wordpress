@@ -140,6 +140,7 @@
 ### Безопасность
 
 - [Базовая безопасность WordPress для нового сайта](src/content/docs/security/wordpress-security-basics.md) — Минимальный security baseline для проекта на старте.
+- [Сервисы защиты сайтов и CDN: сравнение топ-10](src/content/docs/security/web-protection-services.md) — Сравнение десяти сервисов CDN и DDoS-защиты: Cloudflare, Yandex SWS, DDoS-Guard, NGENIX, Qrator и другие. Плюсы, минусы, тарифы, рекомендации для WordPress.
 
 ### Производительность
 
