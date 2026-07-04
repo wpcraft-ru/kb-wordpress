@@ -22,10 +22,31 @@ wp-knowledge/
 │   ├── how-to/                # Руководства (how-to guides)
 │   ├── faq/                   # FAQ и сравнения
 │   └── index.md               # Catalog of all pages (update on every ingest)
-├── LOG.md                     # Chronological operations log (append on every operation)
+├── CHANGELOG.md               # Chronological operations log (append on every operation)
 ├── AGENTS.md                  # This file — wiki schema
 ├── astro.config.mjs           # Starlight + Algolia config
 └── package.json
+```
+
+## Changelog
+
+Все изменения фиксируются в `CHANGELOG.md`.
+
+Правило:
+- Любое изменение (ingest, update, lint, query filing, правки структуры/правил) добавляй в `CHANGELOG.md`.
+- Одна операция = один новый блок записи.
+- Записи добавляются только в начало файла
+
+Формат записи:
+
+```md
+## YYYY-MM-DD
+
+### operation | Title
+
+- Кратко: что изменено
+- Файлы: path1, path2
+- Причина/контекст: зачем внесено изменение
 ```
 
 ## Page Format

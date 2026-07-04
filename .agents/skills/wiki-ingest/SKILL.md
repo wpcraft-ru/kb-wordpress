@@ -48,7 +48,7 @@ Compile a new source into the persistent wiki. **База знаний сфок�
 
 ## Step 3 — Log Entry
 
-Append в `LOG.md` (в корне репозитория `kb/`) запись в формате:
+Append в `CHANGELOG.md` (в корне репозитория `kb/`) запись в формате:
 
 ```md
 ## [YYYY-MM-DD] ingest | <source title>
@@ -80,7 +80,7 @@ Append в `LOG.md` (в корне репозитория `kb/`) запись в 
    - Перемещённые из `inbox/` в `raw/`
    - Созданные wiki-страницы в `src/content/docs/`
    - Обновлённые wiki-страницы
-   - Обновлённые `index.md`, `LOG.md`
+   - Обновлённые `index.md`, `CHANGELOG.md`
 2. **Предложить текст коммита** в формате:
    ```
    ingest: <краткое описание источников>
@@ -119,6 +119,6 @@ If none fit, propose a new category before creating it.
 - Pages created/updated.
 - Cross-links reconciled.
 - `index.md` updated.
-- `LOG.md` appended with raw→wiki mapping.
+- `CHANGELOG.md` appended with raw→wiki mapping.
 - Changed files list shown to user.
 - Commit message proposed, user asked for permission to commit & push.
