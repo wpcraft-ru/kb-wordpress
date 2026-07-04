@@ -1,5 +1,23 @@
 # LOG
 
+## [2026-07-04] ingest | WordPress MCP Adapter (self-hosted)
+
+**Источники:** `raw/2026/0704/`
+- `raw/2026/0704/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter.md` -> `ai/wordpress-mcp-adapter.md`
+
+**Создано:**
+- `ai/wordpress-mcp-adapter.md` — Практический гайд по MCP Adapter: установка, `meta.mcp.public`, STDIO/HTTP, кастомные серверы, безопасность
+
+**Обновлено:**
+- `src/content/docs/ai/index.md` — добавлена ссылка на новый practical guide
+- `src/content/docs/ai/wp-ai-architecture.md` — добавлена обратная ссылка на практическую страницу
+- `src/content/docs/index.md` — добавлена запись в раздел «AI и WordPress»
+- `README.md` — синхронизировано оглавление
+
+**Кросс-ссылки:**
+- `ai/wordpress-mcp-adapter.md` <-> `ai/wp-ai-architecture.md`
+- `ai/wordpress-mcp-adapter.md` -> `ai/index.md`, `ai/ai-integration.md`, `security/wordpress-security-basics.md`
+
 
 ## [2026-05-11] ingest | Паттерны (Block Patterns) — Theme Handbook
 

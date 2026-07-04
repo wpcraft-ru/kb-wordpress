@@ -10,6 +10,7 @@ description: "Обзор интеграции искусственного ин�
 Вот ключевые направления:
 
 - [**AI-архитектура WordPress**](./wp-ai-architecture.md) — Abilities API, MCP Adapter, WP AI Client, Agent Skills
+- [**WordPress MCP Adapter: практический запуск**](./wordpress-mcp-adapter.md) — Установка, публикация Abilities, конфиги MCP-клиентов и безопасность
 - [**AI-инструменты для создания сайтов**](./ai-tools-wordpress.md) — От WordPress.com AI Builder до opensource-альтернатив
 - [**ИИ-инструменты для веб-разработки**](./ai-dev-tools.md) — Cursor, Copilot, v0, Claude Code и другие
 - [**ИИ-команда агентов**](./ai-agent-team.md) — Многоагентные системы для автоматизации контент-маркетинга

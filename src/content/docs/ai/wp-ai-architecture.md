@@ -42,6 +42,8 @@ C версии WordPress 6.9 (ноябрь 2025) появился **Abilities AP
 
 Протестирован с Claude Desktop, Claude Code, Cursor, VS Code.
 
+Практическую настройку и примеры конфигурации см. в отдельной странице [WordPress MCP Adapter: практический запуск для self-hosted](./wordpress-mcp-adapter.md).
+
 ### 3. WP AI Client
 
 Инструмент для работы с генеративным AI **внутри** WordPress. Позволяет плагинам обращаться к разным провайдерам (OpenAI, Anthropic, Google) через единый API.

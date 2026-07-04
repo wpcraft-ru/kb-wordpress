@@ -36,6 +36,7 @@ description: "База знаний по WordPress на русском: уста
 
 - [AI и WordPress: обзор](./ai/index.md) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.
 - [AI-архитектура WordPress](./ai/wp-ai-architecture.md) — Abilities API, MCP Adapter, WP AI Client, Agent Skills — инфраструктура для AI-агентов.
+- [WordPress MCP Adapter: практический запуск для self-hosted](./ai/wordpress-mcp-adapter.md) — Установка, публикация Abilities, подключение AI-клиентов и безопасность.
 - [AI-инструменты для создания сайтов](./ai/ai-tools-wordpress.md) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.
 - [ИИ-инструменты для веб-разработки](./ai/ai-dev-tools.md) — Cursor, Copilot, v0, Claude Code и другие AI-инструменты (2026).
 - [ИИ-команда агентов для WordPress](./ai/ai-agent-team.md) — Многоагентные AI-системы: Researcher, Writer, SEO, Editor, Support.
