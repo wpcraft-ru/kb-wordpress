@@ -25,7 +25,7 @@ export default defineConfig({
           autogenerate: { directory: "create-websites" },
         },
         {
-          label: "Pricing",
+          label: "Цены и тарифы",
           collapsed: true,
           autogenerate: { directory: "pricing" },
         },
