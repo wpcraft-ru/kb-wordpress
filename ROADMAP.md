@@ -2,8 +2,13 @@
 
 ## Next
 
-- [ ] а нафиг этот раздел? /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/basics - давай его разнесем по другим разделам
+- [ ] переносим /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/woocommerce в платформы /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/platforms
+- [ ] делаеем /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/cheatsheet/wordpress-glossary.md - как корневой раздел про глоссарий
 
+
+
+## 260733
+- [x] а нафиг этот раздел? /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/basics - давай его разнесем по другим разделам
 
 
 ## v 260703

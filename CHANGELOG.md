@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-07-23] update | Pricing section for website development and support
+
+- Создан новый раздел `src/content/docs/pricing/` с подразделами по разработке и поддержке сайтов.
+- Добавлены страницы: `index.md`, `website-development-pricing.md`, `website-maintenance-pricing.md`.
+- Синхронизированы оглавления в `src/content/docs/index.md` и `README.md`.
+- Добавлены перекрёстные ссылки из `src/content/docs/create-websites/`.
+- Зафиксирована запись в `src/content/docs/log.md`.
+
 ## [2026-07-23] update | Flatten basics section
 
 - Перенесены страницы из `src/content/docs/basics/` в существующие разделы: `cheatsheet/`, `faq/`, `platforms/wordpress/` и `create-websites/`.

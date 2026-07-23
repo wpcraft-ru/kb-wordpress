@@ -3,6 +3,13 @@ title: "Журнал изменений"
 description: "Хронологический журнал изменений базы знаний WordPress."
 ---
 
+## [2026-07-23] update | Pricing section for website development and support
+
+- Создан новый раздел `pricing/` с тремя страницами: `index.md`, `website-development-pricing.md`, `website-maintenance-pricing.md`.
+- Добавлены ссылки в `src/content/docs/index.md` и `README.md`.
+- Добавлены перекрёстные ссылки из `create-websites/index.md` и `create-websites/website-types-and-projects.md`.
+- Подключены источники международных бенчмарков по стоимости разработки и поддержки сайтов.
+
 ## [2026-07-23] update | Flatten basics section
 
 - Страницы из `basics/` распределены по `cheatsheet/`, `faq/`, `platforms/wordpress/` и `create-websites/`.

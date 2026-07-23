@@ -22,6 +22,12 @@
 - [Блог / контентный проект / медиа](src/content/docs/create-websites/blog-content-media.md) — Контент как продукт: редактура, SEO, структура.
 - [Сложное веб-приложение / личный кабинет / CRM](src/content/docs/create-websites/web-app-crm.md) — Системы с ролями, процессами и интеграциями.
 
+### Pricing
+
+- [Цены на разработку и поддержку сайтов](src/content/docs/pricing/index.md) — Практический раздел по бюджетам: разработка, поддержка и модели сметы.
+- [Стоимость разработки сайта](src/content/docs/pricing/website-development-pricing.md) — Вилки по типам проектов, драйверы цены и модели оплаты.
+- [Стоимость поддержки сайта](src/content/docs/pricing/website-maintenance-pricing.md) — Ежемесячные расходы, SLA-пакеты и контрактные границы.
+
 ### Платформы
 
 - [Платформы разработки](src/content/docs/platforms/index.md) — WordPress, Laravel, Jamstack, Next.js и Astro: что это и когда выбирать.
