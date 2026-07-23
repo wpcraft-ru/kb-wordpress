@@ -45,7 +45,7 @@ if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 
 - [Темы, child theme и Customizer: основы](../themes/themes-child-themes-customizer.md)
 - [Базовая безопасность WordPress для нового сайта](../security/wordpress-security-basics.md)
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
+- [Как установить WordPress?](../faq/how-to-install-wordpress.md)
 - [SEO-плагины WordPress: сравнение и выбор](./seo-plugins.md)
 - [Плагины членства (membership) для WordPress](./membership-plugins.md)
 - [WooCommerce: основы настройки интернет-магазина](./woocommerce-basics.md)

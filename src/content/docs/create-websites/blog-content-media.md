@@ -34,7 +34,7 @@ description: "Формат, где контент является продук�
 
 - [Типовые сайты и проекты](./website-types-and-projects.md)
 - [Контент](../content/pages-posts-and-taxonomies-basics.md)
-- [Блог или сайт: что выбрать](../basics/blog-vs-website.md)
+- [Что выбрать: сайт, блог или сайт с блогом](../platforms/wordpress/choose-website-or-blog.md)
 
 ## Материалы и источники
 

@@ -5,7 +5,7 @@ description: "Три способа установки WordPress: автоуст
 
 ## Краткий ответ
 
-WordPress устанавливается тремя способами: автоустановка в панели хостинга (самый простой), через WP-CLI (для разработчиков) или вручную (FTP + база данных). Перед установкой нужны домен и хостинг — подробнее в [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md).
+WordPress устанавливается тремя способами: автоустановка в панели хостинга (самый простой), через WP-CLI (для разработчиков) или вручную (FTP + база данных). Перед установкой нужны домен и хостинг — подробнее в [Домен и хостинг: что это и зачем?](./domain-vs-hosting.md) и [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md).
 
 ## Способ 1: Автоустановка на хостинге
 
@@ -46,8 +46,13 @@ WP-CLI упомянут в вики: [WooCommerce: установка](../woocom
 - Настройте: Site Title, Timezone, Permalink (рекомендуется `Post name`)
 - Подробнее: [Панель управления WordPress](../console/wordpress-dashboard-wp-admin-basics.md)
 
+## Связанные страницы
+
+- [Что выбрать: сайт, блог или сайт с блогом](../platforms/wordpress/choose-website-or-blog.md)
+- [Панель управления WordPress](../console/wordpress-dashboard-wp-admin-basics.md)
+- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
+- [Как изменить адрес сайта WordPress](../how-to/change-site-url.md)
+
 ## Материалы и источники
 
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
-- [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
-- [Домен и хостинг: в чём разница](../basics/domain-vs-hosting.md)
+- [Домен и хостинг: что это и зачем?](./domain-vs-hosting.md)

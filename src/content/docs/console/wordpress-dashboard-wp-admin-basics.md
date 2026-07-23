@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Связанные страницы
 
-- [Глоссарий терминов WordPress](../basics/wordpress-glossary.md)
+- [Глоссарий терминов WordPress](../cheatsheet/wordpress-glossary.md)
 - [Admin Bar (панель инструментов WordPress)](./admin-bar.md)
 - [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics.md)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics.md)

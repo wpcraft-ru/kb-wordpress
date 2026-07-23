@@ -11,7 +11,7 @@ description: "Установка WordPress: автоинсталлятор, ру
 
 ### Общая схема (5 шагов)
 
-Источник: **[Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)**
+Источник: **[Как установить WordPress?](../faq/how-to-install-wordpress.md)**
 
 1. Зарегистрировать домен
 2. Выбрать WordPress-совместимый хостинг
@@ -34,7 +34,7 @@ description: "Установка WordPress: автоинсталлятор, ру
 
 ### Домен и SSL
 
-Источник: **[Домен и хостинг: в чём разница](../basics/domain-vs-hosting.md)**
+Источник: **[Домен и хостинг: что это и зачем?](../faq/domain-vs-hosting.md)**
 
 - Домен зарегистрировать у регистратора
 - Хостинг выбрать и оплатить
@@ -80,7 +80,7 @@ WP-CLI есть, но для плагина, не для ядра WordPress.
 
 ## Материалы и источники
 
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
+- [Как установить WordPress?](../faq/how-to-install-wordpress.md)
 - [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
-- [Домен и хостинг: в чём разница](../basics/domain-vs-hosting.md)
+- [Домен и хостинг: что это и зачем?](../faq/domain-vs-hosting.md)
 - [WooCommerce: установка и первые шаги](../woocommerce/getting-started.md)

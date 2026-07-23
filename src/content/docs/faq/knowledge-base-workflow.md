@@ -63,7 +63,7 @@ wp.hooks.addFilter(
 
 - [Index](../index.md)
 - [Log](../log.md)
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
+- [Как установить WordPress?](./how-to-install-wordpress.md)
 - [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics.md)
 - [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics.md)
 - [Плагины WordPress: основы выбора и установки](../plugins/plugins-basics.md)

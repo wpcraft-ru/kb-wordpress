@@ -18,7 +18,7 @@ description: "Пошаговый план создания интернет-ма
 | **Домен** | Зарегистрировать у reg.ru, beget.ru, Namecheap | [Как зарегистрировать домен для WordPress](../domains/register-domain/) |
 | **Хостинг** | PHP 8.0+, MySQL 5.7+, memory limit ≥ 256MB, SSD/NVMe | [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting/) |
 | **SSL** | Обязателен для приёма платежей | [SSL и HTTPS для домена](../domains/ssl-https/) |
-| **WordPress** | Установлен и настроен | [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install/) |
+| **WordPress** | Установлен и настроен | [Как установить WordPress?](../faq/how-to-install-wordpress.md) |
 
 ## Шаг 2: Установить WooCommerce
 

@@ -10,6 +10,8 @@ description: "Как быстро выбрать стартовый формат
 - **Сайт** — упор на статические страницы: услуги, продукты, контакты, о компании.
 - **Блог** — упор на записи и регулярные публикации.
 
+Если нужен более широкий выбор формата проекта, см. [Типовые сайты и проекты](../../create-websites/website-types-and-projects.md) и [Блог / контентный проект / медиа](../../create-websites/blog-content-media.md).
+
 ## Когда выбрать сайт
 
 - У вас бизнес-визитка, портфолио или сайт услуг.
@@ -33,7 +35,44 @@ description: "Как быстро выбрать стартовый формат
 3. Добавьте страницу блога в навигацию.
 4. При необходимости вынесите блог на главную через блок записей.
 
+## PHP пример: изменить количество записей на главной блога
+
+```php
+add_action('pre_get_posts', function ($query) {
+		if ($query->is_home() && $query->is_main_query()) {
+				$query->set('posts_per_page', 12);
+		}
+});
+```
+
+Что делает код:
+- Меняет количество постов на странице блога на 12.
+- Не затрагивает другие запросы.
+
+## JS пример: выделить новые посты в списке
+
+```js
+document.querySelectorAll('.post-item').forEach((post) => {
+	const dateAttr = post.getAttribute('data-date');
+	if (!dateAttr) return;
+
+	const postDate = new Date(dateAttr);
+	const daysSince = (Date.now() - postDate) / (1000 * 60 * 60 * 24);
+
+	if (daysSince < 7) {
+		post.style.borderLeft = '3px solid #007cba';
+	}
+});
+```
+
+Что делает код:
+- Визуально выделяет посты, опубликованные менее 7 дней назад.
+
 ## Материалы и источники
 
 - [Choose a website or a blog](https://wordpress.com/support/do-i-need-a-website-a-blog-or-a-website-with-a-blog/) — исходный материал WordPress.com Support
-- [Блог или сайт: что выбрать](../../../basics/blog-vs-website.md) — русскоязычная базовая страница в wiki
+
+## См. также
+
+- [Типовые сайты и проекты](../../create-websites/website-types-and-projects.md)
+- [Блог / контентный проект / медиа](../../create-websites/blog-content-media.md)

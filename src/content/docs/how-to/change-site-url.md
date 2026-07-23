@@ -78,7 +78,7 @@ WHERE option_name IN ('siteurl', 'home');
 
 ## Связанные страницы
 
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install.md)
+- [Как установить WordPress?](../faq/how-to-install-wordpress.md)
 - [Домен и хостинг: в чём разница](../faq/domain-vs-hosting.md)
 - [Хостинг для WordPress: как выбрать](./wordpress-hosting.md)
 

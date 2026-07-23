@@ -67,7 +67,7 @@ description: "Перенос WordPress-сайта: смена домена, ми
 
 1. **Экспорт контента** из WordPress.com: Tools → Export → All content (XML-файл)
 2. **Настроить новый хостинг** — [Хостинг для WordPress](../how-to/wordpress-hosting.md)
-3. **Установить WordPress** — [Настройка WordPress](../basics/wordpress-setup-domain-hosting-install/)
+3. **Установить WordPress** — [Как установить WordPress?](../faq/how-to-install-wordpress.md)
 4. **Импорт контента** в self-hosted: Tools → Import → WordPress → загрузить XML
 5. **Перенести домен** — если домен на .com, перенести к новому регистратору
 6. **Настроить SSL** — Let's Encrypt на новом хостинге
@@ -117,4 +117,4 @@ description: "Перенос WordPress-сайта: смена домена, ми
 - [Управление несколькими сайтами WordPress](../how-to/multiple-sites-management.md)
 - [WordPress.com vs WordPress.org: сравнение](../faq/wordpress-com-vs-org.md)
 - [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
-- [Настройка WordPress: домен, хостинг, установка](../basics/wordpress-setup-domain-hosting-install/)
+- [Как установить WordPress?](../faq/how-to-install-wordpress.md)

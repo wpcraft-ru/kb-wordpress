@@ -30,4 +30,4 @@ sidebar:
 ## Соседние разделы
 
 - [Платформы разработки](../platforms/index.md)
-- [Блог или сайт: что выбрать](../basics/blog-vs-website.md)
+- [Что выбрать: сайт, блог или сайт с блогом](../platforms/wordpress/choose-website-or-blog.md)
