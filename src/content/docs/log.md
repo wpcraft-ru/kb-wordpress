@@ -1,6 +1,6 @@
 ---
 title: "Журнал изменений"
-description: "Хронологический журнал изменений базы знаний WordPress."
+description: "Хронологический журнал изменений базы знаний Web Production Craft."
 ---
 
 ## [2026-07-23] update | Смена акцента на Web Production Craft
