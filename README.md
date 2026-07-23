@@ -15,6 +15,7 @@
 - [Глоссарий терминов WordPress](src/content/docs/basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [Настройка WordPress: домен, хостинг, установка](src/content/docs/basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
 - [Блог или сайт: что выбрать](src/content/docs/basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
+- [Создание сайтов на WordPress](src/content/docs/basics/create-website/index.md) — Типовые решения, кастомная разработка, AI Builder и установка на хостингах.
 
 ### Компоненты WordPress
 
@@ -79,6 +80,7 @@
 ### Руководства
 
 - [Хостинг для WordPress: как выбрать](src/content/docs/how-to/wordpress-hosting.md) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.
+- [Типовые сайты и проекты](src/content/docs/how-to/website-types-and-projects.md) — 7 базовых сценариев: контекст, стек и бриф для выбора типа проекта.
 - [Управление несколькими сайтами WordPress](src/content/docs/how-to/multiple-sites-management.md) — Multisite, MainWP, переключение между сайтами, перенос доменов.
 - [Работа с разработчиком WordPress](src/content/docs/how-to/working-with-developer.md) — Как безопасно добавить разработчика, управлять правами и удалить доступ после работы.
 - [Как изменить адрес сайта WordPress](src/content/docs/how-to/change-site-url.md) — Смена URL сайта: через админку, WP-CLI, wp-config.php или базу данных.

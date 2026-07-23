@@ -1,0 +1,91 @@
+• Getting StartedInstallationProject StructureLayouts and PagesLinking and NavigatingServer and Client ComponentsFetching DataMutating DataCachingRevalidatingError HandlingCSSImage OptimizationFont OptimizationMetadata and OG imagesRoute HandlersProxyDeployingUpgrading
+• Linking and Navigating
+• Server and Client Components
+• Metadata and OG images
+• GuidesAI Coding AgentsAnalyticsAuthenticationBackend for FrontendCaching (Previous Model)CDN CachingCI Build CachingContent Security PolicyCSS-in-JSCustom ServerData SecurityDebuggingDeploying to PlatformsDraft ModeEnvironment VariablesFormsHow Revalidation WorksISRInstrumentationInternationalizationJSON-LDLazy LoadingDevelopment EnvironmentNext.js MCP ServerMDXMemory UsageMigratingApp RouterCreate React AppViteMigrating to Cache ComponentsMulti-tenantMulti-zonesOpenTelemetryPackage BundlingPPR Platform GuidePrefetchingPreserving UI statePreventing FlashProductionPWAsPublic pagesRedirectingRendering PhilosophySassScriptsSelf-HostingServer ActionsSPAsStatic ExportsStreamingTailwind CSS v3TestingCypressJestPlaywrightVitestThird Party LibrariesUpgradingCodemodsVersion 14Version 15Version 16VideosView transitions
+• Backend for Frontend
+• Caching (Previous Model)
+• Content Security Policy
+• Deploying to Platforms
+• Environment Variables
+• How Revalidation Works
+• Internationalization
+• Development Environment
+• MigratingApp RouterCreate React AppVite
+• Migrating to Cache Components
+• Rendering Philosophy
+• TestingCypressJestPlaywrightVitest
+• Third Party Libraries
+• UpgradingCodemodsVersion 14Version 15Version 16
+• API ReferenceDirectivesuse cacheuse cache: privateuse cache: remoteuse clientuse serverComponentsFontForm ComponentImage ComponentLink ComponentScript ComponentFile-system conventionsdefault.jsDynamic Segmentserror.jsforbidden.jsinstrumentation.jsinstrumentation-client.jsIntercepting Routeslayout.jsloading.jsmdx-components.jsnot-found.jspage.jsParallel Routesproxy.jspublicroute.jsRoute Groupssrctemplate.jsunauthorized.jsMetadata Filesfavicon, icon, and apple-iconmanifest.jsonopengraph-image and twitter-imagerobots.txtsitemap.xmlRoute Segment ConfigdynamicParamsmaxDurationpreferredRegionruntimeFunctionsaftercacheLifecacheTagunstable_catchErrorconnectioncookiesdraftModefetchforbiddengenerateImageMetadatagenerateMetadatagenerateSitemapsgenerateStaticParamsgenerateViewportheadersImageResponseNextRequestNextResponsenotFoundpermanentRedirectredirectrefreshrevalidatePathrevalidateTagunauthorizedunstable_cacheunstable_noStoreunstable_rethrowupdateTaguseLinkStatususeParamsusePathnameuseReportWebVitalsuseRouteruseSearchParamsuseSelectedLayoutSegmentuseSelectedLayoutSegmentsuserAgentConfigurationnext.config.jsadapterPathallowedDevOriginsappDirassetPrefixauthInterruptsbasePathcacheComponentscacheHandlerscacheLifecompresscrossOrigincssChunkingdeploymentIddevIndicatorsdistDirenvexpireTimeexportPathMapgenerateBuildIdgenerateEtagsheadershtmlLimitedBotshttpAgentOptionsimagescacheHandlerinlineCssloggingmdxRsonDemandEntriesoptimizePackageImportsoutputpageExtensionspoweredByHeaderproductionBrowserSourceMapsproxyClientMaxBodySizereactCompilerreactMaxHeadersLengthreactStrictModeredirectsrewritessassOptionsserverActionsserverComponentsHmrCacheserverExternalPackagesstaleTimesstaticGeneration*tainttrailingSlashtranspilePackagesturbopackturbopackFileSystemCacheturbopack.ignoreIssueturbopackLocalPostcssConfigtypedRoutestypescripturlImportsuseLightningcssviewTransitionwebpackwebVitalsAttributionTypeScriptESLintCLIcreate-next-appnext CLIAdaptersConfigurationCreating an AdapterAPI ReferenceTesting AdaptersRouting with @next/routingImplementing PPR in an AdapterRuntime IntegrationInvoking EntrypointsOutput TypesRouting InformationUse CasesEdge RuntimeTurbopack
+• Directivesuse cacheuse cache: privateuse cache: remoteuse clientuse server
+• ComponentsFontForm ComponentImage ComponentLink ComponentScript Component
+• File-system conventionsdefault.jsDynamic Segmentserror.jsforbidden.jsinstrumentation.jsinstrumentation-client.jsIntercepting Routeslayout.jsloading.jsmdx-components.jsnot-found.jspage.jsParallel Routesproxy.jspublicroute.jsRoute Groupssrctemplate.jsunauthorized.jsMetadata Filesfavicon, icon, and apple-iconmanifest.jsonopengraph-image and twitter-imagerobots.txtsitemap.xmlRoute Segment ConfigdynamicParamsmaxDurationpreferredRegionruntime
+• instrumentation-client.js
+• Metadata Filesfavicon, icon, and apple-iconmanifest.jsonopengraph-image and twitter-imagerobots.txtsitemap.xml
+• favicon, icon, and apple-icon
+• opengraph-image and twitter-image
+• Route Segment ConfigdynamicParamsmaxDurationpreferredRegionruntime
+• FunctionsaftercacheLifecacheTagunstable_catchErrorconnectioncookiesdraftModefetchforbiddengenerateImageMetadatagenerateMetadatagenerateSitemapsgenerateStaticParamsgenerateViewportheadersImageResponseNextRequestNextResponsenotFoundpermanentRedirectredirectrefreshrevalidatePathrevalidateTagunauthorizedunstable_cacheunstable_noStoreunstable_rethrowupdateTaguseLinkStatususeParamsusePathnameuseReportWebVitalsuseRouteruseSearchParamsuseSelectedLayoutSegmentuseSelectedLayoutSegmentsuserAgent
+• generateImageMetadata
+• generateStaticParams
+• useSelectedLayoutSegment
+• useSelectedLayoutSegments
+• Configurationnext.config.jsadapterPathallowedDevOriginsappDirassetPrefixauthInterruptsbasePathcacheComponentscacheHandlerscacheLifecompresscrossOrigincssChunkingdeploymentIddevIndicatorsdistDirenvexpireTimeexportPathMapgenerateBuildIdgenerateEtagsheadershtmlLimitedBotshttpAgentOptionsimagescacheHandlerinlineCssloggingmdxRsonDemandEntriesoptimizePackageImportsoutputpageExtensionspoweredByHeaderproductionBrowserSourceMapsproxyClientMaxBodySizereactCompilerreactMaxHeadersLengthreactStrictModeredirectsrewritessassOptionsserverActionsserverComponentsHmrCacheserverExternalPackagesstaleTimesstaticGeneration*tainttrailingSlashtranspilePackagesturbopackturbopackFileSystemCacheturbopack.ignoreIssueturbopackLocalPostcssConfigtypedRoutestypescripturlImportsuseLightningcssviewTransitionwebpackwebVitalsAttributionTypeScriptESLint
+• next.config.jsadapterPathallowedDevOriginsappDirassetPrefixauthInterruptsbasePathcacheComponentscacheHandlerscacheLifecompresscrossOrigincssChunkingdeploymentIddevIndicatorsdistDirenvexpireTimeexportPathMapgenerateBuildIdgenerateEtagsheadershtmlLimitedBotshttpAgentOptionsimagescacheHandlerinlineCssloggingmdxRsonDemandEntriesoptimizePackageImportsoutputpageExtensionspoweredByHeaderproductionBrowserSourceMapsproxyClientMaxBodySizereactCompilerreactMaxHeadersLengthreactStrictModeredirectsrewritessassOptionsserverActionsserverComponentsHmrCacheserverExternalPackagesstaleTimesstaticGeneration*tainttrailingSlashtranspilePackagesturbopackturbopackFileSystemCacheturbopack.ignoreIssueturbopackLocalPostcssConfigtypedRoutestypescripturlImportsuseLightningcssviewTransitionwebpackwebVitalsAttribution
+• optimizePackageImports
+• productionBrowserSourceMaps
+• proxyClientMaxBodySize
+• reactMaxHeadersLength
+• serverComponentsHmrCache
+• serverExternalPackages
+• turbopackFileSystemCache
+• turbopack.ignoreIssue
+• turbopackLocalPostcssConfig
+• webVitalsAttribution
+• CLIcreate-next-appnext CLI
+• AdaptersConfigurationCreating an AdapterAPI ReferenceTesting AdaptersRouting with @next/routingImplementing PPR in an AdapterRuntime IntegrationInvoking EntrypointsOutput TypesRouting InformationUse Cases
+• Routing with @next/routing
+• Implementing PPR in an Adapter
+• Invoking Entrypoints
+• ArchitectureAccessibilityFast RefreshNext.js CompilerSupported Browsers
+• CommunityContribution GuideRspack
+• App Router and Pages Router
+• React version handling
+• Pre-requisite knowledge
+Next.js Docs
+Welcome to the Next.js documentation!
+What is Next.js?
+Next.js is a React framework for building full-stack web applications. You use React Components to build user interfaces, and Next.js for additional features and optimizations.
+It also automatically configures lower-level tools like bundlers and compilers. You can instead focus on building your product and shipping quickly.
+Whether you're an individual developer or part of a larger team, Next.js can help you build interactive, dynamic, and fast React applications.
+How to use the docs
+The docs are organized into 3 sections:
+• Getting Started: Step-by-step tutorials to help you create a new application and learn the core Next.js features.
+• Guides: Tutorials on specific use cases, choose what's relevant to you.
+• API Reference: Detailed technical reference for every feature.
+Use the sidebar to navigate through the sections, or search (Ctrl+K or Cmd+K) to quickly find a page.
+App Router and Pages Router
+Next.js has two different routers:
+• App Router: The newer router that supports new React features like Server Components.
+• Pages Router: The original router, still supported and being improved.
+At the top of the sidebar, you'll notice a dropdown menu that allows you to switch between the App Router and the Pages Router docs.
+React version handling
+The App Router and Pages Router handle React versions differently:
+• App Router: Uses React canary releases built-in, which include all the stable React 19 changes, as well as newer features being validated in frameworks, prior to a new React release.
+App Router: Uses React canary releases built-in, which include all the stable React 19 changes, as well as newer features being validated in frameworks, prior to a new React release.
+• Pages Router: Uses the React version installed in your project's package.json.
+Pages Router: Uses the React version installed in your project's package.json.
+This approach ensures new React features work reliably in the App Router while maintaining backwards compatibility for existing Pages Router applications.
+Pre-requisite knowledge
+Our documentation assumes some familiarity with web development. Before getting started, it'll help if you're comfortable with:
+If you're new to React or need a refresher, we recommend starting with our React Foundations course, and the Next.js Foundations course that has you building an application as you learn.
+Accessibility
+For the best experience when using a screen reader, we recommend using Firefox and NVDA, or Safari and VoiceOver.
+Join our Community
+If you have questions about anything related to Next.js, you're always welcome to ask our community on GitHub Discussions, Discord, X (Twitter), and Reddit.
+Next Steps
+Getting Started
+About Vercel
+Subscribe to our newsletter
+Stay updated on new releases and features, guides, and case studies.

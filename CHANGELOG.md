@@ -1,5 +1,22 @@
 # LOG
 
+## [2026-07-23] update | Create Website structure
+
+- `src/content/docs/basics/create-website` перестроен в отдельный раздел про создание сайтов.
+- Добавлена страница `custom-solutions.md` рядом с типовыми решениями.
+- Обновлены `src/content/docs/index.md`, `README.md` и `src/content/docs/log.md`.
+
+## [2026-07-23] update | Create Website section
+
+- Добавлены страницы в `src/content/docs/basics/create-website/` для выбора формата сайта, рабочего процесса запуска и типовых проектов.
+- Обновлены оглавление в `src/content/docs/index.md`, `README.md` и `src/content/docs/log.md`.
+- Причина: сохранить и структурировать исходный материал в разделе `basics/create-website`.
+
+## [2026-07-23] raw | Типовые сайты и проекты
+
+- Сохранён исходный материал из обсуждения в `raw/2026/0723/typical-sites-and-projects.md`.
+- Причина: зафиксировать сырой источник отдельно от производной wiki-страницы.
+
 ## [2026-07-04] ingest | WordPress MCP Adapter (self-hosted)
 
 **Источники:** `raw/2026/0704/`
