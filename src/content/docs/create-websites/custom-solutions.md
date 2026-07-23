@@ -54,5 +54,5 @@ description: "Когда типового решения недостаточн�
 ## Материалы и источники
 
 - [Типовые сайты и проекты](./website-types-and-projects.md)
-- [Headless WordPress с Next.js](./headless-wordpress-nextjs.md)
-- [Требования по типам сайтов](../../legal/by-website-type.md)
+- [Headless WordPress с Next.js](../platforms/wordpress/headless-wordpress-nextjs.md)
+- [Требования по типам сайтов](../legal/by-website-type.md)

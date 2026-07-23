@@ -22,11 +22,11 @@ description: "Справочник по платформам и фреймвор
 1. Сначала определите роль платформы в проекте.
 2. Затем посмотрите, какие сценарии она закрывает лучше всего.
 3. После этого сравните ограничения и типичные компромиссы.
-4. Если нужен не типовой сайт, а продукт, см. [Кастомный сайт или веб-приложение](../basics/create-website/custom-solutions.md).
+4. Если нужен не типовой сайт, а продукт, см. [Кастомный сайт или веб-приложение](../create-websites/custom-solutions.md).
 
 ## Связанные материалы
 
-- [Типовые сайты и проекты](../basics/create-website/website-types-and-projects.md)
+- [Типовые сайты и проекты](../create-websites/website-types-and-projects.md)
 - [WordPress как платформа](./wordpress/index.md)
 - [Headless WordPress с Next.js: создание сайта на Jamstack](./wordpress/headless-wordpress-nextjs.md)
 

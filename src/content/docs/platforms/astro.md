@@ -31,7 +31,7 @@ Astro — фреймворк для сайтов, где важны скорос
 
 ## Связанные материалы
 
-- [Типовые сайты и проекты](../basics/create-website/website-types-and-projects.md)
+- [Типовые сайты и проекты](../create-websites/website-types-and-projects.md)
 - [WordPress как платформа](./wordpress/index.md)
 
 ## Материалы и источники

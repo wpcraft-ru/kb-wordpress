@@ -31,8 +31,8 @@ Laravel — PHP-фреймворк для веб-приложений. Он ну
 
 ## Связанные материалы
 
-- [Типовые сайты и проекты](../basics/create-website/website-types-and-projects.md)
-- [Кастомный сайт или веб-приложение](../basics/create-website/custom-solutions.md)
+- [Типовые сайты и проекты](../create-websites/website-types-and-projects.md)
+- [Кастомный сайт или веб-приложение](../create-websites/custom-solutions.md)
 
 ## Материалы и источники
 

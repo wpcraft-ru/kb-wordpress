@@ -1,3 +1,20 @@
+---
+title: "Журнал изменений"
+description: "Хронологический журнал изменений базы знаний WordPress."
+---
+
+## [2026-07-23] update | Create Websites root move
+
+- Раздел `create-websites/` вынесен из `basics/` в корень `src/content/docs/`.
+- Обновлены оглавление, README и внутренние ссылки на новый корневой путь.
+- Старый путь `basics/create-website` больше не используется в текущих страницах.
+
+## [2026-07-23] update | WordPress subtree move
+
+- Перенесены WordPress-специфичные страницы из `basics/create-website` в `platforms/wordpress`.
+- `basics/create-website/index.md` оставлен как общий вход в создание сайтов с типовыми решениями и кастомной разработкой.
+- Обновлены ссылки в `src/content/docs/index.md`, `README.md`, `platforms/*` и смежных страницах.
+
 ## [2026-07-23] update | Platforms section
 
 - Added `platforms/` as a separate section with WordPress, Laravel, Jamstack, Next.js, and Astro overviews.

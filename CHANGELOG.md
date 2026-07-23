@@ -1,3 +1,17 @@
+# Changelog
+
+## [2026-07-23] update | Create Websites root move
+
+- `src/content/docs/create-websites/` добавлен как корневой раздел вместо `basics/create-website`.
+- Обновлены `src/content/docs/index.md`, `README.md` и перекрёстные ссылки на новый путь.
+- WordPress-специфичные страницы остаются в `src/content/docs/platforms/wordpress/`.
+
+## [2026-07-23] update | WordPress subtree move
+
+- Перенесены WordPress-специфичные страницы в `src/content/docs/platforms/wordpress/`.
+- `src/content/docs/basics/create-website/index.md` переведён в общий вход по созданию сайтов.
+- Обновлены `src/content/docs/index.md`, `README.md` и перекрёстные ссылки между разделами.
+
 # LOG
 
 ## [2026-07-23] update | Platforms section

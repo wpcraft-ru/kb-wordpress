@@ -32,7 +32,7 @@ Next.js — React-фреймворк для full-stack веб-приложени
 ## Связанные материалы
 
 - [Headless WordPress с Next.js: создание сайта на Jamstack](./wordpress/headless-wordpress-nextjs.md)
-- [Типовые сайты и проекты](../basics/create-website/website-types-and-projects.md)
+- [Типовые сайты и проекты](../create-websites/website-types-and-projects.md)
 
 ## Материалы и источники
 

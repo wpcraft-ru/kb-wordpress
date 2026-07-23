@@ -15,7 +15,10 @@
 - [Глоссарий терминов WordPress](src/content/docs/basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [Настройка WordPress: домен, хостинг, установка](src/content/docs/basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
 - [Блог или сайт: что выбрать](src/content/docs/basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
-- [Создание сайтов](src/content/docs/basics/create-website/index.md) — Типовые решения и кастомная разработка.
+
+### Создание сайтов
+
+- [Создание сайтов](src/content/docs/create-websites/index.md) — Типовые решения и кастомная разработка.
 
 ### Платформы
 
