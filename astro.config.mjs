@@ -20,14 +20,14 @@ export default defineConfig({
       description: "Практическая база знаний по разработке веб-проектов: платформы, архитектура, дизайн, маркетинг, безопасность, производительность и эксплуатация.",
       sidebar: [
         {
-          label: "Основы",
-          collapsed: true,
-          autogenerate: { directory: "basics" },
-        },
-        {
           label: "Создание сайтов",
           collapsed: true,
           autogenerate: { directory: "create-websites" },
+        },
+        {
+          label: "Pricing",
+          collapsed: true,
+          autogenerate: { directory: "pricing" },
         },
         {
           label: "Платформы",
@@ -63,11 +63,6 @@ export default defineConfig({
           label: "Дизайн",
           collapsed: true,
           autogenerate: { directory: "design" },
-        },
-        {
-          label: "WooCommerce",
-          collapsed: true,
-          autogenerate: { directory: "woocommerce" },
         },
         {
           label: "Интернет-маркетинг",
