@@ -3,6 +3,14 @@ title: "Журнал изменений"
 description: "Хронологический журнал изменений базы знаний WordPress."
 ---
 
+## [2026-07-23] update | WooCommerce в Platforms + глоссарий в корне навигации
+
+- Каталог `woocommerce/` перенесён в `platforms/woocommerce/`.
+- Во всех релевантных страницах обновлены ссылки на новый путь WooCommerce-раздела.
+- Оглавления `src/content/docs/index.md` и `README.md` перестроены: WooCommerce включён в «Платформы».
+- Глоссарий вынесен в отдельный корневой раздел навигации.
+- `ROADMAP.md` синхронизирован: текущие пункты `Next` отмечены как выполненные.
+
 ## [2026-07-23] update | Pricing section for website development and support
 
 - Создан новый раздел `pricing/` с тремя страницами: `index.md`, `website-development-pricing.md`, `website-maintenance-pricing.md`.

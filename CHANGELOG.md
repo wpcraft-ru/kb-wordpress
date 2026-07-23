@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-07-23] update | WooCommerce moved under platforms + glossary root section
+
+- Перенесён раздел `src/content/docs/woocommerce/` в `src/content/docs/platforms/woocommerce/`.
+- Обновлены все внутренние ссылки на новый путь в wiki-страницах и `README.md`.
+- Раздел WooCommerce встроен в секцию «Платформы» в `src/content/docs/index.md` и `README.md`.
+- `Глоссарий терминов WordPress` поднят в отдельный корневой раздел навигации.
+- Синхронизирован `ROADMAP.md`: оба пункта отмечены как выполненные.
+
 ## [2026-07-23] update | Pricing section for website development and support
 
 - Создан новый раздел `src/content/docs/pricing/` с подразделами по разработке и поддержке сайтов.

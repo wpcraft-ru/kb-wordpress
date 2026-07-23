@@ -2,8 +2,8 @@
 
 ## Next
 
-- [ ] переносим /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/woocommerce в платформы /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/platforms
-- [ ] делаеем /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/cheatsheet/wordpress-glossary.md - как корневой раздел про глоссарий
+- [x] переносим /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/woocommerce в платформы /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/platforms
+- [x] делаем /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/cheatsheet/wordpress-glossary.md - как корневой раздел про глоссарий
 
 
 
