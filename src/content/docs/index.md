@@ -1,9 +1,9 @@
 ---
-title: "База знаний по WordPress от wpcraft.ru"
-description: "База знаний по WordPress на русском: установка, админка, контент, темы, плагины, безопасность, производительность и практические сниппеты."
+title: "База знаний Web Production Craft от wpcraft.ru"
+description: "Практическая база знаний по разработке веб-проектов: платформы, архитектура, дизайн, маркетинг, безопасность, производительность и эксплуатация."
 ---
 
-# Разделы базы знаний по WordPress
+# Разделы базы знаний Web Production Craft
 
 ## Создание сайтов
 
@@ -44,9 +44,9 @@ description: "База знаний по WordPress на русском: уста
   - [Next.js как платформа](./platforms/nextjs.md) — React-фреймворк для headless и full-stack проектов.
   - [Astro как платформа](./platforms/astro.md) — content-first фронтенд для быстрых сайтов.
 
-## Компоненты WordPress
+## Компоненты веб-проектов
 
-- [Компоненты WordPress](./components/index.md) — Домен, хостинг и сервисы — ключевые компоненты инфраструктуры сайта на WordPress.
+- [Компоненты веб-проектов](./components/index.md) — Домен, хостинг и сервисы — ключевые инфраструктурные компоненты для разработки и эксплуатации веб-проектов.
   - [Регистраторы доменов: сравнение](./components/domain/domain-registrars.md) — Международные и российские регистраторы, цены на .com и .ru, WHOIS Privacy, DNS.
   - [Типы хостинга](./components/hosting/hosting-types.md) — Shared, VPS, облачный и managed WordPress-хостинг: плюсы, минусы, для каких проектов.
   - [Критерии выбора хостинга](./components/hosting/hosting-criteria.md) — TTFB, uptime, технологии сервера, безопасность, поддержка, цены — чек-лист.
@@ -65,9 +65,9 @@ description: "База знаний по WordPress на русском: уста
     - [Dev-инструменты](./components/services/dev-vcs-tools.md) — SourceCraft, GitVerse, GitFlic, GitHub, GitLab, Bitbucket, Gitea, Forgejo, GitRiver — сравнение российских, open-source и мировых платформ.
     - [Маркетинг, CRO и лидогенерация](./components/services/marketing-cro.md) — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert.
 
-## AI и WordPress
+## AI в веб-продакшене
 
-- [AI и WordPress: обзор](./ai/index.md) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.
+- [AI и WordPress: обзор](./ai/index.md) — WordPress как часть более широкого AI-стека веб-продакшена: архитектура, инструменты, плагины и тренды.
 - [AI-архитектура WordPress](./ai/wp-ai-architecture.md) — Abilities API, MCP Adapter, WP AI Client, Agent Skills — инфраструктура для AI-агентов.
 - [WordPress MCP Adapter: практический запуск для self-hosted](./ai/wordpress-mcp-adapter.md) — Установка, публикация Abilities, подключение AI-клиентов и безопасность.
 - [AI-инструменты для создания сайтов](./ai/ai-tools-wordpress.md) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.

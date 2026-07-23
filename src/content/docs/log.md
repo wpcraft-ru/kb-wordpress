@@ -3,6 +3,13 @@ title: "Журнал изменений"
 description: "Хронологический журнал изменений базы знаний WordPress."
 ---
 
+## [2026-07-23] update | Смена акцента на Web Production Craft
+
+- Позиционирование базы знаний обновлено: от WordPress-centric к более широкому web production craft.
+- Обновлены заголовок и description в `src/content/docs/index.md`.
+- Синхронизированы формулировки в `README.md` и глобальном `astro.config.mjs`.
+- Обновлён `AGENTS.md`: WordPress/WooCommerce зафиксированы как важные направления внутри общего фокуса на разработку веб-проектов.
+
 ## [2026-07-23] update | WooCommerce в Platforms + глоссарий в корне навигации
 
 - Каталог `woocommerce/` перенесён в `platforms/woocommerce/`.

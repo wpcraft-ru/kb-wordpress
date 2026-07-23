@@ -1,6 +1,6 @@
-# AGENTS.md — WP Knowledge Base
+# AGENTS.md — Web Production Craft Knowledge Base
 
-LLM Wiki schema for the WordPress knowledge base.
+LLM Wiki schema for the Web Production Craft knowledge base.
 
 > **⚠️ FETCH RULE:** Для получения ЛЮБОГО контента с URL всегда используй `summarize "URL" --extract --format md`. Не используй `web_fetch`, `browser`, или другие инструменты для первичного извлечения — только `summarize`. Fallback: `web_fetch` допустим только если `summarize` упал с ошибкой.
 
@@ -93,9 +93,13 @@ add_filter('the_content', function($content) {
 
 ## Operations
 
-### WordPress.com → Open-Source Adaptation
+### Platform-Specific Adaptation
 
-**База знаний фокусируется на WordPress open-source (self-hosted WordPress.org).**
+**База знаний фокусируется на web production craft: разработка, запуск и эксплуатация веб-проектов.**
+
+WordPress — важная часть экосистемы, но не единственный фокус. При ingest материалов про конкретные платформы сохраняй vendor-neutral контекст и явно отмечай границы применимости.
+
+#### WordPress.com → Open-Source Adaptation
 
 Многие источники (особенно с wordpress.com/support) описывают платный сервис WordPress.com. При ingest таких материалов:
 
@@ -113,6 +117,12 @@ add_filter('the_content', function($content) {
 - Информацию о плагинах и темах (если доступны в .org репозитории)
 - Технические руководства (CSS, PHP, WP-CLI, GitHub Deployments)
 - WooCommerce — работает одинаково
+
+#### Другие платформы и стек
+
+- Для Laravel, Next.js, Astro, Jamstack и смежных технологий фиксируй практики так, чтобы их можно было сопоставить с задачами продакшена: архитектура, CI/CD, безопасность, производительность, эксплуатация.
+- Если материал узкоспециализирован под конкретный сервис, помечай это явно (например: "⚠️ Специфично для Cloudflare Pages" или "⚠️ Специфично для Vercel").
+- Для сравнений платформ указывай критерии выбора: time-to-market, стоимость владения, требования к команде, масштабируемость, интеграции.
 
 **Адаптация через web_search:**
 Если не уверен в opensource-эквиваленте — используй `web_search` для уточнения. Например:
@@ -229,7 +239,7 @@ All wiki skills must enforce:
 ## General Rules
 
 - **Ссылки в исходниках — всегда с `.md`:** все относительные ссылки на wiki-страницы (`[text](./path/page.md)`) пишутся с расширением `.md`. Для index-файлов каталогов — `./category/index.md`. Это нужно для работы ссылок в VS Code и GitHub. Плагин `remarkStripMdLinks` при сборке Astro сам уберёт `.md` и `/index.md`, скорректирует глубину путей и добавит `target="_blank"` на все внешние ссылки. НИКОГДА не пиши ссылки без `.md`, НИКОГДА не пиши ссылки с `/` в конце вместо `.md`.
-- **Focus:** База знаний про **WordPress open-source (WordPress.org / self-hosted)**. Материалы с WordPress.com адаптировать: заменять .com-специфичные фичи на opensource-аналоги, помечать .com-only функции.
+- **Focus:** База знаний про **web production craft**: разработка, запуск и эксплуатация веб-проектов. WordPress и WooCommerce остаются ключевыми направлениями, но рассматриваются как часть более широкого платформенного и инженерного контекста.
 - **Language**: All wiki content in Russian (ru-RU)
 - **Tone**: Technical, точный, без воды
 - **Code examples**: Always include working PHP/JS code with explanations

@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026-07-23] update | Смена акцента на Web Production Craft
+
+- Обновлено позиционирование базы знаний: с WordPress-only на более широкий фокус web production craft.
+- Изменены заголовки и описания в `README.md`, `src/content/docs/index.md` и `astro.config.mjs`.
+- Обновлены правила в `AGENTS.md`: WordPress/WooCommerce сохранены как ключевые направления, но в контексте более широкой разработки веб-проектов.
+- Разделы «Компоненты WordPress» и «AI и WordPress» в оглавлении переименованы в более общие формулировки.
+
 ## [2026-07-23] update | WooCommerce moved under platforms + glossary root section
 
 - Перенесён раздел `src/content/docs/woocommerce/` в `src/content/docs/platforms/woocommerce/`.

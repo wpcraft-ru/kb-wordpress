@@ -1,4 +1,4 @@
-# База знаний про сайты WordPress & магазины WooCommerce
+# База знаний Web Production Craft: разработка веб-проектов
 
 > 🔍 **Поиск по базе знаний: [wpcraft.ru/kb](https://wpcraft.ru/kb/)**
 > 🔍 **ИИ ассистент: [wpcraft.ru/bot](https://wpcraft.ru/bot-wordpress-woocommerce)**
@@ -49,9 +49,9 @@
   - [Next.js как платформа](src/content/docs/platforms/nextjs.md) — React-фреймворк для headless и full-stack проектов.
   - [Astro как платформа](src/content/docs/platforms/astro.md) — content-first фронтенд для быстрых сайтов.
 
-### Компоненты WordPress
+### Компоненты веб-проектов
 
-- [Компоненты WordPress](src/content/docs/components/index.md) — Домен, хостинг и сервисы — ключевые компоненты инфраструктуры сайта на WordPress.
+- [Компоненты веб-проектов](src/content/docs/components/index.md) — Домен, хостинг и сервисы — ключевые инфраструктурные компоненты веб-проектов.
   - [Регистраторы доменов: сравнение](src/content/docs/components/domain/domain-registrars.md) — Международные и российские регистраторы, цены на .com и .ru, WHOIS Privacy, DNS.
   - [Типы хостинга](src/content/docs/components/hosting/hosting-types.md) — Shared, VPS, облачный и managed WordPress-хостинг: плюсы, минусы, для каких проектов.
   - [Критерии выбора хостинга](src/content/docs/components/hosting/hosting-criteria.md) — TTFB, uptime, технологии сервера, безопасность, поддержка, цены — чек-лист.
@@ -66,9 +66,9 @@
     - [Dev-инструменты](src/content/docs/components/services/dev-vcs-tools.md) — GitHub, GitLab, Bitbucket, Gitea, VK Cloud.
     - [Маркетинг, CRO и лидогенерация](src/content/docs/components/services/marketing-cro.md) — Envybox, CallbackHunter, Jivo, OptinMonster, VWO, Convert.
 
-### AI и WordPress
+### AI в веб-продакшене
 
-- [AI и WordPress: обзор](src/content/docs/ai/index.md) — Обзор интеграции AI в экосистему: архитектура, инструменты, плагины и тренды.
+- [AI и WordPress: обзор](src/content/docs/ai/index.md) — Роль WordPress в более широком AI-стеке веб-продакшена: архитектура, инструменты, плагины и тренды.
 - [AI-архитектура WordPress](src/content/docs/ai/wp-ai-architecture.md) — Abilities API, MCP Adapter, WP AI Client, Agent Skills — инфраструктура для AI-агентов.
 - [WordPress MCP Adapter: практический запуск для self-hosted](src/content/docs/ai/wordpress-mcp-adapter.md) — Установка, публикация Abilities, подключение AI-клиентов и безопасность.
 - [AI-инструменты для создания сайтов](src/content/docs/ai/ai-tools-wordpress.md) — AI Website Builder (.com) и opensource-альтернативы для self-hosted.
