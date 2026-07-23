@@ -33,6 +33,17 @@
 - [Платформы разработки](src/content/docs/platforms/index.md) — WordPress, Laravel, Jamstack, Next.js и Astro: что это и когда выбирать.
   - [WordPress как платформа](src/content/docs/platforms/wordpress/index.md) — CMS для контентных сайтов, блогов и проектов с частыми правками.
   - [Что выбрать: сайт, блог или сайт с блогом](src/content/docs/platforms/wordpress/choose-website-or-blog.md) — Быстрый выбор формата проекта на WordPress.
+  - [WooCommerce для WordPress](src/content/docs/platforms/woocommerce/index.md) — Платформа e-commerce: от запуска магазина до масштабирования.
+    - [Установка и первые шаги](src/content/docs/platforms/woocommerce/getting-started.md) — 5 шагов: установка плагина, настройки, выбор темы.
+    - [Товары WooCommerce](src/content/docs/platforms/woocommerce/products.md) — 6 встроенных типов товаров и расширения: подписки, бронирования, наборы.
+    - [Приём платежей](src/content/docs/platforms/woocommerce/payments.md) — WooPayments, платёжные шлюзы, Apple Pay, Google Pay, fraud-защита.
+    - [Налоги](src/content/docs/platforms/woocommerce/taxes.md) — Настройка налоговых ставок, автоматические налоги, НДС для ЕС.
+    - [Доставка](src/content/docs/platforms/woocommerce/shipping.md) — Зоны, методы (flat rate, бесплатная, самовывоз), классы доставки.
+    - [Страницы магазина](src/content/docs/platforms/woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
+    - [Управление заказами](src/content/docs/platforms/woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
+    - [Запуск и расширение](src/content/docs/platforms/woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
+    - [Оптимизация производительности WooCommerce](src/content/docs/platforms/woocommerce/performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
+    - [Лучшие темы для WooCommerce](src/content/docs/platforms/woocommerce/best-themes.md) — Сравнительный обзор: Blocksy, Astra, Shoptimizer, Kadence, Botiga, Storefront и другие с тестами скорости и ценами.
   - [Laravel как платформа](src/content/docs/platforms/laravel.md) — PHP-фреймворк для кастомных веб-приложений и B2B-логики.
   - [Jamstack как архитектура](src/content/docs/platforms/jamstack.md) — pre-rendering, decoupling и API-first подход.
   - [Next.js как платформа](src/content/docs/platforms/nextjs.md) — React-фреймворк для headless и full-stack проектов.
@@ -137,20 +148,6 @@
 - [Плагины членства (membership) для WordPress](src/content/docs/plugins/membership-plugins.md) — Создание membership-сайта: MemberPress, Simple Membership, курсы, форумы.
 - [Плагины для S3-хранилищ WordPress](src/content/docs/plugins/s3-plugins.md) — Полное сравнение и гайды: S3 Uploads (Human Made), WP Offload Media (установка, CDN, CloudFront), Media Cloud, Next3 Offload, Infinite Uploads.
 
-### WooCommerce
-
-- [WooCommerce: полное руководство](src/content/docs/platforms/woocommerce/index.md) — От установки до запуска магазина: товары, оплата, доставка, налоги, заказы и расширения.
-- [Установка и первые шаги](src/content/docs/platforms/woocommerce/getting-started.md) — 5 шагов: установка плагина, настройки, выбор темы.
-- [Товары WooCommerce](src/content/docs/platforms/woocommerce/products.md) — 6 встроенных типов товаров и расширения: подписки, бронирования, наборы.
-- [Приём платежей](src/content/docs/platforms/woocommerce/payments.md) — WooPayments, платёжные шлюзы, Apple Pay, Google Pay, fraud-защита.
-- [Налоги](src/content/docs/platforms/woocommerce/taxes.md) — Настройка налоговых ставок, автоматические налоги, НДС для ЕС.
-- [Доставка](src/content/docs/platforms/woocommerce/shipping.md) — Зоны, методы (flat rate, бесплатная, самовывоз), классы доставки.
-- [Страницы магазина](src/content/docs/platforms/woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
-- [Управление заказами](src/content/docs/platforms/woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
-- [Запуск и расширение](src/content/docs/platforms/woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
-- [Оптимизация производительности WooCommerce](src/content/docs/platforms/woocommerce/performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
-- [Лучшие темы для WooCommerce](src/content/docs/platforms/woocommerce/best-themes.md) — Сравнительный обзор: Blocksy, Astra, Shoptimizer, Kadence, Botiga, Storefront и другие с тестами скорости и ценами.
-
 ### Темы
 
 - [Темы, child theme и Customizer: основы](src/content/docs/themes/themes-child-themes-customizer.md) — Выбор тем, как создать child theme и работать с Customizer без потери изменений.
@@ -182,9 +179,12 @@
     - [Интеграционные тесты: Pest + WP-CLI](src/content/docs/qa/auto-testing/pest-wp-cli.md) — Стек Pest PHP + WP-CLI + `wp-env`: фикстуры, транзакции, Makefile.
     - [E2E-тесты с Playwright](src/content/docs/qa/auto-testing/e2e-tests-playwright.md) — Полное руководство: `wp-env`, Playwright, написание и запуск E2E-тестов.
 
+  ### Глоссарий
+
+  - [Глоссарий терминов WordPress](src/content/docs/cheatsheet/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
+
 ### Шпаргалки и чек-листы
 
-- [Глоссарий терминов WordPress](src/content/docs/cheatsheet/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [functions.php: базовые сниппеты](src/content/docs/cheatsheet/functions-php-essentials.md) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
 - [WP_Query: рецепты запросов](src/content/docs/cheatsheet/wp-query-recipes.md) — Готовые шаблоны выборок: категории, мета-поля, CPT, дата, пагинация.
 - [Хуки WordPress: шпаргалка](src/content/docs/cheatsheet/hooks-cheatsheet.md) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.
