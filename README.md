@@ -6,7 +6,7 @@
 - 🧑‍🤝‍🧑 **Community-driven** — пополняется сообществом
 - 🤖 **Обновление через AI** — автоматическое добавление, синтез и интеграция новых материалов
 - ✅ **Проверка и модерация** — опытные специалисты контролируют качество
-- 📦 **GitHub:** [wpcraft-ru/kb-wordpress](https://github.com/wpcraft-ru/kb-wordpress)
+- 📦 **Repo:** [ssh.sourcecraft.dev/wpcraft/kb](ssh://ssh.sourcecraft.dev/wpcraft/kb.git)
 
 ## Оглавление
 
@@ -210,7 +210,7 @@
 ## Описание работы базы знаний
 
 ### Стек
-- **Repo:** https://github.com/wpcraft-ru/kb-wordpress
+- **Repo:** ssh://ssh.sourcecraft.dev/wpcraft/kb.git
 - **SSG:** Astro + Starlight
 - **Хостинг:** GitHub Pages
 - **Поиск:** Pagefind (локальный) → Algolia DocSearch (после одобрения)
