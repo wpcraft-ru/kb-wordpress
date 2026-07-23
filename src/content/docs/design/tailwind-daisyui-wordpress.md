@@ -32,7 +32,7 @@ Version: 1.0.0
 @source "./templates/**/*.{html,php}";
 @source "./parts/**/*.{html,php}";
 @source "./blocks/**/*.{php,html}";
-@source "./platforms/woocommerce/**/*.{php,html}";
+@source "./woocommerce/**/*.{php,html}";
 
 @plugin "daisyui" {
   themes: corporate --default, night --prefersdark;
