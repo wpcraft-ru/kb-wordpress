@@ -1,5 +1,11 @@
 # Changelog
 
+## [2026-07-23] update | Flatten basics section
+
+- Перенесены страницы из `src/content/docs/basics/` в существующие разделы: `cheatsheet/`, `faq/`, `platforms/wordpress/` и `create-websites/`.
+- Обновлены `src/content/docs/index.md`, `README.md` и внутренние ссылки на новые канонические пути.
+- Причина: удалить устаревший `basics`-узел и развести материалы по тематическим разделам.
+
 ## [2026-07-23] update | Расширена классификация типовых решений
 
 - Расширена страница `src/content/docs/create-websites/website-types-and-projects.md`: добавлен блок «Типовые решения: порядок популярности и вариации».

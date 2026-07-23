@@ -10,12 +10,6 @@
 
 ## Оглавление
 
-### Основы WordPress
-
-- [Глоссарий терминов WordPress](src/content/docs/basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
-- [Настройка WordPress: домен, хостинг, установка](src/content/docs/basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
-- [Блог или сайт: что выбрать](src/content/docs/basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
-
 ### Создание сайтов
 
 - [Создание сайтов](src/content/docs/create-websites/index.md) — Типовые решения и кастомная разработка.
@@ -32,6 +26,7 @@
 
 - [Платформы разработки](src/content/docs/platforms/index.md) — WordPress, Laravel, Jamstack, Next.js и Astro: что это и когда выбирать.
   - [WordPress как платформа](src/content/docs/platforms/wordpress/index.md) — CMS для контентных сайтов, блогов и проектов с частыми правками.
+  - [Что выбрать: сайт, блог или сайт с блогом](src/content/docs/platforms/wordpress/choose-website-or-blog.md) — Быстрый выбор формата проекта на WordPress.
   - [Laravel как платформа](src/content/docs/platforms/laravel.md) — PHP-фреймворк для кастомных веб-приложений и B2B-логики.
   - [Jamstack как архитектура](src/content/docs/platforms/jamstack.md) — pre-rendering, decoupling и API-first подход.
   - [Next.js как платформа](src/content/docs/platforms/nextjs.md) — React-фреймворк для headless и full-stack проектов.
@@ -99,6 +94,7 @@
 
 ### Руководства
 
+- [Как установить WordPress?](src/content/docs/faq/how-to-install-wordpress.md) — Три способа установки WordPress: автоустановка, WP-CLI и ручной метод.
 - [Хостинг для WordPress: как выбрать](src/content/docs/how-to/wordpress-hosting.md) — Типы хостинга (shared, VPS, облачный, managed), критерии выбора, managed-альтернативы для self-hosted.
 - [Типовые сайты и проекты](src/content/docs/how-to/website-types-and-projects.md) — 7 базовых сценариев: контекст, стек и бриф для выбора типа проекта.
 - [Управление несколькими сайтами WordPress](src/content/docs/how-to/multiple-sites-management.md) — Multisite, MainWP, переключение между сайтами, перенос доменов.
@@ -182,6 +178,7 @@
 
 ### Шпаргалки и чек-листы
 
+- [Глоссарий терминов WordPress](src/content/docs/cheatsheet/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [functions.php: базовые сниппеты](src/content/docs/cheatsheet/functions-php-essentials.md) — Подключение стилей/скриптов, регистрация меню, theme supports, виджеты.
 - [WP_Query: рецепты запросов](src/content/docs/cheatsheet/wp-query-recipes.md) — Готовые шаблоны выборок: категории, мета-поля, CPT, дата, пагинация.
 - [Хуки WordPress: шпаргалка](src/content/docs/cheatsheet/hooks-cheatsheet.md) — Топ actions и filters с примерами: save_post, the_content, pre_get_posts и другие.
