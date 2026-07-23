@@ -1,5 +1,11 @@
 # LOG
 
+## [2026-07-23] update | Platforms section
+
+- `src/content/docs/platforms/` добавлен как отдельный раздел про платформы разработки.
+- Сохранены raw-снимки официальной документации WordPress, Laravel, Next.js, Astro и Jamstack в `raw/2026/0723/platforms/`.
+- Обновлены `astro.config.mjs`, `src/content/docs/index.md`, `README.md` и перекрёстные ссылки из `basics/create-website`.
+
 ## [2026-07-23] update | Create Website structure
 
 - `src/content/docs/basics/create-website` перестроен в отдельный раздел про создание сайтов.

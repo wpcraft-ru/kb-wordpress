@@ -1,3 +1,9 @@
+## [2026-07-23] update | Platforms section
+
+- Added `platforms/` as a separate section with WordPress, Laravel, Jamstack, Next.js, and Astro overviews.
+- Saved official documentation snapshots to `raw/2026/0723/platforms/`.
+- Updated the top-level docs index, README, Starlight sidebar, and create-website cross-links.
+
 ## [2026-07-23] update | Create Website structure
 
 - Раздел `basics/create-website` перестроен в отдельный вход про создание сайтов.

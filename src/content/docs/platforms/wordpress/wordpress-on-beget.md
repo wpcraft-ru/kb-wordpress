@@ -1,6 +1,6 @@
 ---
-title: "Создание сайта на WordPress: Beget"
-description: "Пошаговая инструкция по созданию сайта на хостинге Beget: установка WordPress на VPS через Marketplace, подключение CDN через W3 Total Cache."
+title: "WordPress на Beget"
+description: "Пошаговая инструкция по установке WordPress на Beget: Marketplace, shared-хостинг и подключение CDN."
 sidebar:
   label: "Beget"
   order: 2
@@ -52,7 +52,7 @@ Beget Cloud предлагает готовую сборку WordPress со вс
 2. В админке WordPress: **Настройки → Общие** → измените поля «Адрес WordPress (URL)» и «Адрес сайта (URL)»
 3. Сохраните
 
-Подробнее о смене домена — [Как изменить адрес сайта WordPress](../../how-to/change-site-url.md).
+Подробнее о смене домена — [Как изменить адрес сайта WordPress](../../../how-to/change-site-url.md).
 
 ## Способ 2: Shared-хостинг
 
@@ -62,7 +62,7 @@ Beget Cloud предлагает готовую сборку WordPress со вс
 2. Укажите домен, логин и пароль администратора
 3. Нажмите **Установить**
 
-Общая схема — в [Как установить WordPress?](../../faq/how-to-install-wordpress.md).
+Общая схема — в [Как установить WordPress?](../../../faq/how-to-install-wordpress.md).
 
 ## Подключение CDN к WordPress
 

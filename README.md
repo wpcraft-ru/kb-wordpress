@@ -15,7 +15,16 @@
 - [Глоссарий терминов WordPress](src/content/docs/basics/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 - [Настройка WordPress: домен, хостинг, установка](src/content/docs/basics/wordpress-setup-domain-hosting-install.md) — Пошаговый сценарий первичного запуска WordPress-сайта.
 - [Блог или сайт: что выбрать](src/content/docs/basics/blog-vs-website.md) — Разница между блогом и сайтом, как добавить блог к сайту.
-- [Создание сайтов на WordPress](src/content/docs/basics/create-website/index.md) — Типовые решения, кастомная разработка, AI Builder и установка на хостингах.
+- [Создание сайтов](src/content/docs/basics/create-website/index.md) — Типовые решения и кастомная разработка.
+
+### Платформы
+
+- [Платформы разработки](src/content/docs/platforms/index.md) — WordPress, Laravel, Jamstack, Next.js и Astro: что это и когда выбирать.
+  - [WordPress как платформа](src/content/docs/platforms/wordpress/index.md) — CMS для контентных сайтов, блогов и проектов с частыми правками.
+  - [Laravel как платформа](src/content/docs/platforms/laravel.md) — PHP-фреймворк для кастомных веб-приложений и B2B-логики.
+  - [Jamstack как архитектура](src/content/docs/platforms/jamstack.md) — pre-rendering, decoupling и API-first подход.
+  - [Next.js как платформа](src/content/docs/platforms/nextjs.md) — React-фреймворк для headless и full-stack проектов.
+  - [Astro как платформа](src/content/docs/platforms/astro.md) — content-first фронтенд для быстрых сайтов.
 
 ### Компоненты WordPress
 

@@ -1,6 +1,6 @@
 ---
-title: "Создание сайта на WordPress: REG.RU"
-description: "Пошаговая инструкция по созданию сайта на хостинге REG.RU: автоматическая установка, ручная установка в ispmanager, cPanel и Plesk."
+title: "WordPress на REG.RU"
+description: "Пошаговая инструкция по созданию сайта на REG.RU: автоматическая установка, ручная установка в ispmanager, cPanel и Plesk."
 sidebar:
   label: "REG.RU"
   order: 4
@@ -79,9 +79,9 @@ REG.RU — крупнейший российский регистратор до
 ## Что дальше
 
 После установки:
-- Настройте Site Title, Timezone, Permalink (Post name) — [Панель управления WordPress](../../console/wordpress-dashboard-wp-admin-basics.md)
-- Выберите тему — [Выбор и настройка темы](../../themes/choose-and-setup-theme.md)
-- Настройте SSL — [SSL и HTTPS для домена](../../domains/ssl-https.md)
+- Настройте Site Title, Timezone, Permalink (Post name) — [Панель управления WordPress](../../../console/wordpress-dashboard-wp-admin-basics.md)
+- Выберите тему — [Выбор и настройка темы](../../../themes/choose-and-setup-theme.md)
+- Настройте SSL — [SSL и HTTPS для домена](../../../domains/ssl-https.md)
 
 ## Материалы и источники
 

@@ -1,6 +1,6 @@
 ---
-title: "Создание сайта на WordPress: Timeweb"
-description: "Пошаговая инструкция по созданию сайта на хостинге Timeweb и Timeweb Cloud: ручная установка WordPress, автоустановка и облачный VPS."
+title: "WordPress на Timeweb"
+description: "Пошаговая инструкция по установке WordPress на Timeweb и Timeweb Cloud: ручная установка, автоустановка и облачный VPS."
 sidebar:
   label: "Timeweb"
   order: 3
@@ -8,7 +8,7 @@ sidebar:
 
 ## Timeweb для WordPress
 
-Timeweb — российский хостинг-провайдер с shared-тарифами (от 129 ₽/мес, тестовый период 10 дней) и облачными VPS (Timeweb Cloud). WordPress можно установить тремя способами.
+Timeweb — российский хостинг-провайдер с shared-тарифами и облачными VPS (Timeweb Cloud). WordPress можно установить тремя способами.
 
 ## Способ 1: Ручная установка на shared-хостинг
 
@@ -94,14 +94,14 @@ sudo mysql -e "CREATE DATABASE wordpress; CREATE USER 'wpuser'@'localhost' IDENT
 
 Дальнейшие шаги (Nginx, скачивание WordPress, настройка SSL через Let's Encrypt) — см. официальную инструкцию Timeweb Cloud.
 
-> **Где применяется:** для растущих проектов, магазинов, сайтов с высоким трафиком. Требования к VPS — [Хостинг для WordPress: как выбрать](../../how-to/wordpress-hosting.md).
+> **Где применяется:** для растущих проектов, магазинов, сайтов с высоким трафиком. Требования к VPS — [Хостинг для WordPress: как выбрать](../../../how-to/wordpress-hosting.md).
 
 ## Что дальше
 
 После установки:
-- Настройте Site Title, Timezone, Permalink (Post name) — [Панель управления WordPress](../../console/wordpress-dashboard-wp-admin-basics.md)
-- Настройте SSL — [SSL и HTTPS для домена](../../domains/ssl-https.md)
-- Установите тему — [Выбор и настройка темы](../../themes/choose-and-setup-theme.md)
+- Настройте Site Title, Timezone, Permalink (Post name) — [Панель управления WordPress](../../../console/wordpress-dashboard-wp-admin-basics.md)
+- Настройте SSL — [SSL и HTTPS для домена](../../../domains/ssl-https.md)
+- Установите тему — [Выбор и настройка темы](../../../themes/choose-and-setup-theme.md)
 
 ## Материалы и источники
 

@@ -33,6 +33,11 @@ export default defineConfig({
           autogenerate: { directory: "basics" },
         },
         {
+          label: "Платформы",
+          collapsed: true,
+          autogenerate: { directory: "platforms" },
+        },
+        {
           label: "Контент",
           collapsed: true,
           autogenerate: { directory: "content" },

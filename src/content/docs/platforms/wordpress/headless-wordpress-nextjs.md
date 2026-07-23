@@ -46,7 +46,7 @@ Headless CMS — архитектура, при которой WordPress исп�
 
 ### 1. Бэкенд: WordPress + WPGraphQL
 
-- Установите WordPress на любом хостинге ([Beget](wordpress-on-beget.md), [Timeweb](wordpress-on-timeweb.md), [REG.RU](wordpress-on-regru.md) или [Yandex Cloud](wordpress-on-yandex-cloud.md)).
+- Установите WordPress на любом хостинге ([Beget](./wordpress-on-beget.md), [Timeweb](./wordpress-on-timeweb.md), [REG.RU](./wordpress-on-regru.md) или [Yandex Cloud](./wordpress-on-yandex-cloud.md)).
 - Установите плагин **WPGraphQL**. После активации API доступен по адресу `ваш-сайт.com/graphql`.
 - (Опционально) **WPGatsby** — добавляет отслеживание изменений контента, полезен и для Next.js.
 - Проверьте API через встроенную **GraphiQL IDE** (админка → GraphQL → GraphiQL IDE).
