@@ -54,5 +54,6 @@ description: "Когда типового решения недостаточн�
 ## Материалы и источники
 
 - [Типовые сайты и проекты](./website-types-and-projects.md)
+- [Сложное веб-приложение / личный кабинет / CRM](./web-app-crm.md)
 - [Headless WordPress с Next.js](../platforms/wordpress/headless-wordpress-nextjs.md)
 - [Требования по типам сайтов](../legal/by-website-type.md)

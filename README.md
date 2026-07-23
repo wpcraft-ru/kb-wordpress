@@ -19,6 +19,14 @@
 ### Создание сайтов
 
 - [Создание сайтов](src/content/docs/create-websites/index.md) — Типовые решения и кастомная разработка.
+- [Типовые сайты и проекты](src/content/docs/create-websites/website-types-and-projects.md) — Обзор 7 типов и быстрый выбор подходящего стека.
+- [Корпоративный / имиджевый сайт](src/content/docs/create-websites/corporate-website.md) — Сайт для доверия, презентации услуг и входящих заявок.
+- [B2C интернет-магазин](src/content/docs/create-websites/b2c-online-store.md) — Полный цикл онлайн-продаж: каталог, оплата, доставка.
+- [B2C каталог-витрина (без онлайн-оплаты)](src/content/docs/create-websites/b2c-catalog-showcase.md) — Лидогенерация через каталог объектов/товаров.
+- [B2B портал / оптовый каталог](src/content/docs/create-websites/b2b-portal-wholesale.md) — ЛК контрагентов, персональные цены, документы.
+- [Лендинг / промо-сайт](src/content/docs/create-websites/landing-promo-site.md) — Одностраничный формат под рекламные кампании.
+- [Блог / контентный проект / медиа](src/content/docs/create-websites/blog-content-media.md) — Контент как продукт: редактура, SEO, структура.
+- [Сложное веб-приложение / личный кабинет / CRM](src/content/docs/create-websites/web-app-crm.md) — Системы с ролями, процессами и интеграциями.
 
 ### Платформы
 

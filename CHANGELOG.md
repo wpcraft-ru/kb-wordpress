@@ -1,5 +1,39 @@
 # Changelog
 
+## [2026-07-23] ingest | Шаблоны создания сайтов по типам
+
+**Источники:** `raw/2026/0723/`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/website-types-and-projects.md`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/corporate-website.md`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/b2c-online-store.md`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/b2c-catalog-showcase.md`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/b2b-portal-wholesale.md`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/landing-promo-site.md`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/blog-content-media.md`
+- `raw/2026/0723/inb.md` -> `src/content/docs/create-websites/web-app-crm.md`
+
+**Создано:**
+- `src/content/docs/create-websites/corporate-website.md` - тип 1: корпоративный/имиджевый сайт и бриф
+- `src/content/docs/create-websites/b2c-online-store.md` - тип 2: B2C интернет-магазин и бриф
+- `src/content/docs/create-websites/b2c-catalog-showcase.md` - тип 3: B2C каталог-витрина и бриф
+- `src/content/docs/create-websites/b2b-portal-wholesale.md` - тип 4: B2B портал/оптовый каталог и бриф
+- `src/content/docs/create-websites/landing-promo-site.md` - тип 5: лендинг/промо-сайт и бриф
+- `src/content/docs/create-websites/blog-content-media.md` - тип 6: блог/контентный проект/медиа и бриф
+- `src/content/docs/create-websites/web-app-crm.md` - тип 7: веб-приложение/ЛК/CRM и бриф
+
+**Обновлено:**
+- `src/content/docs/create-websites/index.md` - добавлены ссылки на 7 отдельных страниц
+- `src/content/docs/create-websites/website-types-and-projects.md` - преобразована в обзор-хаб
+- `src/content/docs/create-websites/custom-solutions.md` - добавлена обратная ссылка на тип 7
+- `src/content/docs/index.md` - расширен раздел "Создание сайтов"
+- `README.md` - синхронизировано оглавление
+- `src/content/docs/log.md` - добавлена запись ingest
+
+**Кросс-ссылки:**
+- `create-websites/index.md` <-> 7 отдельных страниц
+- `create-websites/website-types-and-projects.md` -> 7 отдельных страниц
+- `create-websites/custom-solutions.md` -> `create-websites/web-app-crm.md`
+
 ## [2026-07-23] update | Create Websites root move
 
 - `src/content/docs/create-websites/` добавлен как корневой раздел вместо `basics/create-website`.
