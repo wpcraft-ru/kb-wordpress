@@ -164,13 +164,13 @@ export default defineConfig({
         root: { label: "Русский", lang: "ru" },
       },
       editLink: {
-        baseUrl: 'https://github.com/wpcraft-ru/kb-wordpress/tree/main',
+        baseUrl: 'https://sourcecraft.dev/wpcraft/kb?rev=main',
       },
       social: [
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/wpcraft-ru/kb-wordpress",
+          href: "https://sourcecraft.dev/wpcraft/kb",
         },
         {
           icon: "telegram",
