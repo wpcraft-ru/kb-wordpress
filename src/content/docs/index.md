@@ -179,9 +179,9 @@ description: "База знаний по WordPress на русском: уста
     - [Интеграционные тесты: Pest + WP-CLI](./qa/auto-testing/pest-wp-cli.md) — Стек Pest PHP + WP-CLI + `wp-env`: фикстуры, транзакции, Makefile.
     - [E2E-тесты с Playwright](./qa/auto-testing/e2e-tests-playwright.md) — Полное руководство: `wp-env`, Playwright, написание и запуск E2E-тестов.
 
-  ## Глоссарий
+## Глоссарий
 
-  - [Глоссарий терминов WordPress](./cheatsheet/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
+- [Глоссарий терминов WordPress](./cheatsheet/wordpress-glossary.md) — Словарь ключевых терминов: от админки и блоков до тем, плагинов и DNS.
 
 ## Шпаргалки и чек-листы
 
