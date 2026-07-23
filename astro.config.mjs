@@ -6,17 +6,9 @@ import { remarkStripMdLinks } from "./src/remark-strip-md-links.mjs";
 // Algolia DocSearch will be added after approval
 // import docsearch from "@astrojs/starlight-docsearch";
 
-const isProd = process.env.NODE_ENV === 'production';
-
-const SITE_URL = process.env.CNAME
-  ? `https://${process.env.CNAME}`
-  : "https://wpcraft-ru.github.io/kb-wordpress";
-
-const BASE = process.env.CNAME ? "/" : (isProd ? "/kb-wordpress" : "/");
-
 export default defineConfig({
-  site: SITE_URL,
-  base: BASE,
+  site: "https://wpcraft.ru",
+  base: "/kb",
 
   markdown: {
     remarkPlugins: [remarkStripMdLinks],
