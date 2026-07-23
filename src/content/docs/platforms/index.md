@@ -12,6 +12,7 @@ description: "Справочник по платформам и фреймвор
 | Платформа | Роль | Когда выбирать |
 |---|---|---|
 | WordPress | CMS | Блоги, корпоративные сайты, контентные проекты, сайты с частыми правками |
+| WooCommerce | E-commerce plugin/platform | Интернет-магазины на базе WordPress: каталог, оплата, доставка, налоги |
 | Laravel | Backend framework | Кастомная логика, B2B-кабинеты, CRM, интеграции, сложные процессы |
 | Jamstack | Архитектура | Высокая производительность, статическая генерация, API-first |
 | Next.js | React framework | Headless CMS, интерактивные интерфейсы, SSR/SSG/ISR, full-stack React |
@@ -28,6 +29,7 @@ description: "Справочник по платформам и фреймвор
 
 - [Типовые сайты и проекты](../create-websites/website-types-and-projects.md)
 - [WordPress как платформа](./wordpress/index.md)
+- [WooCommerce для WordPress](./woocommerce/index.md)
 - [Headless WordPress с Next.js: создание сайта на Jamstack](./wordpress/headless-wordpress-nextjs.md)
 
 ## Материалы и источники
