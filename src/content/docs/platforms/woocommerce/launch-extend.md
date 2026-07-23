@@ -61,7 +61,7 @@ WooCommerce-магазин создаёт нагрузку на сервер. Р
 - PHP 8.0+ и MySQL 5.7+
 - CDN для изображений товаров
 - Ленивая загрузка галерей товаров
-- См. [Оптимизация WordPress](../performance/optimization.md)
+- См. [Оптимизация WordPress](../../performance/optimization.md)
 
 ## Связанные страницы
 

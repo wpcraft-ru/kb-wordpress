@@ -31,7 +31,7 @@ description: "Комплексная оптимизация производит
 
 На VPS/Dedicated к общим методам добавляются: серверный кэш, тонкая настройка ПО и Content Offloading.
 
-Для WooCommerce-магазинов требования к хостингу выше: PHP 8.0+, memory limit ≥ 256MB, SSD/NVMe обязательно. Подробнее — в разделе [WooCommerce: запуск и расширение](../woocommerce/launch-extend.md).
+Для WooCommerce-магазинов требования к хостингу выше: PHP 8.0+, memory limit ≥ 256MB, SSD/NVMe обязательно. Подробнее — в разделе [WooCommerce: запуск и расширение](../platforms/woocommerce/launch-extend.md).
 
 ### Аппаратные характеристики
 

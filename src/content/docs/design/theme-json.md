@@ -614,4 +614,4 @@ WordPress автоматически генерирует CSS custom properties:
 - [Tailwind CSS v4 + daisyUI в блочной теме WordPress](./tailwind-daisyui-wordpress.md) — Интеграция Tailwind с синхронизацией через theme.json
 - [DESIGN.md для WordPress](./design-md.md) — Контракт дизайна для AI и связка с theme.json
 - [Figma → WordPress: мост через Design Tokens](./figma-to-wordpress.md) — Пайплайн синхронизации Tokens Studio → theme.json
-- [WooCommerce: полное руководство](../woocommerce/index.md) — Интернет-магазин на WordPress
+- [WooCommerce: полное руководство](../platforms/woocommerce/index.md) — Интернет-магазин на WordPress

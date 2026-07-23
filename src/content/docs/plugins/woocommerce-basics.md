@@ -97,4 +97,4 @@ add_action('woocommerce_checkout_process', function () {
 
 ## См. также
 
-- [WooCommerce: полное руководство](../woocommerce/index.md) — детальный раздел по настройке магазина
+- [WooCommerce: полное руководство](../platforms/woocommerce/index.md) — детальный раздел по настройке магазина

@@ -7,7 +7,7 @@ description: "Пошаговый план создания интернет-ма
 
 Создание интернет-магазина на self-hosted WordPress требует 8 шагов, охватывающих хостинг, домен, установку WooCommerce, товары, оплату, доставку, налоги, безопасность и юрлицо.
 
-База знаний покрывает тему в разделе **[WooCommerce: полное руководство](../woocommerce/index.md)** (9 страниц) и смежных разделах.
+База знаний покрывает тему в разделе **[WooCommerce: полное руководство](../platforms/woocommerce/index.md)** (9 страниц) и смежных разделах.
 
 ## Шаг 1: Подготовить базу
 
@@ -22,7 +22,7 @@ description: "Пошаговый план создания интернет-ма
 
 ## Шаг 2: Установить WooCommerce
 
-Источник: **[WooCommerce: установка и первые шаги](../woocommerce/getting-started.md)**
+Источник: **[WooCommerce: установка и первые шаги](../platforms/woocommerce/getting-started.md)**
 
 1. **Админка → Плагины → Добавить новый** → «WooCommerce» → Установить → Активировать
 2. Альтернативно через WP-CLI: `wp plugin install woocommerce --activate`
@@ -35,7 +35,7 @@ description: "Пошаговый план создания интернет-ма
 
 ## Шаг 3: Выбрать тему
 
-Источник: **[WooCommerce: установка и первые шаги](../woocommerce/getting-started.md)**
+Источник: **[WooCommerce: установка и первые шаги](../platforms/woocommerce/getting-started.md)**
 
 - **Storefront** — официальная бесплатная тема WooCommerce
 - Block/FSE-темы с поддержкой WooCommerce-блоков
@@ -45,7 +45,7 @@ WooCommerce автоматически создаёт страницы: Shop, Ca
 
 ## Шаг 4: Добавить товары
 
-Источник: **[Товары WooCommerce: типы и управление](../woocommerce/products.md)**
+Источник: **[Товары WooCommerce: типы и управление](../platforms/woocommerce/products.md)**
 
 **6 встроенных типов товаров:**
 
@@ -62,7 +62,7 @@ WooCommerce автоматически создаёт страницы: Shop, Ca
 
 ## Шаг 5: Настроить оплату
 
-Источник: **[WooCommerce: приём платежей](../woocommerce/payments.md)**
+Источник: **[WooCommerce: приём платежей](../platforms/woocommerce/payments.md)**
 
 - **WooPayments** — официальное решение: карты, Apple Pay, Google Pay, Klarna. Управление из админки, встроенная fraud-защита.
 - **Для РФ** (из [WooCommerce: основы настройки](../plugins/woocommerce-basics.md)): Robokassa, YooKassa (ЮMoney), CloudPayments, Tinkoff
@@ -72,7 +72,7 @@ WooCommerce автоматически создаёт страницы: Shop, Ca
 
 ## Шаг 6: Настроить налоги и доставку
 
-Источники: [Налоги](../woocommerce/taxes.md), [Доставка](../woocommerce/shipping.md)
+Источники: [Налоги](../platforms/woocommerce/taxes.md), [Доставка](../platforms/woocommerce/shipping.md)
 
 - **Налоги:** включить в WooCommerce → Настройки → Налог. Настроить ставки (20%, 10%, 0%, без НДС)
 - **Доставка:** зоны по географии, методы — flat rate, бесплатно, самовывоз, Почта России
@@ -90,7 +90,7 @@ WooCommerce автоматически создаёт страницы: Shop, Ca
 
 ## Шаг 8: Запуск
 
-Источник: **[WooCommerce: запуск и расширение](../woocommerce/launch-extend.md)**
+Источник: **[WooCommerce: запуск и расширение](../platforms/woocommerce/launch-extend.md)**
 
 - Переключить платежи из тестового режима в боевой
 - Настроить email-уведомления о заказах
@@ -110,10 +110,10 @@ WooCommerce автоматически создаёт страницы: Shop, Ca
 
 ## Материалы и источники
 
-- [WooCommerce: полное руководство](../woocommerce/index.md)
-- [WooCommerce: установка и первые шаги](../woocommerce/getting-started.md)
-- [Товары WooCommerce: типы и управление](../woocommerce/products.md)
-- [WooCommerce: приём платежей](../woocommerce/payments.md)
+- [WooCommerce: полное руководство](../platforms/woocommerce/index.md)
+- [WooCommerce: установка и первые шаги](../platforms/woocommerce/getting-started.md)
+- [Товары WooCommerce: типы и управление](../platforms/woocommerce/products.md)
+- [WooCommerce: приём платежей](../platforms/woocommerce/payments.md)
 - [WooCommerce: основы настройки интернет-магазина](../plugins/woocommerce-basics.md)
 - [Базовая безопасность WordPress](../security/wordpress-security-basics.md)
 - [Юридические требования по типам сайтов](../legal/by-website-type.md)

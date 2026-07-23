@@ -43,7 +43,7 @@ description: "Установка WordPress: автоинсталлятор, ру
 
 ### Единственный пример WP-CLI (для плагина)
 
-Источник: **[WooCommerce: установка и первые шаги](../woocommerce/getting-started.md)**
+Источник: **[WooCommerce: установка и первые шаги](../platforms/woocommerce/getting-started.md)**
 
 ```bash
 wp plugin install woocommerce --activate
@@ -83,4 +83,4 @@ WP-CLI есть, но для плагина, не для ядра WordPress.
 - [Как установить WordPress?](../faq/how-to-install-wordpress.md)
 - [Хостинг для WordPress: как выбрать](../how-to/wordpress-hosting.md)
 - [Домен и хостинг: что это и зачем?](../faq/domain-vs-hosting.md)
-- [WooCommerce: установка и первые шаги](../woocommerce/getting-started.md)
+- [WooCommerce: установка и первые шаги](../platforms/woocommerce/getting-started.md)

@@ -42,4 +42,4 @@ description: "Каталог из 41 стороннего сервиса для 
 - [Плагины WordPress](../plugins/plugins-basics.md) — как выбирать и устанавливать плагины
 - [Кэширование WordPress](../../performance/cache.md) — настройка кэш-плагинов и CDN
 - [Оптимизация WordPress](../../performance/optimization.md) — комплексная оптимизация производительности
-- [WooCommerce: запуск и расширение](../../woocommerce/launch-extend.md) — маркетинговые расширения для магазина
+- [WooCommerce: запуск и расширение](../../platforms/woocommerce/launch-extend.md) — маркетинговые расширения для магазина

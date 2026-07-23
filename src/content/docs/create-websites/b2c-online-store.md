@@ -34,7 +34,7 @@ description: "Полноценная онлайн-торговля для кон
 ## См. также
 
 - [Типовые сайты и проекты](./website-types-and-projects.md)
-- [WooCommerce: полное руководство](../woocommerce/index.md)
+- [WooCommerce: полное руководство](../platforms/woocommerce/index.md)
 - [Плагины WooCommerce: основы](../plugins/woocommerce-basics.md)
 
 ## Материалы и источники

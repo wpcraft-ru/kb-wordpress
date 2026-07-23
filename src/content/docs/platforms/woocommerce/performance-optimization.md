@@ -48,7 +48,7 @@ description: "8 шагов оптимизации магазина: кэширо
 
 CDN раздаёт статические ресурсы (изображения, CSS, JS) с ближайших к пользователю серверов.
 
-**Провайдеры:** Cloudflare, Fastly, Amazon CloudFront. Подробное сравнение: [CDN и производительность](../components/services/cdn-performance.md).
+**Провайдеры:** Cloudflare, Fastly, Amazon CloudFront. Подробное сравнение: [CDN и производительность](../../components/services/cdn-performance.md).
 
 ## Шаг 5. Оптимизация базы данных
 
@@ -111,4 +111,4 @@ CDN раздаёт статические ресурсы (изображения
 - [Performance best practices for extensions](https://developer.woocommerce.com/docs/best-practices/performance/performance-best-practices/) — best practices для разработчиков (источник)
 - [Кэширование в WooCommerce](./caching-woocommerce.md)
 - [Оптимизация WordPress](./optimization.md)
-- [CDN и производительность](../components/services/cdn-performance.md)
+- [CDN и производительность](../../components/services/cdn-performance.md)

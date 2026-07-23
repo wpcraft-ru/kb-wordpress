@@ -30,7 +30,7 @@ wp config create --dbname=имя_бд --dbuser=пользователь --dbpass
 wp core install --url=example.com --title="Мой сайт" --admin_user=admin --admin_password=пароль --admin_email=email@example.com
 ```
 
-WP-CLI упомянут в вики: [WooCommerce: установка](../woocommerce/getting-started.md), [Смена URL](../how-to/change-site-url.md), [Шаблоны](../themes/templates.md).
+WP-CLI упомянут в вики: [WooCommerce: установка](../platforms/woocommerce/getting-started.md), [Смена URL](../how-to/change-site-url.md), [Шаблоны](../themes/templates.md).
 
 ## Способ 3: Ручная установка
 

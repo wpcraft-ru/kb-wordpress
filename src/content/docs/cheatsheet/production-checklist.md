@@ -76,7 +76,7 @@ description: "Полный чек-лист перед запуском WordPress
 - Настроено восстановление брошенных корзин (abandoned cart recovery)
 - Страницы Shop, Cart, Checkout, My Account созданы и не конфликтуют с другими страницами
 
-Подробнее: [WooCommerce: полное руководство](../woocommerce/index.md).
+Подробнее: [WooCommerce: полное руководство](../platforms/woocommerce/index.md).
 
 ---
 

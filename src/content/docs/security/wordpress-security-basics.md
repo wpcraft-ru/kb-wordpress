@@ -56,7 +56,7 @@ console.log(isStrongPassword('Wp!SecurePass2026'));
 - Мониторинг подозрительных заказов
 - Настройка fraud-защиты платёжного шлюза
 
-Подробнее: [WooCommerce: приём платежей](../woocommerce/payments.md).
+Подробнее: [WooCommerce: приём платежей](../platforms/woocommerce/payments.md).
 
 ## Связанные страницы
 

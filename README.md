@@ -139,17 +139,17 @@
 
 ### WooCommerce
 
-- [WooCommerce: полное руководство](src/content/docs/woocommerce/index.md) — От установки до запуска магазина: товары, оплата, доставка, налоги, заказы и расширения.
-- [Установка и первые шаги](src/content/docs/woocommerce/getting-started.md) — 5 шагов: установка плагина, настройки, выбор темы.
-- [Товары WooCommerce](src/content/docs/woocommerce/products.md) — 6 встроенных типов товаров и расширения: подписки, бронирования, наборы.
-- [Приём платежей](src/content/docs/woocommerce/payments.md) — WooPayments, платёжные шлюзы, Apple Pay, Google Pay, fraud-защита.
-- [Налоги](src/content/docs/woocommerce/taxes.md) — Настройка налоговых ставок, автоматические налоги, НДС для ЕС.
-- [Доставка](src/content/docs/woocommerce/shipping.md) — Зоны, методы (flat rate, бесплатная, самовывоз), классы доставки.
-- [Страницы магазина](src/content/docs/woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
-- [Управление заказами](src/content/docs/woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
-- [Запуск и расширение](src/content/docs/woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
-- [Оптимизация производительности WooCommerce](src/content/docs/woocommerce/performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
-- [Лучшие темы для WooCommerce](src/content/docs/woocommerce/best-themes.md) — Сравнительный обзор: Blocksy, Astra, Shoptimizer, Kadence, Botiga, Storefront и другие с тестами скорости и ценами.
+- [WooCommerce: полное руководство](src/content/docs/platforms/woocommerce/index.md) — От установки до запуска магазина: товары, оплата, доставка, налоги, заказы и расширения.
+- [Установка и первые шаги](src/content/docs/platforms/woocommerce/getting-started.md) — 5 шагов: установка плагина, настройки, выбор темы.
+- [Товары WooCommerce](src/content/docs/platforms/woocommerce/products.md) — 6 встроенных типов товаров и расширения: подписки, бронирования, наборы.
+- [Приём платежей](src/content/docs/platforms/woocommerce/payments.md) — WooPayments, платёжные шлюзы, Apple Pay, Google Pay, fraud-защита.
+- [Налоги](src/content/docs/platforms/woocommerce/taxes.md) — Настройка налоговых ставок, автоматические налоги, НДС для ЕС.
+- [Доставка](src/content/docs/platforms/woocommerce/shipping.md) — Зоны, методы (flat rate, бесплатная, самовывоз), классы доставки.
+- [Страницы магазина](src/content/docs/platforms/woocommerce/store-pages.md) — Shop, Cart, Checkout, My Account: кастомизация через блоки.
+- [Управление заказами](src/content/docs/platforms/woocommerce/orders.md) — Статусы заказов, возвраты, email-уведомления.
+- [Запуск и расширение](src/content/docs/platforms/woocommerce/launch-extend.md) — Чеклист запуска, аналитика, маркетинговые расширения.
+- [Оптимизация производительности WooCommerce](src/content/docs/platforms/woocommerce/performance-optimization.md) — 8 шагов: кэширование, изображения, код, CDN, БД, темы, GZIP, мониторинг.
+- [Лучшие темы для WooCommerce](src/content/docs/platforms/woocommerce/best-themes.md) — Сравнительный обзор: Blocksy, Astra, Shoptimizer, Kadence, Botiga, Storefront и другие с тестами скорости и ценами.
 
 ### Темы
 
