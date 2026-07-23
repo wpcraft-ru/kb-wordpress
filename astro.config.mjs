@@ -25,6 +25,11 @@ export default defineConfig({
           autogenerate: { directory: "basics" },
         },
         {
+          label: "Создание сайтов",
+          collapsed: true,
+          autogenerate: { directory: "create-websites" },
+        },
+        {
           label: "Платформы",
           collapsed: true,
           autogenerate: { directory: "platforms" },
