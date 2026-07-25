@@ -1,12 +1,12 @@
 # База знаний WPC: разработка веб-проектов
 
-> 🔍 **Поиск по базе знаний: [wpcraft.ru/kb](https://wpcraft.ru/kb/)**
-> 🔍 **ИИ ассистент: [wpcraft.ru/bot](https://wpcraft.ru/bot-wordpress-woocommerce)**
+- 🔍 **Поиск по базе знаний: [wpcraft.ru/kb](https://wpcraft.ru/kb/)**
+- 🔍 **ИИ ассистент: [wpcraft.ru/bot](https://wpcraft.ru/bot-wordpress-woocommerce)**
+- 📦 **Repo:** [https://sourcecraft.dev/wpcraft/kb](https://sourcecraft.dev/wpcraft/kb)
 
 - 🧑‍🤝‍🧑 **Community-driven** — пополняется сообществом
 - 🤖 **Обновление через AI** — автоматическое добавление, синтез и интеграция новых материалов
 - ✅ **Проверка и модерация** — опытные специалисты контролируют качество
-- 📦 **Repo:** [ssh.sourcecraft.dev/wpcraft/kb](ssh://ssh.sourcecraft.dev/wpcraft/kb.git)
 
 ## Оглавление
 
