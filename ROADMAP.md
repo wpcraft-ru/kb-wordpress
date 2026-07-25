@@ -1,16 +1,16 @@
-# Roadmap
+# Дорожная карта
 
-## Next
+## Далее
 
-- [x] переносим /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/woocommerce в платформы /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/platforms
-- [x] делаем /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/cheatsheet/wordpress-glossary.md - как корневой раздел про глоссарий
-
+- [x] переносим `src/content/docs/woocommerce` в `src/content/docs/platforms`
 
 
-## 260733
-- [x] а нафиг этот раздел? /Users/aa/Projects/ddhq/gits/wpcraft/kb/src/content/docs/basics - давай его разнесем по другим разделам
+
+## 260723
+- [x] раздел `src/content/docs/basics` переносим в более подходящие разделы
+- [x] делаем `src/content/docs/cheatsheet/wordpress-glossary.md` корневым разделом глоссария
 
 
-## v 260703
-- [x] add remote origin ssh://ssh.sourcecraft.dev/wpcraft/kb.git - delete old - and update README.md with new repo URL
-- [x] add https://developer.wordpress.org/news/2026/02/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter/
+## 260703
+- [x] обновить `origin`: удалить старый remote и указать новый URL репозитория в `README.md`
+- [x] добавить материал: https://developer.wordpress.org/news/2026/02/from-abilities-to-ai-agents-introducing-the-wordpress-mcp-adapter/
