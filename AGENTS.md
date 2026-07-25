@@ -1,6 +1,6 @@
-# AGENTS.md — Web Production Craft Knowledge Base
+# AGENTS.md — WPC Knowledge Base
 
-LLM Wiki schema for the Web Production Craft knowledge base.
+LLM Wiki schema for the WPC knowledge base.
 
 > **⚠️ FETCH RULE:** Для получения ЛЮБОГО контента с URL всегда используй `summarize "URL" --extract --format md`. Не используй `web_fetch`, `browser`, или другие инструменты для первичного извлечения — только `summarize`. Fallback: `web_fetch` допустим только если `summarize` упал с ошибкой.
 
@@ -51,7 +51,7 @@ wp-knowledge/
 
 ## Page Format
 
-Every wiki page (except index.md and log.md) starts with Starlight-compatible frontmatter:
+Every wiki page (except index.md) starts with Starlight-compatible frontmatter:
 
 ```yaml
 ---
@@ -160,7 +160,7 @@ When asked to ingest a source:
    - If a new category is needed → propose it to the user
    - **Every page must include «Материалы и источники»** at the bottom: link to original URL(s)
 6. **Update `src/content/docs/index.md`** — add entry with relative link + one-line summary
-7. **Append to `src/content/docs/log.md`**: `## [YYYY-MM-DD] ingest | Title`
+7. **Append to `CHANGELOG.md`** using the changelog format from this file
 8. **Add cross-references** in related existing pages (links back to the new page)
 9. **Report**: list all files created/modified
 
@@ -174,13 +174,13 @@ When asked a question against the wiki:
 2. **Read the relevant pages** — don't guess, actually read them
 3. **Synthesize a complete answer** with citations to specific pages
 4. **Ask the user** if the answer should be filed back into the wiki
-5. If yes → create a new page in `queries/`, update `index.md`, append to `log.md`
+5. If yes → create a new page in `queries/`, update `index.md`, append to `CHANGELOG.md`
 
 ### Lint
 
 When asked to lint the wiki:
 
-1. **Scan all pages** in `src/content/docs/` (excluding `index.md` and `log.md`)
+1. **Scan all pages** in `src/content/docs/` (excluding `index.md`)
 2. **Check for**:
    - Contradictions between pages (e.g. plugin/acf.md vs plugin/acf-pro.md)
    - Broken relative links (links to non-existent pages)
@@ -190,7 +190,7 @@ When asked to lint the wiki:
    - Pages missing `description` in frontmatter
    - Important concepts mentioned but lacking their own page
 3. **Report findings** with specific file paths and suggested fixes
-4. **Append to `log.md`**: `## [YYYY-MM-DD] lint | N issues found`
+4. **Append to `CHANGELOG.md`** with a lint entry in the same date/title format
 
 ### Update
 
@@ -200,7 +200,7 @@ When asked to update existing wiki content:
 2. **Propose changes with source attribution** before writing (what changes and why)
 3. **Apply updates** to target pages and related linked pages if consistency requires it
 4. **Update `src/content/docs/index.md`** if page summary meaning changed
-5. **Append to `src/content/docs/log.md`**: `## [YYYY-MM-DD] update | Topic`
+5. **Append to `CHANGELOG.md`** with an update entry in the same date/title format
 
 ## Skills (Workspace)
 
@@ -232,7 +232,7 @@ All wiki skills must enforce:
 
 1. Read `src/content/docs/index.md` before query/update work
 2. Never modify `raw/` documents
-3. Keep `index.md` and `log.md` synchronized with operations
+3. Keep `index.md` and `CHANGELOG.md` synchronized with operations
 4. Maintain bidirectional cross-references where relevant
 5. Keep wiki content in ru-RU and include required frontmatter (`title`, `description`)
 
@@ -245,7 +245,7 @@ All wiki skills must enforce:
 - **Code examples**: Always include working PHP/JS code with explanations
 - **Sources**: When ingesting, preserve links to original sources
 - **index.md format**: `- [Page Title](relative/path.md) — One-line summary`
-- **log.md format**: `## [YYYY-MM-DD] operation | Title` followed by brief notes
+- **CHANGELOG.md format**: `## [YYYY-MM-DD] operation | Title` followed by brief notes
 - **README.md sync**: При ЛЮБОМ изменении `src/content/docs/index.md` (добавление/удаление/переименование страниц) — синхронизируй оглавление в `README.md` в секцию `## Оглавление`. Ссылки в README должны быть с префиксом `src/content/docs/` (от корня репо), чтобы работали в VS Code и GitHub. Ссылки в index.md — относительные (`./category/page.md`) для Starlight.
 
 ## When New Categories Emerge

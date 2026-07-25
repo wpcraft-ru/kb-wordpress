@@ -1,4 +1,4 @@
-# База знаний Web Production Craft: разработка веб-проектов
+# База знаний WPC: разработка веб-проектов
 
 > 🔍 **Поиск по базе знаний: [wpcraft.ru/kb](https://wpcraft.ru/kb/)**
 > 🔍 **ИИ ассистент: [wpcraft.ru/bot](https://wpcraft.ru/bot-wordpress-woocommerce)**

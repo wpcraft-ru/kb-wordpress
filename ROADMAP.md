@@ -2,11 +2,12 @@
 
 ## Далее
 
-- [x] переносим `src/content/docs/woocommerce` в `src/content/docs/platforms`
+- [x] переименовать в База знаний WPC
 
 
 
 ## 260723
+- [x] переносим `src/content/docs/woocommerce` в `src/content/docs/platforms`
 - [x] раздел `src/content/docs/basics` переносим в более подходящие разделы
 - [x] делаем `src/content/docs/cheatsheet/wordpress-glossary.md` корневым разделом глоссария
 

@@ -16,7 +16,7 @@ export default defineConfig({
 
   integrations: [
     starlight({
-      title: "База знаний Web Production Craft",
+      title: "База знаний WPC",
       description: "Практическая база знаний по разработке веб-проектов: платформы, архитектура, дизайн, маркетинг, безопасность, производительность и эксплуатация.",
       sidebar: [
         {

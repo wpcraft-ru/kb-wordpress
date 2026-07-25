@@ -62,7 +62,7 @@ wp.hooks.addFilter(
 ## Связанные страницы
 
 - [Index](../index.md)
-- [Log](../log.md)
+- [Changelog](../../../../CHANGELOG.md)
 - [Как установить WordPress?](./how-to-install-wordpress.md)
 - [Панель управления WordPress (`wp-admin`): базовая навигация](../console/wordpress-dashboard-wp-admin-basics.md)
 - [Страницы, записи, категории и теги: базовая модель контента](../content/pages-posts-and-taxonomies-basics.md)
